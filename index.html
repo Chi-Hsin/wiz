@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>幸運輪盤模擬器</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet"  href="css/index.css">
+
+<script src="js/html2canvas.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<body>
+
+
+<div class="container-fluid" id="outerDiv">
+	<div class="row">
+		<div class="col-sm-5 bg-primary">
+			<div class="row"><!-- 活動標題&箭頭 -->
+				<div class="col-sm-2" :style="eventDiv.eventArrow"><img src="img/decoration/arrowLeft.png"></div>
+				<div class="col-sm-1" :style="eventDiv.eventNumber">1</div>
+				<div class="col-sm-7">
+					<img src="img/event/E1.png" :style="eventDiv.eventTitle">
+				</div>
+				<div class="col-sm-2" :style="eventDiv.eventArrow"><img src="img/decoration/arrowRight.png"></div>
+			</div>
+			<div class="row"><!--精靈圖區(活動)-->
+				
+			</div>
+			<div class="row">左欄按鈕</div>
+			<div class="row">精靈圖區(抽獎)</div>
+		</div>
+		<div class="col-sm-7 bg-success">
+			<div class="row">篩選選項</div>
+			<div class="row">精靈圖區(配對)</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="js/index.js"></script>

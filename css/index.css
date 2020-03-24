@@ -1,0 +1,38 @@
+#eventFairy div>div>div{
+	background-position: center center;
+	background-size:45px 45px;
+	min-width:45px;
+	min-height:45px;
+}
+#lotteryFairy div>div>div{
+	background-position: center center;
+	background-size:45px 45px;
+	min-width:45px;
+	min-height:45px;
+}
+
+#eventArrowLeft{
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/arrowLeft.png");
+	min-width:50px;
+	min-height:50px;
+}
+
+#eventHeader{
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 300px auto;
+	background-image:url("../img/event/E1.png");
+	min-width:300px;
+}
+
+#eventArrowRight{
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/arrowRight.png");
+	min-width:50px;
+	min-height:50px;
+}

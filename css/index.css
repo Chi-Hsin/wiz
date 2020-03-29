@@ -1,8 +1,9 @@
 #eventFairy div>div>div{
 	background-position: center center;
-	background-size:45px 45px;
-	min-width:45px;
-	min-height:45px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height:90px;
+	min-width:90px;
 }
 #lotteryFairy div>div>div{
 	background-position: center center;

@@ -17,6 +17,15 @@
 	min-height:50px;
 }
 
+#menuButton{
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/menuButton.png");
+	/*min-width:30px;*/
+	min-height:50px;
+}
+
 #eventPic{
 	background-repeat:no-repeat; 
 	background-position: center center;

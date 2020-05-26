@@ -98,16 +98,44 @@ var indexData = new Vue({
 					e.dataTransfer.setData("data-dataInfo",data);
 					
 				},
+				picRepeated:function(obj){//拖曳圖片判斷
+				
+					var index = this.lotteryFairy.findIndex(function(x){
+							return x.wikiNumber == obj;
+						});
+					return index==-1 ?true :false;	
+				},
 				picDrop:function(e){//有元素拖曳到這張圖片觸發的事件
 					e.preventDefault();
 					
 				    var filelist = e.dataTransfer.files;
-				    var data = e.dataTransfer.getData("data-dataInfo")
-				    this.lotteryFairy.push(JSON.parse(data))
+				    var data = JSON.parse(e.dataTransfer.getData("data-dataInfo"))
+					
+					if(this.picRepeated(data.wikiNumber)){
+						this.lotteryFairy.push(data)
+					}
+					else{console.log("重複了")}
+				    
 				},
-				test:function(e){
-					// console.log(e)
-					alert()
+				openFairyWiki:function(e){//開啟WIKI資料小視窗
+					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
+					var url = "https://nekowiz.fandom.com/zh/wiki/%E5%8D%A1%E7%89%87%E8%B3%87%E6%96%99/" 
+								+ data.wikiNumber;
+					window.open(url, "_blank", 
+					"toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+				},
+				goToPicEvent:function(e){ //跳往該活動位置
+					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
+					this.eventNumber = Number(data.eventID);
+				},
+				picCancell:function(e){ //右鍵取消選取該精靈
+						e.preventDefault(); //關閉右鍵選單 預設動作
+						
+						var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
+						var index = this.lotteryFairy.findIndex(function(x){
+							return x.wikiNumber == data.wikiNumber;
+						});
+						this.lotteryFairy.splice(index,1);
 				},
 				
 				

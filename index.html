@@ -45,7 +45,7 @@
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in eventFairy">
 							<img :src="'img/'+ v.wikiNumber +'.png'" @mousedown="picMouseDown" @dragover="picDragOver" 
-							:data-dataInfo="JSON.stringify(v)" @dragstart="picDragStart">
+							:data-dataInfo="JSON.stringify(v)" @dragstart="picDragStart" @click="openFairyWiki">
 						</div>
 					</div>
 				</div>
@@ -57,11 +57,12 @@
 				<button type="button" class="btn btn-primary btn-sm mr-1">隨機撈選</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1">抽獎</button>
 			</div>
-			<div class="row bg-dark" id="lotteryFairy" @drop="picDrop" @dragover="picDragOver" @click="test"><!-- 精靈圖區(抽獎) -->
+			<div class="row bg-dark" id="lotteryFairy" @drop="picDrop" @dragover="picDragOver"><!-- 精靈圖區(抽獎) -->
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in lotteryFairy" >
-							<img :src="'img/'+ v.wikiNumber +'.png'">
+							<img :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
+							@click="goToPicEvent" @contextmenu="picCancell">
 						</div>
 					</div>
 				</div>

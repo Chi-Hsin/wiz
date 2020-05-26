@@ -5,6 +5,10 @@
 .eventFairyRowStyle>div img{
 	height:80px;
 }
+#lotteryFairy{
+	height:175px;
+	overflow:auto;
+}
 #lotteryFairy div>div>div{
 	background-position: center center;
 	background-size:45px 45px;

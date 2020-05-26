@@ -40,8 +40,16 @@ var indexData = new Vue({
 							{"id":"27","eventID":"5","event":"阿爾克納與星之旅途","name":"絕對正義 璐彌‧斯卡燐","gender":"女","element":"火光","wikiNumber":"801577"}
 						],
 				"eventNumber":1,
-                "arrowNext":1,
-                "arrowLeft":999,        
+				"eventFairyInitial":
+						[
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
+							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"}
+						],
+				"lotteryFairy":[],		
 
                },
 			computed:{
@@ -50,9 +58,15 @@ var indexData = new Vue({
 				},
 				eventFairy:function(){
 					var number = this.eventNumber;
-					return this.fairy.filter(function(v){
+					var obj = this.fairy.filter(function(v){
 						return v.eventID == number;
 					})
+					
+					var newobj =  this.eventFairyInitial.map(x => x);
+					for(var i=0;i<obj.length;i++){
+						newobj[i] = obj[i];
+					}
+					return newobj;
 				},
 				
 			},   
@@ -70,6 +84,30 @@ var indexData = new Vue({
 						return;
 					}
 					this.eventNumber -= 1;
+				},
+				picMouseDown:function(e){//圖片滑鼠按下不放開
+					e.target.setAttribute("draggable",true);
+				},
+				picDragOver:function(e){//圖片滑鼠經過
+					console.log("dragover");
+					e.preventDefault();
+				},
+				picDragStart:function(e){//圖片開始拖曳時
+				    // console.log("!")
+					var data = e.target.getAttribute("data-dataInfo");
+					e.dataTransfer.setData("data-dataInfo",data);
+					
+				},
+				picDrop:function(e){//有元素拖曳到這張圖片觸發的事件
+					e.preventDefault();
+					
+				    var filelist = e.dataTransfer.files;
+				    var data = e.dataTransfer.getData("data-dataInfo")
+				    this.lotteryFairy.push(JSON.parse(data))
+				},
+				test:function(e){
+					// console.log(e)
+					alert()
 				},
 				
 				

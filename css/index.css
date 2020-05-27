@@ -42,7 +42,7 @@
 	height:100px;
 }*/
 #eventPic img{
-	height:150px;
+	height:120px;
 	display:block;
 	margin:auto
 }
@@ -63,3 +63,19 @@
 	background-image:url("../img/decoration/arrowRight.png");
 	min-height:50px;
 }
+
+/*這邊調整活動圖打開的活動一覽小窗*/
+.modal-body{
+	height: 350px;
+	overflow-y: auto;}
+.modal-body img{height:80px;}
+.modal-body tbody tr:hover{background:rgba(0,0,255,0.2)}
+
+.modal-content{width:600px;}
+
+.modal-dialog {
+	position: fixed;
+	top: 100px;
+	left: 5%;
+}
+

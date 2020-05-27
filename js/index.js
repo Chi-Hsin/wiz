@@ -4,11 +4,11 @@ var indexData = new Vue({
                 "screenHeight":"",
                 "screenWidth":"",
 				"event":[//活動事件
-							{"id":"1","name":"阿爾克納與星之旅途Ⅱ 永戰之地"},
-							{"id":"2","name":"八百八町妖怪捕物帳"},
-							{"id":"3","name":"MARELESSⅡ 夢境與現實的夾縫"},
-							{"id":"4","name":"MARELESS 夢境之蝶"},
-							{"id":"5","name":"阿爾克納與星之旅途"}
+							{"eventID":"1","name":"阿爾克納與星之旅途Ⅱ 永戰之地"},
+							{"eventID":"2","name":"八百八町妖怪捕物帳"},
+							{"eventID":"3","name":"MARELESSⅡ 夢境與現實的夾縫"},
+							{"eventID":"4","name":"MARELESS 夢境之蝶"},
+							{"eventID":"5","name":"阿爾克納與星之旅途"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","wikiNumber":"801802"},
@@ -56,6 +56,7 @@ var indexData = new Vue({
 				eventPicUrl:function(){
 					return "img/event/E" + this.eventNumber + ".png";
 				},
+				
 				eventFairy:function(){
 					var number = this.eventNumber;
 					var obj = this.fairy.filter(function(v){
@@ -71,6 +72,7 @@ var indexData = new Vue({
 				
 			},   
             methods:{
+				
 				turnNextEvent:function(){
 					if(this.eventNumber == this.event.length){
 						this.eventNumber = 1;//回到第一個活動
@@ -101,7 +103,7 @@ var indexData = new Vue({
 				picRepeated:function(obj){//拖曳圖片判斷
 				
 					var index = this.lotteryFairy.findIndex(function(x){
-							return x.wikiNumber == obj;
+							return  obj == x.wikiNumber || obj == 'empty';
 						});
 					return index==-1 ?true :false;	
 				},
@@ -128,6 +130,20 @@ var indexData = new Vue({
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
 					this.eventNumber = Number(data.eventID);
 				},
+				goToPicEventTable:function(e){ //跳往該活動位置(行列表的)
+				
+					var myTarget;
+					if(e.target.parentElement.tagName == "TR"){//判斷碰到的是圖片還是裏頭的文字、td標籤
+						myTarget = e.target.parentElement;
+					}
+					else{
+						myTarget = e.target.parentElement.parentElement;
+					}
+					var data = JSON.parse(myTarget.getAttribute("data-dataInfo"));
+					this.eventNumber = Number(data.eventID);
+					
+					
+				},
 				picCancell:function(e){ //右鍵取消選取該精靈
 						e.preventDefault(); //關閉右鍵選單 預設動作
 						
@@ -137,7 +153,9 @@ var indexData = new Vue({
 						});
 						this.lotteryFairy.splice(index,1);
 				},
-				
+				eventPicUrlList:function(number){
+					return "img/event/E" + number + ".png";
+				},
 				
             },
             created() { //模板渲染前

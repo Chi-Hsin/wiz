@@ -15,6 +15,12 @@
 [v-cloak] {
 display: none;
 }
+
+.badgeOtherStyle{
+	line-height:2.5em;
+	margin-right:5px;
+}
+
 .eventFairyRowStyle>div img{
 	height:80px;
 }
@@ -22,6 +28,11 @@ display: none;
 	height:175px;
 	overflow:auto;
 }
+#lotteryFairy::-webkit-scrollbar {
+    display: none;
+}
+
+
 #lotteryFairy div>div>div{
 	background-position: center center;
 	background-size:45px 45px;

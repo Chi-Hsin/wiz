@@ -194,6 +194,7 @@ var indexData = new Vue({
                     }
 				},
 				saveToLocal:function(){//存到用戶端資料
+				    // console.log(this.lotteryFairy);
 					var data = JSON.stringify(this.lotteryFairy)
 					localStorage.setItem("lotteryFairy",data);
 					
@@ -251,6 +252,7 @@ var indexData = new Vue({
 						indexData.urlId = urlId;
                         fireRoot.child("memberData/" + urlId).once("value",function(s){
                            indexData.lotteryFairy = s.val();//讀取資料庫資料
+						   if(indexData.lotteryFairy == null){indexData.lotteryFairy = [];}
                         })
 					}
 					

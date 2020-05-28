@@ -157,6 +157,8 @@ var indexData = new Vue({
 							return x.wikiNumber == data.wikiNumber;
 						});
 						this.lotteryFairy.splice(index,1);
+						this.saveToLocal();
+						
 						return;
 				},
 				eventPicUrlList:function(number){
@@ -191,19 +193,22 @@ var indexData = new Vue({
                                 });
                     }
 				},
-				saveToLocal:function(){
+				saveToLocal:function(){//存到用戶端資料
 					var data = JSON.stringify(this.lotteryFairy)
 					localStorage.setItem("lotteryFairy",data);
 					
 				},
-				deleteLocal:function(){
-					localStorage.removeItem("lotteryFairy")
+				deleteLocal:function(){//清空用戶端資料
+					localStorage.removeItem("lotteryFairy");
+					this.lotteryFairy = [];
 				},
 				
             },
             created() { //模板渲染前
                 this.screenWidth = window.innerWidth;
                 this.screenHeight = window.innerHeight;
+				
+				// this.siteStyle.display = "none";
             },
             mounted(){
                 //顯示目前長寬  測試用
@@ -250,5 +255,7 @@ var indexData = new Vue({
 					}
 					
 				});
+				// console.log("測試",this.lotteryFairy);
+				
             },
            })

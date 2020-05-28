@@ -49,7 +49,9 @@ var indexData = new Vue({
 							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"},
 							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"}
 						],
-				"lotteryFairy":[],		
+				"lotteryFairy":[],
+				"memberList":[],
+				"urlId":"",	
 
                },
 			computed:{
@@ -57,7 +59,7 @@ var indexData = new Vue({
 					return "img/event/E" + this.eventNumber + ".png";
 				},
 				
-				eventFairy:function(){
+				eventFairy:function(){//顯示特定活動編號的圖鑑精靈
 					var number = this.eventNumber;
 					var obj = this.fairy.filter(function(v){
 						return v.eventID == number;
@@ -114,17 +116,20 @@ var indexData = new Vue({
 				    var data = JSON.parse(e.dataTransfer.getData("data-dataInfo"))
 					
 					if(this.picRepeated(data.wikiNumber)){
-						this.lotteryFairy.push(data)
+						this.lotteryFairy.push(data);
+						this.saveToLocal();
 					}
 					else{console.log("重複了")}
+					
+					
 				    
 				},
 				openFairyWiki:function(e){//開啟WIKI資料小視窗
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
-					var url = "https://nekowiz.fandom.com/zh/wiki/%E5%8D%A1%E7%89%87%E8%B3%87%E6%96%99/" 
+					var url = "https://nekowiztw.github.io/cardFinder/#/card/" 
 								+ data.wikiNumber;
-					window.open(url, "_blank", 
-					"toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+					window.open(url, "nekoWizWebsite", 
+					"toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500,width=400,height=500");
 				},
 				goToPicEvent:function(e){ //跳往該活動位置
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
@@ -152,9 +157,47 @@ var indexData = new Vue({
 							return x.wikiNumber == data.wikiNumber;
 						});
 						this.lotteryFairy.splice(index,1);
+						return;
 				},
 				eventPicUrlList:function(number){
 					return "img/event/E" + number + ".png";
+				},
+				saveData:function(){//儲存至雲端
+					if(this.urlId == ""){//網址沒有ID時新增
+                        fireRoot.child("memberData").push(this.lotteryFairy);
+                        fireRoot.child("memberData").limitToLast(1).once("child_added",function(s){
+                            console.log("新增的這筆資料",",",s.key);
+                            key = s.key;
+                        })
+                        .then(function(){
+                            console.log("AAA")
+                            fireRoot.child("memberList").push(key).then(function(){
+                            window.location.href = "index.html?id=" + key;//重新轉址或重載此頁面
+                        })
+                            console.log("BBB")
+                            
+                        })
+                        
+                        
+
+                    }else{//否則更新資料
+                        var obj = {};
+                        obj[this.urlId] = this.lotteryFairy;
+                        // console.log(obj);
+                        fireRoot.child("memberData")
+                                .update(obj)
+                                .then(function(){
+                                    window.location.href = "index.html?id=" + indexData.urlId;//重新轉址或重載此頁面
+                                });
+                    }
+				},
+				saveToLocal:function(){
+					var data = JSON.stringify(this.lotteryFairy)
+					localStorage.setItem("lotteryFairy",data);
+					
+				},
+				deleteLocal:function(){
+					localStorage.removeItem("lotteryFairy")
 				},
 				
             },
@@ -163,11 +206,49 @@ var indexData = new Vue({
                 this.screenHeight = window.innerHeight;
             },
             mounted(){
-                
                 //顯示目前長寬  測試用
-                window.addEventListener('resize',function(){
-                    indexData.screenWidth = window.innerWidth;
-                    indexData.screenHeight = window.innerHeight;
-                });
-            },   
+                // window.addEventListener('resize',function(){
+                    // indexData.screenWidth = window.innerWidth;
+                    // indexData.screenHeight = window.innerHeight;
+                // });
+				
+				
+				var config = {
+                  apiKey: "tULDVDSrNIiSQcVGgIoc2JCpWigqZnUnXsm084ca",
+                  authDomain: "relaycontrol-fc8da.firebaseapp.com",
+                  databaseURL: "https://luckywiz-b266b.firebaseio.com/",
+                  projectId: "luckyWiz",
+                  storageBucket: "",
+                  messagingSenderId: "690750323149"
+                };
+                
+                firebase.initializeApp(config);// Initialize Firebase
+                fireRoot = firebase.database().ref("/player");
+                fireRoot.child("memberList").once("value",function(s){
+                    indexData.memberList = Object.values(s.val());//取得已有之名單資料
+                    console.log(indexData.memberList)
+
+                }).then(function(){
+					console.log("載入完成!");
+
+                    //網址參數判定
+                    var url = new URL(location.href);
+                    var urlId = url.searchParams.get("id");
+					if(indexData.memberList.indexOf(urlId) == -1 || urlId == "null"){//如果是無效ID或沒有ID
+						
+						if(localStorage.getItem("lotteryFairy")){//如果有客戶端資料  就寫入
+							var jsonParseData = JSON.parse(localStorage.getItem("lotteryFairy"));
+							console.log("客戶端",jsonParseData);
+							indexData.$set(indexData,"lotteryFairy", jsonParseData);
+						}
+					}
+					else{//載入資料庫資料
+						indexData.urlId = urlId;
+                        fireRoot.child("memberData/" + urlId).once("value",function(s){
+                           indexData.lotteryFairy = s.val();//讀取資料庫資料
+                        })
+					}
+					
+				});
+            },
            })

@@ -117,7 +117,20 @@ var indexData = new Vue({
 							{"eventID":"111","name":"庫洛姆‧麥格納Ⅳ單戀☆狂想曲"},
 							{"eventID":"112","name":"庫洛姆‧麥格納Ⅲ臨海學校"},
 							{"eventID":"113","name":"庫洛姆‧麥格納Ⅱ學園祭"},
-							{"eventID":"114","name":"庫洛姆‧麥格納Ⅰ魔導學園"}
+							{"eventID":"114","name":"庫洛姆‧麥格納Ⅰ魔導學園"},
+							{"eventID":"115","name":"AbyssCode08 落入星雲的淚珠"},
+							{"eventID":"116","name":"AbyssCode05 冥世的天蓋"},
+							{"eventID":"117","name":"AbyssCode04 燃燒殆盡的陽光"},
+							{"eventID":"118","name":"AbyssCode03 生而墮於虛無"},
+							{"eventID":"119","name":"AbyssCode02 盲目的調和"},
+							{"eventID":"120","name":"AbyssCode01 黑殼之王"},
+							{"eventID":"121","name":"金貓盃繁中人氣王 前半"},
+							{"eventID":"122","name":"金貓盃繁中人氣王 後半"},
+							{"eventID":"123","name":"神明大人 ～土精靈與黑貓主人～"},
+							{"eventID":"124","name":"神都匹卡雷斯克 黑貓的魔術師"},
+							{"eventID":"125","name":"年之運行"},
+							{"eventID":"126","name":"風暴卡里昂──風暴中心的少女"},
+							{"eventID":"127","name":"魔幻金夏趴2020 序曲"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","wikiNumber":"801802"},
@@ -303,7 +316,7 @@ var indexData = new Vue({
 							{"id":"181","eventID":"33","event":"YAOYORO_Z","name":"回歸原點的不盡之焰_蘇芳‧迦具土","gender":"男","element":"火水","wikiNumber":"8537"},
 							{"id":"182","eventID":"33","event":"YAOYORO_Z","name":"沉靜而勇猛的荒海神_靜‧白波","gender":"男","element":"水火","wikiNumber":"8538"},
 							{"id":"183","eventID":"33","event":"YAOYORO_Z","name":"突擊糖果神_瑪莉娜‧畢弗羅斯","gender":"女","element":"雷雷","wikiNumber":"8539"},
-							{"id":"184","eventID":"33","event":"YAOYORO_Z","name":"其乃異國的指標_傑斯洛‧夸特里","gender":"女","element":"雷火","wikiNumber":"8540"},
+							{"id":"184","eventID":"33","event":"YAOYORO_Z","name":"其乃異國的指標_傑斯洛‧夸特里","gender":"男","element":"雷火","wikiNumber":"8540"},
 							{"id":"185","eventID":"33","event":"YAOYORO_Z","name":"異國風情與艷麗的變化譚","gender":"女","element":"水雷","wikiNumber":"8541"},
 							{"id":"186","eventID":"33","event":"YAOYORO_Z","name":"三神駕到_八百萬Z","gender":"男女","element":"火火","wikiNumber":"8542"},
 							{"id":"187","eventID":"34","event":"八百萬諸神祕聞2","name":"牡丹打盹的夕月夜_尊音・歌詠","gender":"女","element":"雷水","wikiNumber":"10749"},
@@ -772,7 +785,61 @@ var indexData = new Vue({
 							{"id":"650","eventID":"114","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"大義的灼刃_凜華‧懷亞特","gender":"女","element":"火火","wikiNumber":"10564"},
 							{"id":"651","eventID":"114","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"轟雷的機弓_妮可拉‧摩根","gender":"女","element":"雷雷","wikiNumber":"10565"},
 							{"id":"652","eventID":"114","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"猛獸的統領者_沃爾夫‧羅伊","gender":"男","element":"火火","wikiNumber":"10566"},
-							{"id":"653","eventID":"114","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"閃雷的槍擊_雪莉‧柯爾特","gender":"女","element":"雷火","wikiNumber":"10567"}
+							{"id":"653","eventID":"114","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"閃雷的槍擊_雪莉‧柯爾特","gender":"女","element":"雷火","wikiNumber":"10567"},
+							{"id":"654","eventID":"115","event":"AbyssCode08 落入星雲的淚珠","name":"AbCd-Ππ：《無止境的旅程_亞絲緹拉》","gender":"女","element":"雷雷","wikiNumber":"11503"},
+							{"id":"655","eventID":"116","event":"AbyssCode05 冥世的天蓋","name":"AbCd-Λλ：《甜蜜腐朽殆盡黑闇_妮蕾努》","gender":"女","element":"火闇","wikiNumber":"7132"},
+							{"id":"656","eventID":"116","event":"AbyssCode05 冥世的天蓋","name":"AbCd-Λ：《冥默的白鴉_妮蕾努》","gender":"女","element":"火闇","wikiNumber":"11198"},
+							{"id":"657","eventID":"117","event":"AbyssCode04 燃燒殆盡的陽光","name":"AbCd-Ψψ：《絢爛的神舞_妮蒂雅》","gender":"女","element":"水光","wikiNumber":"7131"},
+							{"id":"658","eventID":"117","event":"AbyssCode04 燃燒殆盡的陽光","name":"AbCd-Ψ：《照亮黑闇的舞蹈_妮蒂雅》","gender":"女","element":"水光","wikiNumber":"11197"},
+							{"id":"659","eventID":"118","event":"AbyssCode03 生而墮於虛無","name":"AbCd-Ωω：《消滅自我的存在_該隱》","gender":"男","element":"雷闇","wikiNumber":"7130"},
+							{"id":"660","eventID":"118","event":"AbyssCode03 生而墮於虛無","name":"AbCd-Ω：《天上蠢動的憤怒_該隱》","gender":"男","element":"雷闇","wikiNumber":"11196"},
+							{"id":"661","eventID":"119","event":"AbyssCode02 盲目的調和","name":"AbCd-Μμ：《拒絕輝煌_特露米德》","gender":"女","element":"火闇","wikiNumber":"7129"},
+							{"id":"662","eventID":"119","event":"AbyssCode02 盲目的調和","name":"AbCd-M：《孤獨的囚人_特露米德》","gender":"女","element":"火闇","wikiNumber":"11195"},
+							{"id":"663","eventID":"120","event":"AbyssCode01 黑殼之王","name":"AbCd-Ζζ：《從不沸騰的血潮_卡勒姆》","gender":"男","element":"水光","wikiNumber":"7128"},
+							{"id":"664","eventID":"120","event":"AbyssCode01 黑殼之王","name":"AbCd-Ζ：《寂靜的天際_卡勒姆》","gender":"男","element":"水光","wikiNumber":"11194"},
+							{"id":"665","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"可怕玩具箱 優奈娃","gender":"女","element":"雷闇","wikiNumber":"801881"},
+							{"id":"666","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"為了慶祝，乾杯！ 嚎斯泰","gender":"男","element":"雷光","wikiNumber":"801879"},
+							{"id":"667","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"此心只許你一人 莎朵莉‧雪恩","gender":"女","element":"水火","wikiNumber":"801877"},
+							{"id":"668","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"牧師服也沒違和感 艾斌","gender":"男","element":"火火","wikiNumber":"801875"},
+							{"id":"669","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"斜槓甜點師 寶菈","gender":"女","element":"水水","wikiNumber":"801873"},
+							{"id":"670","eventID":"121","event":"金貓盃繁中人氣王 前半","name":"想要再次歌唱 蝴蝶","gender":"女","element":"火水","wikiNumber":"801871"},
+							{"id":"671","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"過去的森林之主 以諾爾","gender":"男","element":"水闇","wikiNumber":"801895"},
+							{"id":"672","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"烏鴉與女神之姿 珂珂","gender":"女","element":"水光","wikiNumber":"801893"},
+							{"id":"673","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"吸引麻煩事的體質 奧菲莉亞","gender":"女","element":"火闇","wikiNumber":"801891"},
+							{"id":"674","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"墜入凡塵的雙星天使 瞬&陽","gender":"男","element":"火雷","wikiNumber":"801889"},
+							{"id":"675","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"夜願與惡意之棘 貝蘿莫蕊","gender":"女","element":"雷闇","wikiNumber":"801887"},
+							{"id":"676","eventID":"122","event":"金貓盃繁中人氣王 後半","name":"維多利亞藍色幻想 蜜多莉","gender":"女","element":"雷雷","wikiNumber":"801885"},
+							{"id":"677","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"吃飯神_卡奴耶‧德‧亞克","gender":"女","element":"火火","wikiNumber":"11408"},
+							{"id":"678","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"危險的魔法少女_梨莎‧洛特蘭達","gender":"女","element":"水水","wikiNumber":"11411"},
+							{"id":"679","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"含糊女孩_葛蕾絲","gender":"女","element":"雷雷","wikiNumber":"11414"},
+							{"id":"680","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"魔法與魔劍_琉迪格‧希古拉","gender":"男","element":"水闇","wikiNumber":"11417"},
+							{"id":"681","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"生命少女_希維爾‧洛伊絲","gender":"女","element":"火火","wikiNumber":"11420"},
+							{"id":"682","eventID":"123","event":"神明大人 ～土精靈與黑貓主人～","name":"超土級_可露可可‧可露斯斯","gender":"女","element":"雷火","wikiNumber":"11423"},
+							{"id":"683","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"撒謊的詐術師_凱涅斯‧哈瓦","gender":"男","element":"雷水","wikiNumber":"11665"},
+							{"id":"684","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"盜想白貴族_迦斯帕‧阿爾尼克","gender":"男","element":"水光","wikiNumber":"11668"},
+							{"id":"685","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"武俠花義賊_桃花","gender":"女","element":"火火","wikiNumber":"11671"},
+							{"id":"686","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"聳立的腦細胞_今久留主好介","gender":"男","element":"火火","wikiNumber":"11674"},
+							{"id":"687","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"夜光少女_莉莉亞‧夜洛斯奇","gender":"女","element":"水火","wikiNumber":"11677"},
+							{"id":"688","eventID":"124","event":"神都匹卡雷斯克 黑貓的魔術師","name":"三國第一的小偷_根津千優","gender":"女","element":"雷闇","wikiNumber":"11680"},
+							{"id":"689","eventID":"125","event":"年之運行","name":"煙花燦爛的一年之始_初日","gender":"女","element":"火闇","wikiNumber":"801857"},
+							{"id":"690","eventID":"125","event":"年之運行","name":"燭光搖曳平安夜_伊弗","gender":"男","element":"雷雷","wikiNumber":"801859"},
+							{"id":"691","eventID":"125","event":"年之運行","name":"石斛蘭與父親節_艾伯特","gender":"男","element":"水光","wikiNumber":"801861"},
+							{"id":"692","eventID":"125","event":"年之運行","name":"降雪的白色聖誕_柯里絲緹","gender":"女","element":"火雷","wikiNumber":"801863"},
+							{"id":"693","eventID":"125","event":"年之運行","name":"鬼怪遊行萬聖夜_巴姆布蕾克","gender":"女","element":"雷雷","wikiNumber":"801865"},
+							{"id":"694","eventID":"125","event":"年之運行","name":"愛意滿滿情人節_梅莉莎","gender":"女","element":"水闇","wikiNumber":"801867"},
+							{"id":"695","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"破陣之舞_菲比思","gender":"女","element":"雷闇","wikiNumber":"801901"},
+							{"id":"696","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"不動如山_布頓","gender":"男","element":"水水","wikiNumber":"801903"},
+							{"id":"697","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"叫我姐姐_達達米絲","gender":"女","element":"火光","wikiNumber":"801905"},
+							{"id":"698","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"霜血震懾_布馬托","gender":"男","element":"水闇","wikiNumber":"801907"},
+							{"id":"699","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"以米拉與法蒂亞之名_結子","gender":"女","element":"水光","wikiNumber":"801909"},
+							{"id":"700","eventID":"126","event":"風暴卡里昂──風暴中心的少女","name":"耐心不是美德_妮莉芭安","gender":"女","element":"火光","wikiNumber":"801911"},
+							{"id":"701","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"冷酷護士 C卡多琳‧G‧U","gender":"女","element":"火水","wikiNumber":"11788"},
+							{"id":"702","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"殺戮印記 艾盧多貝里克‧哥德","gender":"男","element":"火闇","wikiNumber":"11791"},
+							{"id":"703","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"劍聖 阿斯塔‧拉德","gender":"男","element":"雷雷","wikiNumber":"11789"},
+							{"id":"704","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"星予眸，光予劍 拉米斯費蕾絲","gender":"女","element":"雷火","wikiNumber":"11792"},
+							{"id":"705","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"定罪騎士團長 流昂‧特拉姆","gender":"男","element":"水光","wikiNumber":"11793"},
+							{"id":"706","eventID":"127","event":"魔幻金夏趴2020 序曲","name":"詠星聖女 克蕾緹雅‧布萊葉","gender":"女","element":"水光","wikiNumber":"11790"}
+
 						],
 				"eventNumber":1,
 				"eventFairyInitial":
@@ -785,8 +852,41 @@ var indexData = new Vue({
 							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"}
 						],
 				"lotteryFairy":[],
+				"nameSelect":"",
+				"genderSelect":"",
+				"genderStyle":[
+					{"style":{"active":false},"text":"♂","name":"男"},
+					{"style":{"active":false},"text":"♀","name":"女"},
+					{"style":{"active":true},"text":"不限","name":""}
+				],
+				"elementSelect":"",
+				"elementStyle":{
+					"fire":[
+						{"name":"火火","type":"img/element/fire.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"火水","type":"img/element/fireWater.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"火雷","type":"img/element/fireThunder.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"火光","type":"img/element/fireLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"火闇","type":"img/element/fireDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
+					],
+					"water":[
+						{"name":"水水","type":"img/element/water.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"水火","type":"img/element/waterFire.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"水雷","type":"img/element/waterThunder.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"水光","type":"img/element/waterLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"水闇","type":"img/element/waterDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
+					],
+					"thunder":[
+						{"name":"雷雷","type":"img/element/thunder.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"雷水","type":"img/element/thunderWater.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"雷火","type":"img/element/thunderFire.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"雷光","type":"img/element/thunderLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"雷闇","type":"img/element/thunderDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
+					]
+					 
+				},
 				"memberList":[],
 				"urlId":"",	
+				// "testCss":["aaa","bbb"],
 
                },
 			computed:{
@@ -805,6 +905,19 @@ var indexData = new Vue({
 						newobj[i] = obj[i];
 					}
 					return newobj;
+				},
+				selectFairy:function(){//呈現篩選出的精靈結果
+					var name = this.nameSelect;
+					var gender = this.genderSelect;
+					var element = this.elementSelect;
+					
+					if(name == "" && gender == "" && element ==""){return;}
+					return this.fairy.filter(function(v){
+						var condition = gender != "" ?  v.gender ==  gender : true;//性別篩選
+						var condition2 = v.name.includes(name);//姓名篩選
+						var condition3 = element != "" ?  v.element ==  element : true;//元素篩選
+						return  condition && condition2 && condition3 ;
+					})
 				},
 				
 			},   
@@ -828,7 +941,7 @@ var indexData = new Vue({
 					e.target.setAttribute("draggable",true);
 				},
 				picDragOver:function(e){//圖片滑鼠經過
-					console.log("dragover");
+					// console.log("dragover");
 					e.preventDefault();
 				},
 				picDragStart:function(e){//圖片開始拖曳時
@@ -841,8 +954,9 @@ var indexData = new Vue({
 				
 					var index = this.lotteryFairy.findIndex(function(x){
 							return  obj == x.wikiNumber || obj == 'empty';
+							//有重複的圖片 或是 拖曳的是空白資料時
 						});
-					return index==-1 ?true :false;	
+					return index == -1 ?true :false;	
 				},
 				picDrop:function(e){//有元素拖曳到這張圖片觸發的事件
 					e.preventDefault();
@@ -854,7 +968,9 @@ var indexData = new Vue({
 						this.lotteryFairy.push(data);
 						this.saveToLocal();
 					}
-					else{console.log("重複了")}
+					else{
+						// console.log("重複了")
+						}
 					
 					
 				    
@@ -899,19 +1015,75 @@ var indexData = new Vue({
 				eventPicUrlList:function(number){
 					return "img/event/E" + number + ".png";
 				},
+				genderSelectEvent:function(e){//性別篩選 修改按鈕樣式
+					var data = e.target.getAttribute("data-dataInfo");
+					
+					//變化樣式
+					for(var i=0;i<this.genderStyle.length;i++){
+						this.genderStyle[i].style.active = false;
+					}
+					this.genderStyle[data].style.active = true;
+					
+					//變更性別篩選
+					this.genderSelect = this.genderStyle[data].name;
+				},
+				elementSelectEvent:function(e){//元素篩選 修改按鈕樣式
+					var element = e.target.getAttribute("data-dataElement");
+					var index = e.target.getAttribute("data-dataIndex");
+					//console.log(element,index);
+					var keys = Object.keys(this.elementStyle);
+					
+					//變化樣式
+					
+					var cancell = this.elementStyle[element][index].style["border-primary"];
+					//因為元素按鈕按一下可取消  紀錄此變數
+					
+					for(var i=0;i<keys.length;i++){
+						for(j=0;j<5;j++){
+							var a = keys[i];
+							this.elementStyle[a][j].style["border-primary"] = false;
+						}
+					}
+					this.elementStyle[element][index].style["border-primary"] = ! cancell;
+					
+					//變更元素篩選
+					//如果按鈕被取消選取了   就把資料重置
+					 this.elementSelect = cancell == true ? "" : this.elementStyle[element][index].name;
+					
+				},
+				allInToLottery:function(){//將所有資料匯至左方lottery裡
+					if(this.selectFairy == undefined){
+						console.log("沒東西");
+						return;
+					}
+				
+					var data = this.selectFairy;
+					var arr = [];
+					for(var i=0;i<data.length;i++){
+						// console.log("進行到",i);
+						if(this.picRepeated(data[i].wikiNumber)){
+							arr.push(data[i]);
+						}
+						else{console.log("重複了")}
+					}
+					
+					//合併成新的Lottery陣列
+					this.lotteryFairy = this.lotteryFairy.concat(arr);
+					this.saveToLocal();
+				},
 				saveData:function(){//儲存至雲端
 					if(this.urlId == ""){//網址沒有ID時新增
                         fireRoot.child("memberData").push(this.lotteryFairy);
                         fireRoot.child("memberData").limitToLast(1).once("child_added",function(s){
-                            console.log("新增的這筆資料",",",s.key);
+                            // console.log("新增的這筆資料",",",s.key);
                             key = s.key;
                         })
                         .then(function(){
-                            console.log("AAA")
+                            // console.log("AAA")
                             fireRoot.child("memberList").push(key).then(function(){
                             window.location.href = "index.html?id=" + key;//重新轉址或重載此頁面
                         })
-                            console.log("BBB")
+                            // console.log("BBB")
                             
                         })
                         
@@ -967,10 +1139,10 @@ var indexData = new Vue({
                 fireRoot = firebase.database().ref("/player");
                 fireRoot.child("memberList").once("value",function(s){
                     indexData.memberList = Object.values(s.val());//取得已有之名單資料
-                    console.log(indexData.memberList)
+                    // console.log(indexData.memberList)
 
                 }).then(function(){
-					console.log("載入完成!");
+					// console.log("載入完成!");
 
                     //網址參數判定
                     var url = new URL(location.href);
@@ -979,7 +1151,7 @@ var indexData = new Vue({
 						
 						if(localStorage.getItem("lotteryFairy")){//如果有客戶端資料  就寫入
 							var jsonParseData = JSON.parse(localStorage.getItem("lotteryFairy"));
-							console.log("客戶端",jsonParseData);
+							// console.log("客戶端",jsonParseData);
 							indexData.$set(indexData,"lotteryFairy", jsonParseData);
 						}
 					}

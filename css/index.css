@@ -18,18 +18,18 @@ display: none;
 	height:175px;
 	overflow:auto;
 }
-#eventFairy::-webkit-scrollbar {
-    /* display: none; */
-}
 
 
 #lotteryFairy{
 	height:175px;
 	overflow:auto;
 }
-#lotteryFairy::-webkit-scrollbar {
-    /* display: none; */
+
+#selectFairy{
+	height:175px;
+	overflow:auto;
 }
+
 
 
 #lotteryFairy div>div>div{
@@ -39,13 +39,34 @@ display: none;
 	min-height:45px;
 }
 
-#eventArrowLeft{
+#eventArrowLeft{/*左箭頭*/
 	background-repeat:no-repeat; 
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowLeft.png");
 	/*min-width:30px;*/
 	min-height:50px;
+	
+}
+#eventArrowRight{/*右箭頭*/
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/arrowRight.png");
+	min-height:50px;
+}
+
+#eventPic img{
+	height:120px;
+	display:block;
+	margin:auto;
+	transition: all 1s ease-in-out;
+}
+
+
+#eventArrowLeft:hover,#eventArrowRight:hover,#eventPic img:hover{
+	transform:scale(1.1,1.1);
+	cursor:pointer;
 }
 
 #menuButton{
@@ -64,11 +85,7 @@ display: none;
 	background-image:url("../img/event/E1.png");
 	height:100px;
 }*/
-#eventPic img{
-	height:120px;
-	display:block;
-	margin:auto
-}
+
 
 
 #eventNumber{
@@ -79,13 +96,7 @@ display: none;
 	margin:auto;
 	text-align: center;
 }
-#eventArrowRight{
-	background-repeat:no-repeat; 
-	background-position: center center;
-	background-size: 50px 50px;
-	background-image:url("../img/decoration/arrowRight.png");
-	min-height:50px;
-}
+
 
 /*這邊調整活動圖打開的活動一覽小窗*/
 .modal-body{
@@ -102,3 +113,16 @@ display: none;
 	left: 5%;
 }
 
+
+
+
+
+/*篩選區域*/
+#selectOptionArea{
+	/* height:360px; */
+}
+#elementSelect{height:233px;}
+#elementSelect img{width:30px}
+#elementSelect img:hover{border-color:#007BFF !important;cursor:pointer;}
+
+.borderAdded{border-width:3px !important;}

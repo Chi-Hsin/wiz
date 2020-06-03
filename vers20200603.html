@@ -5,6 +5,7 @@
     <title>幸運輪盤模擬器</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet"  href="css/index.css">
@@ -134,7 +135,6 @@
 			</div>
 			<div class="row   mt-3 mb-4">
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery"><<</button>
-				<button type="button" class="btn btn-primary btn-sm mr-1">按鈕二</button>
 				
 			</div>
 			
@@ -144,7 +144,7 @@
 					<div class="row  eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in selectFairy" >
 							<img :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
-							@click="goToPicEvent">
+							@click="goToPicEvent" @mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart">
 						</div>
 					</div>
 				</div>

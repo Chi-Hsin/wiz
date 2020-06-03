@@ -911,7 +911,7 @@ var indexData = new Vue({
 					var gender = this.genderSelect;
 					var element = this.elementSelect;
 					
-					if(name == "" && gender == "" && element ==""){return;}
+					if(name == "" && gender == "" && element ==""){return [];}
 					return this.fairy.filter(function(v){
 						var condition = gender != "" ?  v.gender ==  gender : true;//性別篩選
 						var condition2 = v.name.includes(name);//姓名篩選
@@ -1001,7 +1001,14 @@ var indexData = new Vue({
 					
 				},
 				picCancell:function(e){ //右鍵取消選取該精靈
+				
 						e.preventDefault(); //關閉右鍵選單 預設動作
+						
+						if(!confirm("確認移除嗎?")){
+							//按下取消 不執行
+							console.log("移除動作取消");
+							return;
+						}
 						
 						var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
 						var index = this.lotteryFairy.findIndex(function(x){
@@ -1052,8 +1059,9 @@ var indexData = new Vue({
 					
 				},
 				allInToLottery:function(){//將所有資料匯至左方lottery裡
-					if(this.selectFairy == undefined){
-						console.log("沒東西");
+					if(this.selectFairy.length == 0 || !confirm("確認匯入嗎?")){
+						//篩選區裡頭沒資料 或者按下取消 都不執行
+						console.log("匯入動作取消");
 						return;
 					}
 				
@@ -1072,6 +1080,14 @@ var indexData = new Vue({
 					this.saveToLocal();
 				},
 				saveData:function(){//儲存至雲端
+				
+					if(this.lotteryFairy.length==0 || !confirm("確認儲存嗎?")){
+						//Lottery裡頭沒資料 或者按下取消 都不執行
+						console.log("儲存動作取消");
+						return;
+					}
+				
+				
 					if(this.urlId == ""){//網址沒有ID時新增
                         fireRoot.child("memberData").push(this.lotteryFairy);
                         fireRoot.child("memberData").limitToLast(1).once("child_added",function(s){
@@ -1107,6 +1123,12 @@ var indexData = new Vue({
 					
 				},
 				deleteLocal:function(){//清空用戶端資料
+					if(this.lotteryFairy.length==0 || !confirm("確認清除嗎?")){
+						//Lottery裡頭沒資料 或者按下取消 都不執行
+						console.log("清除動作取消");
+						return;
+					}
+				
 					localStorage.removeItem("lotteryFairy");
 					this.lotteryFairy = [];
 				},

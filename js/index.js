@@ -1119,19 +1119,40 @@ var indexData = new Vue({
 						});
 					return index == -1 ?true :false;	
 				},
+				saveTest:function(){//測試使用
+					var aaa = [{"id":"208","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"野心奔騰的黑劍 艾盧多貝里克‧哥德","gender":"男","element":"火火","elementSecond":"火","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"10547","style":"{\"border\":\"3px solid blue\"}"},{"id":"280","eventID":"50","event":"神聖天空之星3","name":"妝點天空的許願星_克蕾緹雅‧布萊葉","gender":"女","element":"水水","elementSecond":"水","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"10369","style":"{\"border\":\"3px solid blue\"}"},{"id":"249","eventID":"44","event":"霸眼戰線4 覺醒之王","name":"新劍聖王_亞瑟‧卡美洛","gender":"男","element":"雷雷","elementSecond":"雷","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"10462","style":"{\"border\":\"3px solid blue\"}"},{"id":"484","eventID":"86","event":"《裝神弄鬼》","name":"穿腦的死亡之聲_艾斌","gender":"男","element":"火闇","elementSecond":"闇","special":"技能充填＆延遲(單體)","specialSecond":"技能充填＆延遲(單體)","wikiNumber":"801428","style":"{\"border\":\"3px solid blue\"}"},{"id":"755","eventID":"137","event":"4th anniversary","name":"緊緊連繫的姊妹羈絆 法姆＆費露琪","gender":"女","element":"雷火","elementSecond":"火","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"9958","style":"{\"border\":\"3px solid blue\"}"},{"id":"83","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"雙翼的寵姬_梨莎‧洛特蘭達","gender":"女","element":"火水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"11447","style":"{\"border\":\"3px solid blue\"}"},{"id":"210","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"執行騎士的誕生 流昂‧特拉姆","gender":"男","element":"火光","elementSecond":"光","special":"回答時間停止","specialSecond":"回答時間停止","wikiNumber":"10553","style":"{\"border\":\"3px solid blue\"}"},{"id":"776","eventID":"141","event":"丁酉年末感謝季2018","name":"假日主從 茲洛瓦＆露露貝爾","gender":"女","element":"火闇","elementSecond":"闇","special":"強化精靈【持續回復＆提升能力數值】","specialSecond":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","wikiNumber":"11405","style":"{\"border\":\"3px solid blue\"}"},{"id":"820","eventID":"147","event":"初夏的魔法使慶典","name":"雷電交織的龍戰士_珍妮","gender":"女","element":"雷光","elementSecond":"光","special":"防禦","specialSecond":"防禦","wikiNumber":"801368","style":"{\"border\":\"3px solid blue\"}"},{"id":"191","eventID":"35","event":"豔夏濱海大騷動","name":"神奇魔法大海豹_爽子","gender":"女","element":"水光","elementSecond":"光","special":"融合強化","specialSecond":"融合強化","wikiNumber":"801693","style":"{\"border\":\"3px solid blue\"}"},{"id":"488","eventID":"88","event":"《沉眠之血2》幼龍的鳴嘶","name":"覺醒的幼龍_裴洛恩‧格利菲斯","gender":"男","element":"雷火","elementSecond":"火","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"801824","style":"{\"border\":\"3px solid blue\"}"},{"id":"400","eventID":"69","event":"虛實難辨的假面宴會","name":"賞玩慾望的魔翼天使_珂珂","gender":"女","element":"水雷","elementSecond":"雷","special":"強化精靈【持續回復＆異常狀態失效】","specialSecond":"強化精靈【持續回復＆異常狀態失效】","wikiNumber":"801813","style":"{\"border\":\"3px solid blue\"}"},{"id":"49","eventID":"9","event":"職‧超魔導列傳","name":"菜鳥鑑定士_伊妮亞‧史托拉瑪","gender":"女","element":"水光","elementSecond":"光","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11279","style":"{\"border\":\"3px solid blue\"}"},{"id":"720","eventID":"130","event":"5th Anniversary","name":"不空想之人 桑榭特‧莉菲爾","gender":"女","element":"雷光","elementSecond":"光","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11205","style":"{\"border\":\"3px solid blue\"}"},{"id":"214","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"星之聖女 克蕾緹雅‧布萊葉","gender":"女","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧聖(單體)","specialSecond":"蓄積解放大魔術‧聖(單體)","wikiNumber":"10544","style":"{\"border\":\"3px solid blue\"}"},{"id":"282","eventID":"50","event":"神聖天空之星3","name":"和夏天嬉戲的賢神_莉塔‧班尼斯特","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性強化","specialSecond":"純屬性強化","wikiNumber":"10375","style":"{\"border\":\"3px solid blue\"}"},{"id":"207","eventID":"37","event":"Birth Of New Order","name":"手握牙大劍的劍士_克羅什‧特勞","gender":"男","element":"雷闇","elementSecond":"闇","special":"技能充填(單體)","specialSecond":"技能充填(單體)","wikiNumber":"9991","style":"{\"border\":\"3px solid blue\"}"},{"id":"770","eventID":"140","event":"仲夏感謝季2018","name":"歌中交織著夢幻 尊音‧歌詠","gender":"女","element":"雷雷","elementSecond":"雷","special":"強化精靈【持續回復＆異常狀態失效】","specialSecond":"強化精靈【持續回復＆強化傷害＆異常狀態失效】","wikiNumber":"11177","style":"{\"border\":\"3px solid blue\"}"},{"id":"472","eventID":"83","event":"新說 桃娘傳 妖爺合戰誓助劍","name":"舊世界的大賢_初瀨‧之‧島兒","gender":"男","element":"水火","elementSecond":"火","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"9807","style":"{\"border\":\"3px solid blue\"}"},{"id":"179","eventID":"32","event":"YAOYORO_Z","name":"異國風情與艷麗的變化譚","gender":"女","element":"水雷","elementSecond":"雷","special":"物理反擊(多段式反擊)","specialSecond":"物理反擊(多段式反擊)","wikiNumber":"8541","style":"{\"border\":\"3px solid blue\"}"}];
+					this.lotteryFairy = aaa;
+					var bbb = JSON.stringify(aaa);
+					localStorage.setItem("lotteryFairy",bbb);
+					
+				},
+				orderLottery:function(obj){//幸運圖鑑角色排序
+					var event = this.event;
+					return obj.sort(function(a,b){
+							var aaa = event.findIndex(function(v){
+								return v.eventID == a.eventID; 
+							});
+							var bbb = event.findIndex(function(v){
+								return v.eventID == b.eventID; 
+							});
+							return aaa > bbb ? 1 : -1;
+					})
+				},
 				picDrop:function(e){//有元素拖曳到這張圖片觸發的事件
 					e.preventDefault();
 					
 				    var filelist = e.dataTransfer.files;
 				    var data = JSON.parse(e.dataTransfer.getData("data-dataInfo"))
 					
-					if(this.picRepeated(data.wikiNumber)){
+					if(this.picRepeated(data.wikiNumber)){//如果圖片沒重複就儲存
 						this.lotteryFairy.push(data);
+						this.lotteryFairy = this.orderLottery(this.lotteryFairy);
+						console.log("排序~~");
 						this.saveToLocal();
 					}
 					else{
 						// console.log("重複了")
-						}
+					}
 					
 					
 				    
@@ -1187,6 +1208,7 @@ var indexData = new Vue({
 							return x.wikiNumber == data.wikiNumber;
 						});
 						this.lotteryFairy.splice(index,1);
+						this.lotteryFairy = this.orderLottery(this.lotteryFairy);
 						this.saveToLocal();
 						
 						return;

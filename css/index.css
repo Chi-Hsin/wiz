@@ -29,7 +29,9 @@ display: none;
 	height:175px;
 	overflow:auto;
 }
-
+#copyRightDiv{
+	background:rgba(106, 203, 255, 0.2)
+}
 
 
 #lotteryFairy div>div>div{

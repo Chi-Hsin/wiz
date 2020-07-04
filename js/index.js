@@ -1278,7 +1278,7 @@ var indexData = new Vue({
 					}
 					
 					//合併成新的Lottery陣列
-					this.lotteryFairy = this.lotteryFairy.concat(arr);
+					this.lotteryFairy = this.orderLottery(this.lotteryFairy.concat(arr));
 					this.saveToLocal();
 				},
 				saveData:function(){//儲存至雲端

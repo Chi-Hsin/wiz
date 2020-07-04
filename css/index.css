@@ -21,12 +21,12 @@ display: none;
 
 
 #lotteryFairy{
-	height:175px;
+	height:300px;
 	overflow:auto;
 }
 
 #selectFairy{
-	height:175px;
+	height:300px;
 	overflow:auto;
 }
 #copyRightDiv{
@@ -128,3 +128,11 @@ display: none;
 #elementSelect img:hover{border-color:#007BFF !important;cursor:pointer;}
 
 .borderAdded{border-width:3px !important;}
+/* 右區域  底下按鈕外面一層的預設高度 */
+#selectButtonDiv{height:30px;padding:5px;}
+#selectButtonDiv button{line-height:1.8em;}
+
+
+
+
+img:hover{border:3px  solid rgba(255,255,255,0.5);cursor:pointer}

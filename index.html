@@ -75,7 +75,7 @@
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in eventFairy">
-							<img :src="'img/'+ v.wikiNumber +'.png'" @mousedown="picMouseDown" @dragover="picDragOver" 
+							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" @mousedown="picMouseDown" @dragover="picDragOver" 
 							:data-dataInfo="JSON.stringify(v)" @dragstart="picDragStart" @click="openFairyWiki" 
 							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
@@ -94,7 +94,7 @@
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in lotteryFairy" >
-							<img :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
+							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
 							@click="goToPicEvent" @contextmenu="picCancell">
 						</div>
 					</div>
@@ -136,17 +136,16 @@
 				<!-- </div> -->
 			
 			</div>
-			<div class="row   mt-3 mb-4">
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" ><<</button>
-				
+			<div class="row   mt-3 mb-4" id="selectButtonDiv">
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button>
 			</div>
 			
 			
 			<div class="row" id="selectFairy" @drop="" @dragover=""><!-- 精靈圖區(篩選) -->
 				<div class="col-12 bg-dark" >
-					<div class="row  eventFairyRowStyle">
-						<div class="col-4" v-for="(v,k) in selectFairy" >
-							<img :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
+					<div class="row  eventFairyRowStyle mt-2">
+						<div class="col-3" v-for="(v,k) in selectFairy" >
+							<img class="mb-2 ml-3" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
 							@click="goToPicEvent" @mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart">
 						</div>
 					</div>

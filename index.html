@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>所有活動</title>
+    <title>2020年台版7月份幸運輪盤</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
@@ -84,8 +84,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="row pt-3 mb-3 justify-content-end">
-				<span class="badge badge-dark badgeOtherStyle">共{{lotteryFairy.length}}個</span>
+			<div class="row" id="leftButtonDiv">
+				<button type="button" class="btn btn-dark btn-sm mr-1">
+					共{{lotteryFairy.length}}個
+				</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="goHome" v-show=" urlId != ''">回首頁</button>
@@ -104,7 +106,7 @@
 			</div>
 		</div>
 		<div class="col-md-12 col-lg-6 offset-1">
-			<div class="row  mb-3" id="selectOptionArea"><!--篩選選項區-->
+			<div class="row" id="selectOptionArea"><!--篩選選項區-->
 				<div class="col-4">
 					<div class="row pt-1" id="nameSelect">
 						<input type="text"  placeholder="在此輸入精靈真名" v-model="nameSelect">
@@ -135,7 +137,7 @@
 				
 			
 			</div>
-			<div class="row mb-3" id="selectButtonDiv">
+			<div class="row" id="selectButtonDiv">
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button>
 			</div>
 			

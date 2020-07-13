@@ -6,11 +6,6 @@
 display: none;
 }
 
-.badgeOtherStyle{
-	line-height:2.5em;
-	margin-right:5px;
-}
-
 .eventFairyRowStyle>div img{
 	height:80px;
 }
@@ -112,15 +107,19 @@ display: none;
 	top: 100px;
 	left: 5%;
 }
-
-
-
+#leftButtonDiv{
+	/* background:red; */
+	height:8vh;
+	justify-content:flex-end;
+	align-items:center;
+}
+#leftButtonDiv button,#leftButtonDiv span{height:5vh;}
 
 
 /*篩選區域*/
 #selectOptionArea{
 	height:65vh;
-	/* background:red; */
+	/* background:blue; */
 }
 
 
@@ -156,8 +155,12 @@ display: none;
 
 .borderAdded{border-width:3px !important;}
 /* 右區域  底下按鈕外面一層的預設高度 */
-/* #selectButtonDiv{height:30px;} */
-#selectButtonDiv button{line-height:1.8em;}
+#selectButtonDiv{
+	/* background:red; */
+	height:8vh;
+	align-items:center;
+}
+#selectButtonDiv button{height:5vh;line-height:1.8em;}
 
 
 

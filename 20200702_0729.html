@@ -73,7 +73,8 @@
 				<div class="col-2 order-4  d-lg-none" id="menuButton"></div>
 				<div class="col-3 order-7 d-lg-none"></div><!-- 調整中間圖片位置用  不顯示 -->
 			</div>
-			<div class="row bg-dark mt-3" id="eventFairy"><!--精靈圖區(活動)-->
+			<div class="row" id="marginDiv"></div>
+			<div class="row bg-dark" id="eventFairy"><!--精靈圖區(活動)-->
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in eventFairy">
@@ -104,12 +105,12 @@
 			</div>
 		</div>
 		<div class="col-md-12 col-lg-6 offset-1">
-			<div class="row " id="selectOptionArea"><!--篩選選項區-->
+			<div class="row  mb-3" id="selectOptionArea"><!--篩選選項區-->
 				<div class="col-4">
-					<div class="row mt-3" id="nameSelect">
+					<div class="row pt-1" id="nameSelect">
 						<input type="text"  placeholder="在此輸入精靈真名" v-model="nameSelect">
 					</div>
-					<div class="row">Gender</div>
+					<div class="row" id="genderDiv">Gender</div>
 					<div class="row"  id="genderSelect">
 						<div class="col-4 pl-2" v-for="(v,k) in genderStyle">
 							<button type="button" class="btn btn-sm btn-outline-primary" :class="v.style" 
@@ -117,12 +118,12 @@
 						</div>
 
 					</div>
-					<div class="row">Element</div>
+					<div class="row" id="elementDiv">Element</div>
 					<!-- 元素篩選選項 -->
-					<div class="row justify-content-start" id="elementSelect">
+					<div class="row" id="elementSelect">
 						<div v-for="(v,k) in elementStyle" class="col-4 pr-0 pl-0">
 							<div v-for="(v2,k2) in v">
-									<img :src="v2.type" class="mt-3 ml-2" :class="v2.style" 
+									<img :src="v2.type" class="ml-2" :class="v2.style" 
 									:data-dataElement="k" :data-dataIndex="k2" @click="elementSelectEvent">
 							</div>
 						</div>
@@ -156,7 +157,7 @@
 				</div>
 			
 			</div>
-			<div class="row   mt-3 mb-4" id="selectButtonDiv">
+			<div class="row mb-3" id="selectButtonDiv">
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button>
 			</div>
 			

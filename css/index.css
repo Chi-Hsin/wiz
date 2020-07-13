@@ -15,18 +15,18 @@ display: none;
 	height:80px;
 }
 #eventFairy{
-	height:175px;
+	height:30vh;
 	overflow:auto;
 }
 
 
 #lotteryFairy{
-	height:300px;
+	height:50vh;
 	overflow:auto;
 }
 
 #selectFairy{
-	height:300px;
+	height:50vh;
 	overflow:auto;
 }
 #copyRightDiv{
@@ -46,8 +46,7 @@ display: none;
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowLeft.png");
-	/*min-width:30px;*/
-	min-height:50px;
+
 	
 }
 #eventArrowRight{/*右箭頭*/
@@ -55,11 +54,13 @@ display: none;
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowRight.png");
-	min-height:50px;
-}
 
+}
+#eventPic{
+	height:20vh;
+}
 #eventPic img{
-	height:120px;
+	height:100%;
 	display:block;
 	margin:auto;
 	transition: all 1s ease-in-out;
@@ -67,7 +68,7 @@ display: none;
 
 
 #eventArrowLeft:hover,#eventArrowRight:hover,#eventPic img:hover{
-	transform:scale(1.1,1.1);
+	opacity:0.5;
 	cursor:pointer;
 }
 
@@ -80,14 +81,6 @@ display: none;
 	min-height:50px;
 }
 
-/*#eventPic{
-	background-repeat:no-repeat; 
-	background-position: center center;
-	background-size: auto 100px;
-	background-image:url("../img/event/E1.png");
-	height:100px;
-}*/
-
 
 
 #eventNumber{
@@ -95,10 +88,15 @@ display: none;
 	text-align: center;
 }
 #eventTitle{
+	height:10vh;
 	margin:auto;
 	text-align: center;
 }
 
+#marginDiv{
+	height:5vh;
+	/* background:blue; */
+}
 
 /*這邊調整活動圖打開的活動一覽小窗*/
 .modal-body{
@@ -121,15 +119,44 @@ display: none;
 
 /*篩選區域*/
 #selectOptionArea{
-	/* height:360px; */
+	height:65vh;
+	/* background:red; */
 }
-#elementSelect{height:233px;}
-#elementSelect img{width:30px}
+
+
+#nameSelect{
+	/* background:red; */
+	height:5vh;
+	}
+#nameSelect input{
+	height:3vh;
+	}
+#genderDiv{
+	/* background:orange; */
+	height:3vh}
+#genderSelect{
+	/* background:yellow; */
+	height:5vh;
+	align-items:center;}
+#elementDiv{
+	/* background:green; */
+	height:3vh}
+#elementSelect{
+	/* background:blue; */
+	height:49vh;
+	}
+#elementSelect>div{
+	/* background:pink; */
+	justify-content:space-between;/*讓元素垂直分布*/
+	display: flex;
+    flex-direction:column;
+}
+#elementSelect img{height:5vh}
 #elementSelect img:hover{border-color:#007BFF !important;cursor:pointer;}
 
 .borderAdded{border-width:3px !important;}
 /* 右區域  底下按鈕外面一層的預設高度 */
-#selectButtonDiv{height:30px;padding:5px;}
+/* #selectButtonDiv{height:30px;} */
 #selectButtonDiv button{line-height:1.8em;}
 
 

@@ -84,8 +84,9 @@ display: none;
 }
 #eventTitle{
 	height:10vh;
+	line-height:10vh;
+	text-align:center;
 	margin:auto;
-	text-align: center;
 }
 
 #marginDiv{

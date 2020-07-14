@@ -84,9 +84,12 @@ display: none;
 }
 #eventTitle{
 	height:10vh;
-	line-height:10vh;
-	text-align:center;
-	margin:auto;
+	/* background:blue; */
+	justify-content:center;/*讓元素垂直分布*/
+	display: flex;
+    flex-direction:column;
+	text-align:center;/*水平對齊*/
+	
 }
 
 #marginDiv{

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2020年台版7月份幸運輪盤</title>
+    <title>所有活動</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet"  href="css/index.css?number=20200713">
+<link rel="stylesheet"  href="css/index.css?number=20200714">
 
 
 <script src="js/html2canvas.js"></script>
@@ -85,6 +85,9 @@
 				</div>
 			</div>
 			<div class="row" id="leftButtonDiv">
+				<div class="alert alert-warning mr-1" v-show="warningMessage !=''">
+					{{warningMessage}}
+				</div>
 				<button type="button" class="btn btn-dark btn-sm mr-1">
 					共{{lotteryFairy.length}}個
 				</button>
@@ -134,7 +137,6 @@
 					
 					
 				</div>
-				
 			
 			</div>
 			<div class="row" id="selectButtonDiv">
@@ -184,4 +186,4 @@
 </body>
 </html>
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-<script src="js/index.js?number=20200707"></script>
+<script src="js/index.js?number=20200714"></script>

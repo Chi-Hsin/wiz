@@ -912,6 +912,9 @@ var indexData = new Vue({
 				"memberList":[],
 				"urlId":"",
 				"baseurl":"20200702_0729.html",//相對路徑
+				"limitNumber":20,//限制儲存數量
+				"warningMessage":"",//提示訊息
+				"setTimer":"",//定時器  放在公用變數  用來識別/取消用
 				// "testCss":["aaa","bbb"],
 
                },
@@ -1014,15 +1017,17 @@ var indexData = new Vue({
 					
 				    var filelist = e.dataTransfer.files;
 				    var data = JSON.parse(e.dataTransfer.getData("data-dataInfo"))
-					
+					if(data.wikiNumber == "empty"){return;}
 					if(this.picRepeated(data.wikiNumber)){//如果圖片沒重複就儲存
 						this.lotteryFairy.push(data);
 						this.lotteryFairy = this.orderLottery(this.lotteryFairy);
 						console.log("排序~~");
 						this.saveToLocal();
+						this.warningMessage = "已匯入" + data.name;
 					}
 					else{
 						// console.log("重複了")
+						this.warningMessage = "欲匯入的精靈已經重複了";
 					}
 					
 					
@@ -1070,7 +1075,7 @@ var indexData = new Vue({
 						if(this.urlId != ""){return;}
 						if(!confirm("確認移除嗎?")){
 							//按下取消 不執行
-							console.log("移除動作取消");
+							this.warningMessage = "移除動作取消";
 							return;
 						}
 						
@@ -1081,17 +1086,21 @@ var indexData = new Vue({
 						this.lotteryFairy.splice(index,1);
 						this.lotteryFairy = this.orderLottery(this.lotteryFairy);
 						this.saveToLocal();
-						
+						this.warningMessage = "移除" + data.name + "成功";
 						return;
 				},
 				goHome:function(){
 					if(!confirm("將跳往首頁,確定繼續嗎?")){
 							//按下取消 不執行
-							console.log("動作取消");
+							this.warningMessage = "動作取消";
 							return;
 						}
 					else{
-						window.location.href = this.baseurl;
+						this.warningMessage = "將引導至首頁  請稍後";
+						setTimeout(function(){
+							window.location.href = indexData.baseurl;
+						},1000)
+						
 					}	
 				},
 				eventPicUrlList:function(number){
@@ -1136,10 +1145,14 @@ var indexData = new Vue({
 				allInToLottery:function(){//將所有資料匯至左方lottery裡
 					if(this.urlId != ""){return;}//有ID的情況下不匯入
 				
-				
-					if(this.selectFairy.length == 0 || !confirm("確認匯入嗎?")){
+					var condition1 = this.selectFairy.length == 0;
+					if(!confirm("確認匯入嗎?")){
 						//篩選區裡頭沒資料 或者按下取消 都不執行
-						console.log("匯入動作取消");
+						this.warningMessage = "匯入動作取消";
+						return;
+					}
+					else if(condition1){
+						this.warningMessage = "沒有可匯入的精靈";
 						return;
 					}
 				
@@ -1150,26 +1163,33 @@ var indexData = new Vue({
 						if(this.picRepeated(data[i].wikiNumber)){
 							arr.push(data[i]);
 						}
-						else{console.log("重複了")}
 					}
 					
 					//合併成新的Lottery陣列
 					this.lotteryFairy = this.orderLottery(this.lotteryFairy.concat(arr));
 					this.saveToLocal();
+					this.warningMessage = "匯入成功";
 				},
 				saveData:function(){//儲存至雲端
-					
-					if(this.lotteryFairy.length==0 || !confirm("確認儲存嗎?")){
-						//Lottery裡頭沒資料 或者按下取消 都不執行
-						console.log("儲存動作取消");
+					var condition1 = this.lotteryFairy.length == 0;
+					var condition2 = this.lotteryFairy.length > this.limitNumber;
+					if(condition1){
+						this.warningMessage = "目前沒有匯入的精靈";
 						return;
 					}
-					else{
-						if(!confirm("儲存後.將無法做更改.確定繼續嗎?")){
-							console.log("儲存動作取消");
-							return;
-						}
+					else if(condition2){
+						this.warningMessage = "超過最大數量:" + this.limitNumber;
+						return;
 					}
+					else if(!confirm("確認儲存嗎?")){
+						this.warningMessage = "儲存動作取消";
+						return;
+					}
+					else if(!confirm("儲存後.將無法做更改.確定繼續嗎?")){
+						this.warningMessage = "儲存動作取消";
+						return;
+					}
+					//通過上述步驟檢測  即可繼續執行判斷
 				
 				
 					if(this.urlId == ""){//網址沒有ID時新增
@@ -1211,15 +1231,29 @@ var indexData = new Vue({
 				deleteLocal:function(){//清空用戶端資料
 					if(this.lotteryFairy.length==0 || !confirm("確認清除嗎?")){
 						//Lottery裡頭沒資料 或者按下取消 都不執行
-						console.log("清除動作取消");
+						this.warningMessage = "清除動作取消";
 						return;
 					}
 				
 					localStorage.removeItem("lotteryFairy");
 					this.lotteryFairy = [];
+					this.warningMessage = "選盤精靈已清空";
 				},
 				
             },
+			watch:{
+				//偵測值是否有變動
+				warningMessage:function(val,oldVal){//如果有提示訊息  一定時間後清除
+					// if(this.warningMessage == ""){return;}
+					console.log("有變動");
+					clearTimeout(this.setTimer);
+					this.setTimer = setTimeout(function(){
+						indexData.warningMessage = "";
+						console.log("提示訊息已清空");
+					},2000);
+					
+				}
+			},
             created() { //模板渲染前
                 this.screenWidth = window.innerWidth;
                 this.screenHeight = window.innerHeight;

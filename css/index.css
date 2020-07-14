@@ -107,6 +107,10 @@ display: none;
 	top: 100px;
 	left: 5%;
 }
+.alert {
+    margin:auto 0;
+	text-align:center;
+}
 #leftButtonDiv{
 	/* background:red; */
 	height:8vh;

@@ -983,5 +983,7 @@ var individualData = new Vue({
 							{"id":"828","eventID":"149","event":"Holloween night2017","name":"收集各地故事的旅人 艾斌","gender":"男","element":"雷雷","elementSecond":"雷","special":"強化精靈【強化傷害＆減輕傷害】","specialSecond":"強化精靈【強化傷害＆減輕傷害】","wikiNumber":"801728","style":"{\"border\":\"3px solid blue\"}","field13":"","field14":"","field15":""}
 
 						],
+				"baseurl":"index.html",//相對路徑
+				"limitNumber":20,//限制儲存數量			
 			}
 })

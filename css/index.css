@@ -81,6 +81,7 @@ display: none;
 #eventNumber{
 	margin:auto;
 	text-align: center;
+	font-size:1.5em;
 }
 #eventTitle{
 	height:10vh;
@@ -89,7 +90,8 @@ display: none;
 	display: flex;
     flex-direction:column;
 	text-align:center;/*水平對齊*/
-	
+	font-size:1.5em;
+	font-style:italic;
 }
 
 #marginDiv{

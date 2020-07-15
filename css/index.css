@@ -117,6 +117,14 @@ display: none;
     margin:auto 0;
 	text-align:center;
 }
+.warningMsgStyleCancel{
+	color:red;
+	font-weight:bold;
+}
+.warningMsgStyleImport{
+	color:green;
+	font-weight:bold;
+}
 #leftButtonDiv{
 	/* background:red; */
 	height:8vh;

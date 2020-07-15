@@ -8,10 +8,10 @@
 <link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet"  href="css/index.css?number=202007150029">
+<link rel="stylesheet"  href="css/index.css?number=20200716">
 
 
-<script src="js/html2canvas.js"></script>
+<!-- <script src="js/html2canvas.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -85,12 +85,11 @@
 				</div>
 			</div>
 			<div class="row" id="leftButtonDiv">
-				<div class="alert alert-warning mr-1" v-show="warningMessage !=''">
-					{{warningMessage}}
-				</div>
+				<div class="alert alert-warning mr-1" v-show="warningMessage !=''" v-html="warningMessage"></div>
 				<button type="button" class="btn btn-dark btn-sm mr-1">
-					共{{lotteryFairy.length}}個
+					最多可選{{limitNumber}}個.已選擇：{{lotteryFairy.length}}
 				</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="randomSelect" v-show=" urlId == ''">電腦幫你選</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="goHome" v-show=" urlId != ''">回首頁</button>
@@ -100,9 +99,10 @@
 			<div class="row bg-dark" id="lotteryFairy" @drop="picDrop" @dragover="picDragOver"><!-- 精靈圖區(抽獎) -->
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
-						<div class="col-4" v-for="(v,k) in lotteryFairy" >
+						<div class="col-4" v-for="(v,k) in orderLotteryFairy" >
 							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
-							@click="goToPicEvent" @contextmenu="picCancell">
+							@click="goToPicEvent" @contextmenu="picCancell"
+							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
 					</div>
 				</div>
@@ -149,7 +149,8 @@
 					<div class="row  eventFairyRowStyle mt-2">
 						<div class="col-3" v-for="(v,k) in selectFairy" >
 							<img class="mb-2 ml-3" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
-							@click="goToPicEvent" @mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart">
+							@click="goToPicEvent" @mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart"
+							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
 					</div>
 				</div>
@@ -188,4 +189,4 @@
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script src="js/individualData_all.js"></script>
 <!-- 上面這一行跟下面這一行 順序不能弄反  因為有這一行的資料  下面這一行才能正確載入資源 -->
-<script src="js/index.js?number=20200715"></script>
+<script src="js/index.js?number=20200716"></script>

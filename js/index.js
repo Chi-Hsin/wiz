@@ -251,14 +251,17 @@ var indexData = new Vue({
 							return;
 						}
 					}
-				
+					
 					var arr = Array.from({length:this.fairy.length}, (v, i) => i);
 					this.lotteryFairy = [];
 					// console.log(arr)
 					for(var i=0;i<this.limitNumber;i++){
 						var aaa = Math.floor(Math.random() * arr.length);
-						this.lotteryFairy.push(this.fairy[aaa]);
-						arr.splice(aaa,1);
+						var deleted = arr.splice(aaa,1);
+						var data = deleted[0];
+						// console.log("篩選到的為編號",data);
+						this.lotteryFairy.push(this.fairy[data]);
+						
 					}
 					this.warningMessage = "已自動選擇" + this.limitNumber + "隻精靈";
 				},

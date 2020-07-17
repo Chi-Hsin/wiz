@@ -1,9 +1,36 @@
-/*.eventFairyRowStyle{
-  height:40px;
-  overflow: auto;
-}*/
 [v-cloak] {
 display: none;
+}
+/*左上半部  標題與方向按鈕*/
+#eventArrowLeft{/*左箭頭*/
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/arrowLeft.png");
+
+	
+}
+#eventArrowRight{/*右箭頭*/
+	background-repeat:no-repeat; 
+	background-position: center center;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/arrowRight.png");
+
+}
+#eventNumber{
+	margin:auto;
+	text-align: center;
+	font-size:1.5em;
+}
+#eventTitle{
+	height:10vh;
+	/* background:blue; */
+	justify-content:center;/*讓元素垂直分布*/
+	display: flex;
+    flex-direction:column;
+	text-align:center;/*水平對齊*/
+	font-size:1.5em;
+	font-style:italic;
 }
 
 .eventFairyRowStyle>div img{
@@ -20,13 +47,7 @@ display: none;
 	overflow:auto;
 }
 
-#selectFairy{
-	height:50vh;
-	overflow:auto;
-}
-#copyRightDiv{
-	background:rgba(106, 203, 255, 0.2)
-}
+
 
 
 #lotteryFairy div>div>div{
@@ -36,21 +57,7 @@ display: none;
 	min-height:45px;
 }
 
-#eventArrowLeft{/*左箭頭*/
-	background-repeat:no-repeat; 
-	background-position: center center;
-	background-size: 50px 50px;
-	background-image:url("../img/decoration/arrowLeft.png");
 
-	
-}
-#eventArrowRight{/*右箭頭*/
-	background-repeat:no-repeat; 
-	background-position: center center;
-	background-size: 50px 50px;
-	background-image:url("../img/decoration/arrowRight.png");
-
-}
 #eventPic{
 	height:20vh;
 }
@@ -58,14 +65,15 @@ display: none;
 	height:100%;
 	display:block;
 	margin:auto;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 
-#eventArrowLeft:hover,#eventArrowRight:hover,#eventPic img:hover{
+#eventArrowLeft:hover,#eventArrowRight:hover{
 	opacity:0.5;
 	cursor:pointer;
 }
+#eventPic img:hover{cursor:pointer;height:110%;}
 
 #menuButton{
 	background-repeat:no-repeat; 
@@ -78,21 +86,7 @@ display: none;
 
 
 
-#eventNumber{
-	margin:auto;
-	text-align: center;
-	font-size:1.5em;
-}
-#eventTitle{
-	height:10vh;
-	/* background:blue; */
-	justify-content:center;/*讓元素垂直分布*/
-	display: flex;
-    flex-direction:column;
-	text-align:center;/*水平對齊*/
-	font-size:1.5em;
-	font-style:italic;
-}
+
 
 #marginDiv{
 	height:5vh;
@@ -134,7 +128,7 @@ display: none;
 #leftButtonDiv button,#leftButtonDiv span{height:5vh;}
 
 
-/*篩選區域*/
+/*右上半部篩選區域*/
 #selectOptionArea{
 	height:65vh;
 	/* background:blue; */
@@ -180,7 +174,35 @@ display: none;
 }
 #selectButtonDiv button{height:5vh;line-height:1.8em;}
 
+img:hover{
+	border:3px  solid rgba(255,255,255,0.5);
+	cursor:pointer}
+
+/*右下角  篩選結果*/
+#selectFairy{
+	height:50vh;
+	overflow:auto;
+}
 
 
-
-img:hover{border:3px  solid rgba(255,255,255,0.5);cursor:pointer}
+/*最底部 授權聲明與個人圖標*/
+#copyRightDiv{
+	background:rgba(106, 203, 255, 0.2)
+}
+.iconDiv{
+	justify-content:flex-end;
+	display:flex;
+	height:10vh;
+	
+}
+.iconDiv img{
+	height:5vh;
+	margin-left:5vh;
+}
+.iconDivCenter{
+	display:flex;
+	flex-direction:column;
+	/* background:blue; */
+	justify-content:center;
+	
+	}

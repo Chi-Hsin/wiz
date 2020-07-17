@@ -1,5 +1,5 @@
 var individualData = new Vue({
-            el: '#copyRightDiv',
+            el: '#dataEventFairy',
 			data: {
 				"event":[//活動事件
 							{"eventID":"1","name":"阿爾克納與星之旅途Ⅱ 永戰之地","picName":"E1"},

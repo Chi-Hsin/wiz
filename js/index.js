@@ -55,7 +55,13 @@ var indexData = new Vue({
 				"urlId":"",
 				"warningMessage":"",//提示訊息
 				"setTimer":"",//定時器  放在公用變數  用來識別/取消用
-				// "testCss":["aaa","bbb"],
+				"iconMessage":"",
+				"footerIcon":[
+					{name:"Youtube",url:"<a target='_new' href='https://www.youtube.com/channel/UCj_Fw1XAe33A--xQRbQwsHA'>歡迎光臨我的頻道.主要是拍黑貓攻略影片(´・ω・`)<a>"},
+					{name:"Github",url:"<a target='_new' href='https://github.com/Chi-Hsin'>Github專區.我做過的幾個網站_(:3 」∠ )<a>"},
+					{name:"Facebook",url:"<a target='_new' href='https://www.facebook.com/hsinhsin.hung/'>Facebook交個朋友吧.或是找我聊天都歡迎哦⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄<a>"},
+					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
+				],
 
                },
 			computed:{
@@ -190,14 +196,27 @@ var indexData = new Vue({
 					
 				    
 				},
+				screenTest:function(){
+					alert(3*document.body.offsetWidth/2 - innerWidth)
+				},
 				openFairyWiki:function(e){//開啟WIKI資料小視窗
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
 					if(data.wikiNumber == "empty"){return;}//空白的圖鑑沒有資料
 					
 					var url = "https://nekowiztw.github.io/cardFinder/#/card/" 
 								+ data.wikiNumber;
-					window.open(url, "nekoWizWebsite", 
-					"toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500,width=400,height=500");
+					var settingToolBar = 	"toolbar=yes";
+					var settingScrollBar = 	"scrollbars=yes";
+					var settingResize = 	"resizable=yes";
+					var settingPositionTop = 	"top=" + (outerHeight - innerHeight);
+					var settingPositionLeft = 	"left=" + (3*document.body.offsetWidth/2 - innerWidth);
+					var settingWidth = 	"width=700";
+					var settingHeight = 	"height=" + innerHeight;
+					var settingArr = [settingScrollBar,settingResize,settingPositionTop,
+									settingPositionLeft,settingWidth,settingHeight];
+					var setting = settingArr.join(",");				
+					console.log(setting);											
+					window.open(url, "nekoWizWebsite",setting);
 				},
 				goToPicEvent:function(e){ //跳往該活動位置
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
@@ -415,7 +434,10 @@ var indexData = new Vue({
 					this.lotteryFairy = [];
 					this.warningMessage = "選盤精靈已清空";
 				},
-				
+				showIconMessage:function(e){
+					var data = e.target.getAttribute("data-dataInfo");
+					this.iconMessage = data;
+				},
             },
 			watch:{
 				//偵測值是否有變動
@@ -502,3 +524,4 @@ var indexData = new Vue({
 				
             },
            })
+		   

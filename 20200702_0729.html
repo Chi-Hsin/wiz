@@ -88,8 +88,9 @@
 			<div class="row" id="leftButtonDiv">
 				<div class="alert alert-warning mr-1" v-show="warningMessage !=''" v-html="warningMessage"></div>
 				<button type="button" class="btn btn-dark btn-sm mr-1">
-					最多可選{{limitNumber}}個.已選擇：{{lotteryFairy.length}}
+					已選擇：{{lotteryFairy.length}}/{{limitNumber}}
 				</button>
+				<!-- <button type="button" class="btn btn-primary btn-sm mr-1" @click="screenTest" v-show=" urlId == ''">解析度測試</button> -->
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="randomSelect" v-show=" urlId == ''">電腦幫你選</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
@@ -189,33 +190,40 @@
 	<div class="row mt-5" id="copyRightDiv">
 			<div class="col-md-5 col-lg-5">
 				<div class="row">
-					<div class="col-4">
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/"><img alt="創用 CC 授權條款" 
+					<div class="col-2 iconDiv">
+						<a rel="license" class="iconDivCenter" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">
+						<img alt="創用 CC 授權條款" 
 						style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/tw/88x31.png" /></a>
 					</div>
-					<div class="col-8">
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">本著作係採用
-						創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a>授權.
+					<div class="col-10 iconDiv">
+						<span class="iconDivCenter">
+						<a  rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">本著作採用
+						創用CC姓名標示-相同方式分享3.0台灣授權條款</a>
+						</span>
 					</div>
 				</div>
 				
 				
 			</div>
-			<div class="col-md-7 col-lg-7" id="iconDiv">
-				<img src="img/decoration/Youtube.png">
-				<img src="img/decoration/Github.png">
-				<img src="img/decoration/Facebook.png">
-				<img src="img/decoration/Gmail.png">
+			<div class="col-md-7 col-lg-7 iconDiv" id="dataFooter">
+				<span class="iconDivCenter" v-html="iconMessage">{{iconMessage}}</span>
+				<span v-for="(v,k) in footerIcon" @click="showIconMessage" class="iconDivCenter">
+					<img :src="'img/decoration/'+v.name+'.png'" :data-dataInfo="v.url">
+				</span>
+				
 			</div>
 			
 	</div>
 </div>
+<div id="dataEventFairy"></div>
 
 
 </body>
 </html>
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
 <script src="js/individualData_20200702_0729.js"></script>
 <!-- 上面這一行跟下面這一行 順序不能弄反  因為有這一行的資料  下面這一行才能正確載入資源 -->
 <script src="js/index.js?number=202007162133"></script>
+
 

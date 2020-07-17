@@ -1,5 +1,5 @@
 var individualData = new Vue({
-            el: '#copyRightDiv',
+            el: '#dataEventFairy',
             data: {
 				"event":[//活動事件
 							{"name":"FairyChord Prelude","eventID":"24","picName":"E25"},

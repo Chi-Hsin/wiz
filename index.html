@@ -166,23 +166,32 @@
 	<div class="row mt-5" id="copyRightDiv">
 			<div class="col-md-5 col-lg-5">
 				<div class="row">
-					<div class="col-4">
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/"><img alt="創用 CC 授權條款" 
+					<div class="col-2 iconDiv">
+						<a rel="license" class="iconDivCenter" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">
+						<img alt="創用 CC 授權條款" 
 						style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/tw/88x31.png" /></a>
 					</div>
-					<div class="col-8">
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">本著作係採用
-						創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a>授權.
+					<div class="col-10 iconDiv">
+						<span class="iconDivCenter">
+						<a  rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">本著作採用
+						創用CC姓名標示-相同方式分享3.0台灣授權條款</a>
+						</span>
 					</div>
 				</div>
 				
 				
 			</div>
-			<div class="col-md-7 col-lg-7"></div>
+			<div class="col-md-7 col-lg-7 iconDiv" id="dataFooter">
+				<span class="iconDivCenter" v-html="iconMessage">{{iconMessage}}</span>
+				<span v-for="(v,k) in footerIcon" @click="showIconMessage" class="iconDivCenter">
+					<img :src="'img/decoration/'+v.name+'.png'" :data-dataInfo="v.url">
+				</span>
+				
+			</div>
 			
 	</div>
 </div>
-
+<div id="dataEventFairy"></div>
 
 </body>
 </html>

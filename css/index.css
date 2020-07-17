@@ -1,3 +1,11 @@
+:root{
+	/*modal尺寸位置設定*/
+	--modalWidth:45vw;
+	--modalHeight:70vh;
+	--modalTop:0;
+	--modalLeft:45vw;
+}
+
 [v-cloak] {
 display: none;
 }
@@ -7,22 +15,23 @@ display: none;
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowLeft.png");
-
-	
 }
 #eventArrowRight{/*右箭頭*/
 	background-repeat:no-repeat; 
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowRight.png");
-
 }
-#eventNumber{
+#eventArrowLeft:hover,#eventArrowRight:hover{
+	opacity:0.5;
+	cursor:pointer;
+}
+#eventNumber{/*目前顯示的活動編號*/
 	margin:auto;
 	text-align: center;
 	font-size:1.5em;
 }
-#eventTitle{
+#eventTitle{/*活動標題*/
 	height:10vh;
 	/* background:blue; */
 	justify-content:center;/*讓元素垂直分布*/
@@ -32,32 +41,16 @@ display: none;
 	font-size:1.5em;
 	font-style:italic;
 }
-
-.eventFairyRowStyle>div img{
-	height:80px;
-}
-#eventFairy{
-	height:30vh;
-	overflow:auto;
-}
-
-
-#lotteryFairy{
-	height:50vh;
-	overflow:auto;
-}
-
-
-
-
-#lotteryFairy div>div>div{
+/*手機顯示畫面時  出現的縮小圖示*/
+#menuButton{
+	background-repeat:no-repeat; 
 	background-position: center center;
-	background-size:45px 45px;
-	min-width:45px;
-	min-height:45px;
+	background-size: 50px 50px;
+	background-image:url("../img/decoration/menuButton.png");
+	/*min-width:30px;*/
+	min-height:50px;
 }
-
-
+/*左上區域  顯示的活動圖*/
 #eventPic{
 	height:20vh;
 }
@@ -67,45 +60,61 @@ display: none;
 	margin:auto;
 	transition: all 0.5s ease-in-out;
 }
-
-
-#eventArrowLeft:hover,#eventArrowRight:hover{
-	opacity:0.5;
-	cursor:pointer;
-}
 #eventPic img:hover{cursor:pointer;height:110%;}
 
-#menuButton{
-	background-repeat:no-repeat; 
-	background-position: center center;
-	background-size: 50px 50px;
-	background-image:url("../img/decoration/menuButton.png");
-	/*min-width:30px;*/
-	min-height:50px;
+/*左中區域  顯示的活動精靈圖*/
+.eventFairyRowStyle>div img{
+	height:80px;
 }
-
-
-
-
-
-#marginDiv{
+#eventFairy{
+	height:30vh;
+	overflow:auto;
+}
+#marginDiv{/*活動圖區域與下方區域的間隔距離*/
 	height:5vh;
 	/* background:blue; */
 }
 
+/*左下區域的按鈕樣式*/
+#leftButtonDiv{
+	/* background:red; */
+	height:8vh;
+	justify-content:flex-end;
+	align-items:center;
+}
+#leftButtonDiv button,#leftButtonDiv span{height:5vh;}
+
+
+/*左下區域  想要抽選的盤面精靈*/
+#lotteryFairy{
+	height:50vh;
+	overflow:auto;
+}
+#lotteryFairy div>div>div{
+	background-position: center center;
+	background-size:45px 45px;
+	min-width:45px;
+	min-height:45px;
+}
+
+
 /*這邊調整活動圖打開的活動一覽小窗*/
 .modal-body{
-	height: 350px;
-	overflow-y: auto;}
+	
+	height: var(--modalHeight);
+	overflow-y: auto;
+}
 .modal-body img{height:80px;}
 .modal-body tbody tr:hover{background:rgba(0,0,255,0.2)}
 
-.modal-content{width:600px;}
+.modal-content{
+	width:var(--modalWidth);
+	top:var(--modalTop);
+	left: var(--modalLeft);
+}
 
 .modal-dialog {
 	position: fixed;
-	top: 100px;
-	left: 5%;
 }
 .alert {
     margin:auto 0;
@@ -119,13 +128,7 @@ display: none;
 	color:green;
 	font-weight:bold;
 }
-#leftButtonDiv{
-	/* background:red; */
-	height:8vh;
-	justify-content:flex-end;
-	align-items:center;
-}
-#leftButtonDiv button,#leftButtonDiv span{height:5vh;}
+
 
 
 /*右上半部篩選區域*/
@@ -133,8 +136,6 @@ display: none;
 	height:65vh;
 	/* background:blue; */
 }
-
-
 #nameSelect{
 	/* background:red; */
 	height:5vh;

@@ -196,9 +196,6 @@ var indexData = new Vue({
 					
 				    
 				},
-				screenTest:function(){
-					alert(3*document.body.offsetWidth/2 - innerWidth)
-				},
 				openFairyWiki:function(e){//開啟WIKI資料小視窗
 					var data = JSON.parse(e.target.getAttribute("data-dataInfo"));
 					if(data.wikiNumber == "empty"){return;}//空白的圖鑑沒有資料

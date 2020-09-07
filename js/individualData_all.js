@@ -298,6 +298,8 @@ var individualData = new Vue({
 							{"eventID":"154","name":"艾尼格瑪之花","picName":"E155"}
 							,
 							{"eventID":"155","name":"2020年感謝下載紀念","picName":"E156"}
+							,
+							{"eventID":"156","name":"FairyChord2 Chord Sharing","picName":"E157"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"801802"}
@@ -576,7 +578,7 @@ var individualData = new Vue({
 							,
 							{"id":"138","eventID":"25","event":"寄語冬夜的祈願者","name":"熱呼呼的聖誕紅酒_黎庫芬","gender":"女","element":"雷雷","elementSecond":"雷","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"801523"}
 							,
-							{"id":"139","eventID":"25","event":"寄語冬夜的祈願者","name":"成為旋風的馴鷹者_加姆","gender":"男","element":"雷雷","elementSecond":"雷","special":"狂暴化","specialSecond":"自我犧牲魔術(單體)","wikiNumber":"801525"}
+							{"id":"139","eventID":"25","event":"寄語冬夜的祈願者","name":"成為旋風的馴鷹者_加姆","gender":"男","element":"雷水","elementSecond":"水","special":"狂暴化","specialSecond":"自我犧牲魔術(單體)","wikiNumber":"801525"}
 							,
 							{"id":"140","eventID":"25","event":"寄語冬夜的祈願者","name":"吸食願望的惡魔_奈迦伊娜","gender":"女","element":"水闇","elementSecond":"闇","special":"解除效果大魔術(全體)【屬性吸收＆多層防護＆阻隔傷害】","specialSecond":"解除效果大魔術(全體)【屬性吸收＆多層防護＆阻隔傷害】","wikiNumber":"801527"}
 							,
@@ -2013,6 +2015,18 @@ var individualData = new Vue({
 							{"id":"856","eventID":"154","event":"艾尼格瑪之花","name":"轉職組 艾尼格瑪黑百合","gender":"女","element":"火闇","elementSecond":"闇","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"11963"}
 							,
 							{"id":"857","eventID":"155","event":"2020年感謝下載紀念","name":"大冒險中毒 珍妮佛‧亞波特","gender":"女","element":"火光","elementSecond":"光","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11936"}
+							,
+							{"id":"858","eventID":"156","event":"FairyChord2 Chord Sharing","name":"Chord Sharing 鶴音理玲","gender":"女","element":"水光","elementSecond":"光","special":"蓄積解放大魔術‧連(全體)","specialSecond":"蓄積解放大魔術‧連(全體)","wikiNumber":"11994"}
+							,
+							{"id":"859","eventID":"156","event":"FairyChord2 Chord Sharing","name":"Chord Sharing 拉米斯費蕾絲","gender":"女","element":"雷火","elementSecond":"火","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"11991"}
+							,
+							{"id":"860","eventID":"156","event":"FairyChord2 Chord Sharing","name":"賭上龍的驕傲 早苗立真","gender":"男","element":"水光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12000"}
+							,
+							{"id":"861","eventID":"156","event":"FairyChord2 Chord Sharing","name":"為了不被拋棄而戰 織機美幌","gender":"女","element":"雷水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"12003"}
+							,
+							{"id":"862","eventID":"156","event":"FairyChord2 Chord Sharing","name":"舔個乾淨惡魔 蒂姬","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"12006"}
+							,
+							{"id":"863","eventID":"156","event":"FairyChord2 Chord Sharing","name":"善意的引導 紅鬼颯夜","gender":"男","element":"火闇","elementSecond":"闇","special":"防禦","specialSecond":"防禦","wikiNumber":"11997"}
 
 						],
 				"baseurl":"index.html",//相對路徑

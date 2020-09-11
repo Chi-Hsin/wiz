@@ -378,9 +378,9 @@ var individualData = new Vue({
 							,
 							{"id":"38","eventID":"7","event":"續.超魔導列傳","name":"大魔導士的夏之色 蕾娜‧依拉普修","gender":"女","element":"火火","elementSecond":"火","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"9355"}
 							,
-							{"id":"39","eventID":"7","event":"續.超魔導列傳","name":"在煙火之夜登場！ 大魔導士！","gender":"女","element":"雷水","elementSecond":"水","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"9356"}
+							{"id":"39","eventID":"7","event":"續.超魔導列傳","name":"在煙火之夜登場！ 大魔導士！","gender":"多人","element":"雷水","elementSecond":"水","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"9356"}
 							,
-							{"id":"40","eventID":"7","event":"續.超魔導列傳","name":"集結！ 超無敵魔導女孩！","gender":"女","element":"火光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"9357"}
+							{"id":"40","eventID":"7","event":"續.超魔導列傳","name":"集結！ 超無敵魔導女孩！","gender":"多人","element":"火光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"9357"}
 							,
 							{"id":"41","eventID":"8","event":"超魔導列傳","name":"超越的大魔導怪獸 愛莉葉塔・多娃","gender":"女","element":"火水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11307"}
 							,
@@ -422,7 +422,7 @@ var individualData = new Vue({
 							,
 							{"id":"60","eventID":"11","event":"The Luminescence of Soul 靈魂的微光","name":"桃花流水_露絲娜","gender":"女","element":"水火","elementSecond":"火","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"801625"}
 							,
-							{"id":"61","eventID":"11","event":"The Luminescence of Soul 靈魂的微光","name":"相倚的莫逆之翼_瞬＆陽","gender":"男","element":"雷水","elementSecond":"水","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"801627"}
+							{"id":"61","eventID":"11","event":"The Luminescence of Soul 靈魂的微光","name":"相倚的莫逆之翼_瞬＆陽","gender":"多人","element":"雷水","elementSecond":"水","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"801627"}
 							,
 							{"id":"62","eventID":"11","event":"The Luminescence of Soul 靈魂的微光","name":"藍色冰果潘趣_帕榭菈","gender":"女","element":"水水","elementSecond":"水","special":"特效大魔術(單體)","specialSecond":"強化傷害(自身)","wikiNumber":"801629"}
 							,
@@ -456,9 +456,9 @@ var individualData = new Vue({
 							,
 							{"id":"77","eventID":"14","event":"歡迎光臨天上岬山麓咖啡廳！","name":"和服裝搭配_莉露‧萊路","gender":"女","element":"水火","elementSecond":"火","special":"捕食大魔術(全體)","specialSecond":"捕食大魔術(全體)","wikiNumber":"11098"}
 							,
-							{"id":"78","eventID":"14","event":"歡迎光臨天上岬山麓咖啡廳！","name":"嶄新的羈絆_利谷斯＆梅貝爾","gender":"男女","element":"火火","elementSecond":"火","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"11101"}
+							{"id":"78","eventID":"14","event":"歡迎光臨天上岬山麓咖啡廳！","name":"嶄新的羈絆_利谷斯＆梅貝爾","gender":"多人","element":"火火","elementSecond":"火","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"11101"}
 							,
-							{"id":"79","eventID":"14","event":"歡迎光臨天上岬山麓咖啡廳！","name":"向森林報恩_毛絨絨＆芽寧朵","gender":"女","element":"水水","elementSecond":"水","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"11104"}
+							{"id":"79","eventID":"14","event":"歡迎光臨天上岬山麓咖啡廳！","name":"向森林報恩_毛絨絨＆芽寧朵","gender":"多人","element":"水水","elementSecond":"水","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"11104"}
 							,
 							{"id":"80","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"王高呼惡意_艾盧多貝里克‧哥德","gender":"男","element":"雷雷","elementSecond":"雷","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11444"}
 							,
@@ -468,13 +468,13 @@ var individualData = new Vue({
 							,
 							{"id":"83","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"雙翼的寵姬_梨莎‧洛特蘭達","gender":"女","element":"火水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"11447"}
 							,
-							{"id":"84","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"二魂同心_維雷夫基納＆希蜜拉兒","gender":"男女","element":"雷闇","elementSecond":"闇","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"11448"}
+							{"id":"84","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"二魂同心_維雷夫基納＆希蜜拉兒","gender":"多人","element":"雷闇","elementSecond":"闇","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"11448"}
 							,
 							{"id":"85","eventID":"15","event":"雙翼的失落伊甸Ⅲ","name":"鬥毆魔帝_庫伊杜斯‧吉爾瓦","gender":"男","element":"水水","elementSecond":"水","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"11449"}
 							,
-							{"id":"86","eventID":"16","event":"雙翼的失落伊甸Ⅱ WWMF","name":"華麗魔王_艾盧多貝里克‧哥德","gender":"男","element":"水闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"10690"}
+							{"id":"86","eventID":"16","event":"雙翼的失落伊甸Ⅱ WWMF","name":"華麗魔王_艾盧多貝里克‧哥德","gender":"多人","element":"水闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"10690"}
 							,
-							{"id":"87","eventID":"16","event":"雙翼的失落伊甸Ⅱ WWMF","name":"慈愛與自由之花_露席菈‧弗歐魯","gender":"女","element":"水光","elementSecond":"光","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"10691"}
+							{"id":"87","eventID":"16","event":"雙翼的失落伊甸Ⅱ WWMF","name":"慈愛與自由之花_露席菈‧弗歐魯","gender":"多人","element":"水光","elementSecond":"光","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"10691"}
 							,
 							{"id":"88","eventID":"16","event":"雙翼的失落伊甸Ⅱ WWMF","name":"聖王之神髓_米迦菈‧撒拉弗","gender":"女","element":"雷光","elementSecond":"光","special":"斬擊大魔術","specialSecond":"多重魔術(單體)","wikiNumber":"10692"}
 							,
@@ -604,7 +604,7 @@ var individualData = new Vue({
 							,
 							{"id":"151","eventID":"27","event":"喰牙RIZE3 -Fang-O’-Blazer","name":"冥搜魔葬者_孚盧克‧拉","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧破(全體)","specialSecond":"蓄積解放大魔術‧破(全體)","wikiNumber":"10773"}
 							,
-							{"id":"152","eventID":"27","event":"喰牙RIZE3 -Fang-O’-Blazer","name":"驅魔聖言_尤維爾＆艾絲皮納","gender":"男女","element":"雷光","elementSecond":"光","special":"AS特殊變化","specialSecond":"AS特殊變化","wikiNumber":"10776"}
+							{"id":"152","eventID":"27","event":"喰牙RIZE3 -Fang-O’-Blazer","name":"驅魔聖言_尤維爾＆艾絲皮納","gender":"多人","element":"雷光","elementSecond":"光","special":"AS特殊變化","specialSecond":"AS特殊變化","wikiNumber":"10776"}
 							,
 							{"id":"153","eventID":"28","event":"喰牙RIZE3-外傳- 冥道死門的極境者","name":"亡魂戰神公主_希露蒂‧雷路爾","gender":"女","element":"水雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"10803"}
 							,
@@ -618,7 +618,7 @@ var individualData = new Vue({
 							,
 							{"id":"158","eventID":"29","event":"喰牙RIZE2_-Tearing_Eyes","name":"【噬號者】的祝福_舒菈‧立哈","gender":"女","element":"水雷","elementSecond":"雷","special":"回復異常狀態","specialSecond":"回復異常狀態","wikiNumber":"8989"}
 							,
-							{"id":"159","eventID":"29","event":"喰牙RIZE2_-Tearing_Eyes","name":"幽境的雙葬者_伊露莎＆孚盧克","gender":"女","element":"雷水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【技能充填】","wikiNumber":"8992"}
+							{"id":"159","eventID":"29","event":"喰牙RIZE2_-Tearing_Eyes","name":"幽境的雙葬者_伊露莎＆孚盧克","gender":"多人","element":"雷水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【技能充填】","wikiNumber":"8992"}
 							,
 							{"id":"160","eventID":"29","event":"喰牙RIZE2_-Tearing_Eyes","name":"禁忌的盡頭_尤維爾‧莎克拉里齊","gender":"男","element":"雷雷","elementSecond":"雷","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"8995"}
 							,
@@ -644,9 +644,9 @@ var individualData = new Vue({
 							,
 							{"id":"171","eventID":"31","event":"八百萬諸神祕聞4_沉眠京城的悠久之歌","name":"呼喚天運的炎獅子_葉月‧夢語","gender":"女","element":"火火","elementSecond":"火","special":"純屬性強化","specialSecond":"純屬性強化","wikiNumber":"8481"}
 							,
-							{"id":"172","eventID":"31","event":"八百萬諸神祕聞4_沉眠京城的悠久之歌","name":"化鬼亦斬鬼_久馬＆風治","gender":"男","element":"水水","elementSecond":"水","special":"多重魔術(全體)","specialSecond":"多重魔術(全體)","wikiNumber":"8484"}
+							{"id":"172","eventID":"31","event":"八百萬諸神祕聞4_沉眠京城的悠久之歌","name":"化鬼亦斬鬼_久馬＆風治","gender":"多人","element":"水水","elementSecond":"水","special":"多重魔術(全體)","specialSecond":"多重魔術(全體)","wikiNumber":"8484"}
 							,
-							{"id":"173","eventID":"31","event":"八百萬諸神祕聞4_沉眠京城的悠久之歌","name":"五星方陣大成祈禱_統真＆桐繪","gender":"男女","element":"火水","elementSecond":"水","special":"強化精靈【強化傷害】","specialSecond":"強化精靈【強化傷害】","wikiNumber":"8487"}
+							{"id":"173","eventID":"31","event":"八百萬諸神祕聞4_沉眠京城的悠久之歌","name":"五星方陣大成祈禱_統真＆桐繪","gender":"多人","element":"火水","elementSecond":"水","special":"強化精靈【強化傷害】","specialSecond":"強化精靈【強化傷害】","wikiNumber":"8487"}
 							,
 							{"id":"174","eventID":"32","event":"YAOYORO_Z","name":"妝點美夢的和歌之神_尊音‧歌詠","gender":"女","element":"水光","elementSecond":"光","special":"弱化大魔術(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"8536"}
 							,
@@ -658,15 +658,15 @@ var individualData = new Vue({
 							,
 							{"id":"178","eventID":"32","event":"YAOYORO_Z","name":"其乃異國的指標_傑斯洛‧夸特里","gender":"男","element":"雷火","elementSecond":"火","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"8540"}
 							,
-							{"id":"179","eventID":"32","event":"YAOYORO_Z","name":"異國風情與艷麗的變化譚","gender":"女","element":"水雷","elementSecond":"雷","special":"物理反擊(多段式反擊)","specialSecond":"物理反擊(多段式反擊)","wikiNumber":"8541"}
+							{"id":"179","eventID":"32","event":"YAOYORO_Z","name":"異國風情與艷麗的變化譚","gender":"多人","element":"水雷","elementSecond":"雷","special":"物理反擊(多段式反擊)","specialSecond":"物理反擊(多段式反擊)","wikiNumber":"8541"}
 							,
-							{"id":"180","eventID":"32","event":"YAOYORO_Z","name":"三神駕到_八百萬Z","gender":"男女","element":"火火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"8542"}
+							{"id":"180","eventID":"32","event":"YAOYORO_Z","name":"三神駕到_八百萬Z","gender":"多人","element":"火火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"8542"}
 							,
 							{"id":"181","eventID":"33","event":"八百萬諸神祕聞2","name":"牡丹打盹的夕月夜_尊音・歌詠","gender":"女","element":"雷水","elementSecond":"水","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"10749"}
 							,
-							{"id":"182","eventID":"33","event":"八百萬諸神祕聞2","name":"海風緩緩流逝_靜＆蘇芳","gender":"男","element":"水火","elementSecond":"火","special":"犧牲魔術(單體)","specialSecond":"犧牲魔術(單體)","wikiNumber":"10750"}
+							{"id":"182","eventID":"33","event":"八百萬諸神祕聞2","name":"海風緩緩流逝_靜＆蘇芳","gender":"多人","element":"水火","elementSecond":"火","special":"犧牲魔術(單體)","specialSecond":"犧牲魔術(單體)","wikiNumber":"10750"}
 							,
-							{"id":"183","eventID":"33","event":"八百萬諸神祕聞2","name":"神獸疾走的痕跡_艾德華＆梅莉艾兒","gender":"女","element":"雷水","elementSecond":"水","special":"變換問題類型","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"10751"}
+							{"id":"183","eventID":"33","event":"八百萬諸神祕聞2","name":"神獸疾走的痕跡_艾德華＆梅莉艾兒","gender":"多人","element":"雷水","elementSecond":"水","special":"變換問題類型","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"10751"}
 							,
 							{"id":"184","eventID":"33","event":"八百萬諸神祕聞2","name":"妝點潮汐的月之音_月詠・音江雛","gender":"女","element":"火水","elementSecond":"水","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"10752"}
 							,
@@ -722,7 +722,7 @@ var individualData = new Vue({
 							,
 							{"id":"210","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"執行騎士的誕生 流昂‧特拉姆","gender":"男","element":"火光","elementSecond":"光","special":"回答時間停止","specialSecond":"回答時間停止","wikiNumber":"10553"}
 							,
-							{"id":"211","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"這就是你的回答喵 騙子貓維茲","gender":"男女","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"融合變換問題類型【技能充填】","wikiNumber":"10556"}
+							{"id":"211","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"這就是你的回答喵 騙子貓維茲","gender":"男","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"融合變換問題類型【技能充填】","wikiNumber":"10556"}
 							,
 							{"id":"212","eventID":"38","event":"黑貓維茲 仲夏感謝季2019","name":"宇宙反詰 莉露姆‧洛洛特","gender":"女","element":"雷雷","elementSecond":"雷","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"10538"}
 							,
@@ -738,7 +738,7 @@ var individualData = new Vue({
 							,
 							{"id":"218","eventID":"39","event":"黃昏無夢者Ⅳ 黃昏mareless","name":"激輪雙旋_維爾萊特‧雷吉","gender":"男","element":"火水","elementSecond":"水","special":"變換問題類型","specialSecond":"統一變換問題類型【強化傷害】","wikiNumber":"10077"}
 							,
-							{"id":"219","eventID":"39","event":"黃昏無夢者Ⅳ 黃昏mareless","name":"劍光無盡_傑拉德＆蔻比修","gender":"男女","element":"雷闇","elementSecond":"闇","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"10080"}
+							{"id":"219","eventID":"39","event":"黃昏無夢者Ⅳ 黃昏mareless","name":"劍光無盡_傑拉德＆蔻比修","gender":"多人","element":"雷闇","elementSecond":"闇","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"10080"}
 							,
 							{"id":"220","eventID":"39","event":"黃昏無夢者Ⅳ 黃昏mareless","name":"戰鳥裂帛_沃布林格‧蜜莉","gender":"女","element":"火雷","elementSecond":"雷","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10083"}
 							,
@@ -778,7 +778,7 @@ var individualData = new Vue({
 							,
 							{"id":"238","eventID":"42","event":"黃昏無夢者","name":"戰鬥天賦_沃布林格‧蜜莉","gender":"女","element":"火火","elementSecond":"火","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"11538"}
 							,
-							{"id":"239","eventID":"42","event":"黃昏無夢者","name":"無窮的劍業_傑拉德&蔻比修","gender":"男女","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"特殊變換問題類型【隨機】","wikiNumber":"11539"}
+							{"id":"239","eventID":"42","event":"黃昏無夢者","name":"無窮的劍業_傑拉德&蔻比修","gender":"多人","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"特殊變換問題類型【隨機】","wikiNumber":"11539"}
 							,
 							{"id":"240","eventID":"43","event":"霸眼戰線 終戰之凜煌眼 -前篇","name":"凜煌眼‧穿梭的羈絆_麗維塔‧伊蕾","gender":"女","element":"火火","elementSecond":"火","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11457"}
 							,
@@ -794,7 +794,7 @@ var individualData = new Vue({
 							,
 							{"id":"246","eventID":"44","event":"霸眼戰線4 覺醒之王","name":"將原初照亮之霸眼_阿里歐特斯‧葛","gender":"男","element":"火闇","elementSecond":"闇","special":"融合大魔術(單體)","specialSecond":"融合大魔術(單體)","wikiNumber":"10453"}
 							,
-							{"id":"247","eventID":"44","event":"霸眼戰線4 覺醒之王","name":"昏眼與惺眼_阿斯塔＆露米雅","gender":"男女","element":"雷光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"殘滅大魔術","wikiNumber":"10456"}
+							{"id":"247","eventID":"44","event":"霸眼戰線4 覺醒之王","name":"昏眼與惺眼_阿斯塔＆露米雅","gender":"多人","element":"雷光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"殘滅大魔術","wikiNumber":"10456"}
 							,
 							{"id":"248","eventID":"44","event":"霸眼戰線4 覺醒之王","name":"礫滅之處決鐮_哈克亞‧德斯賽斯","gender":"女","element":"水闇","elementSecond":"闇","special":"蓄積解放大魔術‧邪(單體)","specialSecond":"蓄積解放大魔術‧邪(單體)","wikiNumber":"10459"}
 							,
@@ -816,7 +816,7 @@ var individualData = new Vue({
 							,
 							{"id":"257","eventID":"45","event":"霸眼戰線3 聖劍與霸眼","name":"信義與未來的霸眼_阿里歐特斯‧葛","gender":"男","element":"雷闇","elementSecond":"闇","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"11499"}
 							,
-							{"id":"258","eventID":"45","event":"霸眼戰線3 聖劍與霸眼","name":"覺醒的霸眼_麗維塔＆路德維嘉","gender":"女","element":"水火","elementSecond":"火","special":"提昇(自身)","specialSecond":"提升能力數值(自身)","wikiNumber":"11500"}
+							{"id":"258","eventID":"45","event":"霸眼戰線3 聖劍與霸眼","name":"覺醒的霸眼_麗維塔＆路德維嘉","gender":"多人","element":"水火","elementSecond":"火","special":"提昇(自身)","specialSecond":"提升能力數值(自身)","wikiNumber":"11500"}
 							,
 							{"id":"259","eventID":"46","event":"霸眼戰線2 起始之眼","name":"煌眼乃勝利指標_麗維塔‧伊蕾","gender":"女","element":"火火","elementSecond":"火","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"10592"}
 							,
@@ -878,11 +878,11 @@ var individualData = new Vue({
 							,
 							{"id":"288","eventID":"51","event":"神聖天空之星2","name":"慧眼無雙的大賢者_諾因‧凱拉","gender":"女","element":"雷雷","elementSecond":"雷","special":"大魔術(單體)","specialSecond":"大魔術(單體)","wikiNumber":"9512"}
 							,
-							{"id":"289","eventID":"51","event":"神聖天空之星2","name":"獻給你_克蕾緹雅＆普莉菲卡","gender":"女","element":"水火","elementSecond":"火","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9514"}
+							{"id":"289","eventID":"51","event":"神聖天空之星2","name":"獻給你_克蕾緹雅＆普莉菲卡","gender":"多人","element":"水火","elementSecond":"火","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9514"}
 							,
-							{"id":"290","eventID":"51","event":"神聖天空之星2","name":"在聖夜獻上聖女的歌聲_索拉娜＆光","gender":"女","element":"雷光","elementSecond":"光","special":"行動感應","specialSecond":"行動感應","wikiNumber":"9517"}
+							{"id":"290","eventID":"51","event":"神聖天空之星2","name":"在聖夜獻上聖女的歌聲_索拉娜＆光","gender":"多人","element":"雷光","elementSecond":"光","special":"行動感應","specialSecond":"行動感應","wikiNumber":"9517"}
 							,
-							{"id":"291","eventID":"51","event":"神聖天空之星2","name":"武鬥熱血派_瑪格莉特＆莉亞菈","gender":"女","element":"火雷","elementSecond":"雷","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"9520"}
+							{"id":"291","eventID":"51","event":"神聖天空之星2","name":"武鬥熱血派_瑪格莉特＆莉亞菈","gender":"多人","element":"火雷","elementSecond":"雷","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"9520"}
 							,
 							{"id":"292","eventID":"52","event":"神聖天空之星","name":"俯瞰眾星的大賢_諾因‧凱拉","gender":"女","element":"雷雷","elementSecond":"雷","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"801488"}
 							,
@@ -924,7 +924,7 @@ var individualData = new Vue({
 							,
 							{"id":"311","eventID":"55","event":"響命CrossDerive ACT3","name":"Nuke-Nin_密絲緹海德","gender":"女","element":"火火","elementSecond":"火","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"11323"}
 							,
-							{"id":"312","eventID":"55","event":"響命CrossDerive ACT3","name":"Odd_Couple_亞萊娜＆薇潔塔","gender":"女","element":"水水","elementSecond":"水","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"11326"}
+							{"id":"312","eventID":"55","event":"響命CrossDerive ACT3","name":"Odd_Couple_亞萊娜＆薇潔塔","gender":"多人","element":"水水","elementSecond":"水","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"11326"}
 							,
 							{"id":"313","eventID":"55","event":"響命CrossDerive ACT3","name":"Thrill_Eater_雷利修","gender":"男","element":"火光","elementSecond":"光","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"11329"}
 							,
@@ -934,7 +934,7 @@ var individualData = new Vue({
 							,
 							{"id":"316","eventID":"56","event":"響命CrossDerive ACT2","name":"Ninja_Arts_密絲緹海德","gender":"女","element":"火水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11359"}
 							,
-							{"id":"317","eventID":"56","event":"響命CrossDerive ACT2","name":"Get_a_Kick_亞萊娜＆雷利修","gender":"男女","element":"水水","elementSecond":"水","special":"特殊變換問題類型【減輕傷害＆回復】","specialSecond":"特殊變換問題類型【減輕傷害＆回復】","wikiNumber":"11360"}
+							{"id":"317","eventID":"56","event":"響命CrossDerive ACT2","name":"Get_a_Kick_亞萊娜＆雷利修","gender":"多人","element":"水水","elementSecond":"水","special":"特殊變換問題類型【減輕傷害＆回復】","specialSecond":"特殊變換問題類型【減輕傷害＆回復】","wikiNumber":"11360"}
 							,
 							{"id":"318","eventID":"56","event":"響命CrossDerive ACT2","name":"Carry_the_Ball_薇潔塔","gender":"女","element":"水水","elementSecond":"水","special":"技能充填(單體)","specialSecond":"技能充填(單體)","wikiNumber":"11361"}
 							,
@@ -960,87 +960,87 @@ var individualData = new Vue({
 							,
 							{"id":"329","eventID":"58","event":"沉睡的遺跡 Outlander","name":"向點心祈禱_埃利安娜‧古洛斯","gender":"女","element":"水水","elementSecond":"水","special":"純屬性大魔術(單體)","specialSecond":"純屬性大魔術(單體)","wikiNumber":"9824"}
 							,
-							{"id":"330","eventID":"58","event":"沉睡的遺跡 Outlander","name":"法爾內塞的談話_露芙＆菈特","gender":"女","element":"火雷","elementSecond":"雷","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9827"}
+							{"id":"330","eventID":"58","event":"沉睡的遺跡 Outlander","name":"法爾內塞的談話_露芙＆菈特","gender":"多人","element":"火雷","elementSecond":"雷","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9827"}
 							,
 							{"id":"331","eventID":"58","event":"沉睡的遺跡 Outlander","name":"愛的守護者_希特拉‧涅普爾","gender":"女","element":"水闇","elementSecond":"闇","special":"技能充填(單體)","specialSecond":"技能充填(單體)","wikiNumber":"9830"}
 							,
 							{"id":"332","eventID":"58","event":"沉睡的遺跡 Outlander","name":"深不可測的巫術師_梅貝爾‧泰勒","gender":"女","element":"雷闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"9833"}
 							,
-							{"id":"333","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"並肩作戰的救世之星_萊葛爾＆極","gender":"男","element":"火水","elementSecond":"水","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11547"}
+							{"id":"333","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"並肩作戰的救世之星_萊葛爾＆極","gender":"多人","element":"火水","elementSecond":"水","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11547"}
 							,
-							{"id":"334","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"救世光輝_萊葛爾＆薩爾瓦多","gender":"男","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"11550"}
+							{"id":"334","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"救世光輝_萊葛爾＆薩爾瓦多","gender":"多人","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"11550"}
 							,
-							{"id":"335","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"不受挫的心_席菈＆朱蒂提亞","gender":"女","element":"雷雷","elementSecond":"雷","special":"技能複製","specialSecond":"技能複製","wikiNumber":"11553"}
+							{"id":"335","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"不受挫的心_席菈＆朱蒂提亞","gender":"多人","element":"雷雷","elementSecond":"雷","special":"技能複製","specialSecond":"技能複製","wikiNumber":"11553"}
 							,
-							{"id":"336","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"協心戮力_法爾薩＆泰西","gender":"男女","element":"火火","elementSecond":"火","special":"犧牲連鎖強化","specialSecond":"犧牲連鎖強化","wikiNumber":"11556"}
+							{"id":"336","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"協心戮力_法爾薩＆泰西","gender":"多人","element":"火火","elementSecond":"火","special":"犧牲連鎖強化","specialSecond":"犧牲連鎖強化","wikiNumber":"11556"}
 							,
-							{"id":"337","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"再次奮起的心_八千代＆安卡","gender":"女","element":"水雷","elementSecond":"雷","special":"變換問題類型","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"11559"}
+							{"id":"337","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"再次奮起的心_八千代＆安卡","gender":"多人","element":"水雷","elementSecond":"雷","special":"變換問題類型","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"11559"}
 							,
 							{"id":"338","eventID":"59","event":"幻魔特區RELOADEDⅢ Final Assemble","name":"懷抱滿溢的愛_匹莉雅‧歐爾皮斯","gender":"女","element":"雷雷","elementSecond":"雷","special":"弱化大魔術(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11562"}
 							,
-							{"id":"339","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"拯救星星之人_萊葛爾＆薩爾瓦多","gender":"男","element":"水水","elementSecond":"水","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"10273"}
+							{"id":"339","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"拯救星星之人_萊葛爾＆薩爾瓦多","gender":"多人","element":"水水","elementSecond":"水","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"10273"}
 							,
-							{"id":"340","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"羈絆的體現_席菈＆朱蒂提亞","gender":"女","element":"水光","elementSecond":"光","special":"融合大魔術(單體)","specialSecond":"融合大魔術(單體)","wikiNumber":"10276"}
+							{"id":"340","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"羈絆的體現_席菈＆朱蒂提亞","gender":"多人","element":"水光","elementSecond":"光","special":"融合大魔術(單體)","specialSecond":"融合大魔術(單體)","wikiNumber":"10276"}
 							,
 							{"id":"341","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"為了【王】_瓦雷烏斯‧亞基歐","gender":"男","element":"火雷","elementSecond":"雷","special":"防禦連鎖","specialSecond":"持續回復","wikiNumber":"10279"}
 							,
 							{"id":"342","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"意念的成果_匹莉雅‧歐爾皮斯","gender":"女","element":"雷水","elementSecond":"水","special":"變換問題類型","specialSecond":"融合變換問題類型【技能充填】","wikiNumber":"10282"}
 							,
-							{"id":"343","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"鷹斬之翼_泰西＆佛盧帝斯","gender":"男","element":"雷光","elementSecond":"光","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"10285"}
+							{"id":"343","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"鷹斬之翼_泰西＆佛盧帝斯","gender":"多人","element":"雷光","elementSecond":"光","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"10285"}
 							,
-							{"id":"344","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"激烈的愛情_法爾薩＆立斯思雷尼斯","gender":"女","element":"火火","elementSecond":"火","special":"純屬性強化","specialSecond":"純屬性強化","wikiNumber":"10288"}
+							{"id":"344","eventID":"60","event":"幻魔特區RELOADEDⅡ -RE:unite","name":"激烈的愛情_法爾薩＆立斯思雷尼斯","gender":"多人","element":"火火","elementSecond":"火","special":"純屬性強化","specialSecond":"純屬性強化","wikiNumber":"10288"}
 							,
-							{"id":"345","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"救世之星_萊葛爾＆薩爾瓦多","gender":"男","element":"水水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11584"}
+							{"id":"345","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"救世之星_萊葛爾＆薩爾瓦多","gender":"多人","element":"水水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"11584"}
 							,
-							{"id":"346","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"貫徹的意念_席菈＆朱蒂提亞","gender":"女","element":"雷光","elementSecond":"光","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"11585"}
+							{"id":"346","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"貫徹的意念_席菈＆朱蒂提亞","gender":"多人","element":"雷光","elementSecond":"光","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"11585"}
 							,
-							{"id":"347","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"殺光魔物_法爾薩＆立斯思雷尼斯","gender":"女","element":"水闇","elementSecond":"闇","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"11586"}
+							{"id":"347","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"殺光魔物_法爾薩＆立斯思雷尼斯","gender":"多人","element":"水闇","elementSecond":"闇","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"11586"}
 							,
-							{"id":"348","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"勇猛精進_泰西＆佛盧帝斯","gender":"男","element":"火火","elementSecond":"火","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"11587"}
+							{"id":"348","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"勇猛精進_泰西＆佛盧帝斯","gender":"多人","element":"火火","elementSecond":"火","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"11587"}
 							,
-							{"id":"349","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"鋼鐵的純真_謬爾＆雷貝里歐","gender":"女","element":"火闇","elementSecond":"闇","special":"提昇(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11588"}
+							{"id":"349","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"鋼鐵的純真_謬爾＆雷貝里歐","gender":"多人","element":"火闇","elementSecond":"闇","special":"提昇(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11588"}
 							,
-							{"id":"350","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"Ver.GardeniA_淺蔥＆瑟盧烏斯","gender":"女","element":"雷雷","elementSecond":"雷","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"11589"}
+							{"id":"350","eventID":"61","event":"幻魔特區RELOADED -GardeniA dist.","name":"Ver.GardeniA_淺蔥＆瑟盧烏斯","gender":"多人","element":"雷雷","elementSecond":"雷","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"11589"}
 							,
-							{"id":"351","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"與我共同挑戰_極＆奧迪阿姆斯","gender":"男","element":"火火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"11248"}
+							{"id":"351","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"與我共同挑戰_極＆奧迪阿姆斯","gender":"多人","element":"火火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"11248"}
 							,
-							{"id":"352","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"生命與心靈綻放之光_極‧蜂須賀","gender":"男","element":"火雷","elementSecond":"雷","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"11249"}
+							{"id":"352","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"生命與心靈綻放之光_極‧蜂須賀","gender":"多人","element":"火雷","elementSecond":"雷","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"11249"}
 							,
-							{"id":"353","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"風雅櫻華_八千代＆茵芙蘿蕾","gender":"女","element":"水水","elementSecond":"水","special":"防禦","specialSecond":"提升能力數值(全體)","wikiNumber":"11250"}
+							{"id":"353","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"風雅櫻華_八千代＆茵芙蘿蕾","gender":"多人","element":"水水","elementSecond":"水","special":"防禦","specialSecond":"提升能力數值(全體)","wikiNumber":"11250"}
 							,
-							{"id":"354","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"雷牙機翔_澄生＆艾克斯馬基那","gender":"男","element":"雷火","elementSecond":"火","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"11251"}
+							{"id":"354","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"雷牙機翔_澄生＆艾克斯馬基那","gender":"多人","element":"雷火","elementSecond":"火","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"11251"}
 							,
-							{"id":"355","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"月白奔蛇_時生＆艾克斯阿爾巴","gender":"男","element":"火水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【技能充填】","wikiNumber":"11252"}
+							{"id":"355","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"月白奔蛇_時生＆艾克斯阿爾巴","gender":"多人","element":"火水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【技能充填】","wikiNumber":"11252"}
 							,
-							{"id":"356","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"守護世界的少女_安卡＆蘿卡","gender":"女","element":"雷光","elementSecond":"光","special":"變換問題類型","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"11253"}
+							{"id":"356","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"守護世界的少女_安卡＆蘿卡","gender":"多人","element":"雷光","elementSecond":"光","special":"變換問題類型","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"11253"}
 							,
-							{"id":"357","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"自由的鏑箭_安德亞＆小紅","gender":"男女","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"持續回復","wikiNumber":"11254"}
+							{"id":"357","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"自由的鏑箭_安德亞＆小紅","gender":"多人","element":"水火","elementSecond":"火","special":"變換問題類型","specialSecond":"持續回復","wikiNumber":"11254"}
 							,
-							{"id":"358","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"古魂鏡身_謬爾＆雷貝里歐","gender":"女","element":"火火","elementSecond":"火","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11255"}
+							{"id":"358","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"古魂鏡身_謬爾＆雷貝里歐","gender":"多人","element":"火火","elementSecond":"火","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11255"}
 							,
-							{"id":"359","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"永遠的守護者_淺蔥＆瑟盧烏斯","gender":"女","element":"雷光","elementSecond":"光","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"11256"}
+							{"id":"359","eventID":"62","event":"幻魔特區朱雀Ⅲ 幻夢之光","name":"永遠的守護者_淺蔥＆瑟盧烏斯","gender":"多人","element":"雷光","elementSecond":"光","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"11256"}
 							,
-							{"id":"360","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"其為深淵的災害_極＆鋼鐵之獸","gender":"男","element":"火闇","elementSecond":"闇","special":"比例削減(全體)","specialSecond":"比例削減(全體)","wikiNumber":"10314"}
+							{"id":"360","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"其為深淵的災害_極＆鋼鐵之獸","gender":"多人","element":"火闇","elementSecond":"闇","special":"比例削減(全體)","specialSecond":"比例削減(全體)","wikiNumber":"10314"}
 							,
-							{"id":"361","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"通往夏天而敞開的門扉_八千代＆安卡","gender":"女","element":"水雷","elementSecond":"雷","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"延遲(全體)","wikiNumber":"10315"}
+							{"id":"361","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"通往夏天而敞開的門扉_八千代＆安卡","gender":"多人","element":"水雷","elementSecond":"雷","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"延遲(全體)","wikiNumber":"10315"}
 							,
-							{"id":"362","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"遍體鱗傷的扳機_澄生＆時生","gender":"男","element":"雷雷","elementSecond":"雷","special":"技能充填(全體)","specialSecond":"技能充填(全體)","wikiNumber":"10316"}
+							{"id":"362","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"遍體鱗傷的扳機_澄生＆時生","gender":"多人","element":"雷雷","elementSecond":"雷","special":"技能充填(全體)","specialSecond":"技能充填(全體)","wikiNumber":"10316"}
 							,
-							{"id":"363","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"摧毀對手的鐵臂_安德亞＆里貝魯塔斯","gender":"男","element":"水雷","elementSecond":"雷","special":"融合變換問題類型【減輕傷害】","specialSecond":"融合變換問題類型【減輕傷害】","wikiNumber":"10317"}
+							{"id":"363","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"摧毀對手的鐵臂_安德亞＆里貝魯塔斯","gender":"多人","element":"水雷","elementSecond":"雷","special":"融合變換問題類型【減輕傷害】","specialSecond":"融合變換問題類型【減輕傷害】","wikiNumber":"10317"}
 							,
-							{"id":"364","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"深淵的女王_謬爾＆雷貝里歐","gender":"女","element":"火闇","elementSecond":"闇","special":"技能複製","specialSecond":"技能複製","wikiNumber":"10318"}
+							{"id":"364","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"深淵的女王_謬爾＆雷貝里歐","gender":"多人","element":"火闇","elementSecond":"闇","special":"技能複製","specialSecond":"技能複製","wikiNumber":"10318"}
 							,
-							{"id":"365","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"歷史的見證人_淺蔥＆瑟盧烏斯","gender":"女","element":"雷光","elementSecond":"光","special":"回復異常狀態","specialSecond":"回復異常狀態","wikiNumber":"10319"}
+							{"id":"365","eventID":"63","event":"幻魔特區朱雀Ⅱ 鋼鐵之槍","name":"歷史的見證人_淺蔥＆瑟盧烏斯","gender":"多人","element":"雷光","elementSecond":"光","special":"回復異常狀態","specialSecond":"回復異常狀態","wikiNumber":"10319"}
 							,
-							{"id":"366","eventID":"64","event":"幻魔特區朱雀","name":"不滅的主從_極＆奧迪阿姆斯","gender":"男","element":"火火","elementSecond":"火","special":"自我犧牲魔術(全體)","specialSecond":"自我犧牲魔術(全體)","wikiNumber":"9207"}
+							{"id":"366","eventID":"64","event":"幻魔特區朱雀","name":"不滅的主從_極＆奧迪阿姆斯","gender":"多人","element":"火火","elementSecond":"火","special":"自我犧牲魔術(全體)","specialSecond":"自我犧牲魔術(全體)","wikiNumber":"9207"}
 							,
-							{"id":"367","eventID":"64","event":"幻魔特區朱雀","name":"機神的操控者_澄生＆艾克斯馬基那","gender":"男","element":"雷雷","elementSecond":"雷","special":"技能充填(全體)","specialSecond":"技能充填(全體)","wikiNumber":"9208"}
+							{"id":"367","eventID":"64","event":"幻魔特區朱雀","name":"機神的操控者_澄生＆艾克斯馬基那","gender":"多人","element":"雷雷","elementSecond":"雷","special":"技能充填(全體)","specialSecond":"技能充填(全體)","wikiNumber":"9208"}
 							,
-							{"id":"368","eventID":"64","event":"幻魔特區朱雀","name":"蛇骨的真王_時生＆艾克斯阿爾巴","gender":"男","element":"火火","elementSecond":"火","special":"解除效果(全體)【防禦＆阻隔傷害】","specialSecond":"解除效果(全體)【防禦＆阻隔傷害】","wikiNumber":"9209"}
+							{"id":"368","eventID":"64","event":"幻魔特區朱雀","name":"蛇骨的真王_時生＆艾克斯阿爾巴","gender":"多人","element":"火火","elementSecond":"火","special":"解除效果(全體)【防禦＆阻隔傷害】","specialSecond":"解除效果(全體)【防禦＆阻隔傷害】","wikiNumber":"9209"}
 							,
-							{"id":"369","eventID":"64","event":"幻魔特區朱雀","name":"就像在照鏡子的我們_安卡＆特伊波亞","gender":"女","element":"雷水","elementSecond":"水","special":"變換問題類型","specialSecond":"特殊變換問題類型【連鎖數增加＆強化傷害】","wikiNumber":"9210"}
+							{"id":"369","eventID":"64","event":"幻魔特區朱雀","name":"就像在照鏡子的我們_安卡＆特伊波亞","gender":"多人","element":"雷水","elementSecond":"水","special":"變換問題類型","specialSecond":"特殊變換問題類型【連鎖數增加＆強化傷害】","wikiNumber":"9210"}
 							,
-							{"id":"370","eventID":"64","event":"幻魔特區朱雀","name":"櫻媛與巫女_八千代＆茵芙蘿蕾","gender":"女","element":"水水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"9211"}
+							{"id":"370","eventID":"64","event":"幻魔特區朱雀","name":"櫻媛與巫女_八千代＆茵芙蘿蕾","gender":"多人","element":"水水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"9211"}
 							,
 							{"id":"371","eventID":"65","event":"空戰的修瓦爾茲","name":"災難王子_齊格‧庫勒耶","gender":"男","element":"火闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"10221"}
 							,
@@ -1052,7 +1052,7 @@ var individualData = new Vue({
 							,
 							{"id":"375","eventID":"65","event":"空戰的修瓦爾茲","name":"傭兵王_菲利庫斯‧榭法","gender":"男","element":"火火","elementSecond":"火","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【技能充填】","wikiNumber":"10233"}
 							,
-							{"id":"376","eventID":"65","event":"空戰的修瓦爾茲","name":"龍鳴聲響_利可西斯＆凱娜","gender":"男女","element":"水闇","elementSecond":"闇","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"10236"}
+							{"id":"376","eventID":"65","event":"空戰的修瓦爾茲","name":"龍鳴聲響_利可西斯＆凱娜","gender":"多人","element":"水闇","elementSecond":"闇","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"10236"}
 							,
 							{"id":"377","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"蒼天中飄揚的軍旗_迪特利希‧貝爾克","gender":"男","element":"火火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"9072"}
 							,
@@ -1062,11 +1062,11 @@ var individualData = new Vue({
 							,
 							{"id":"380","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"新王誕生_菲利庫斯‧榭法","gender":"男","element":"水火","elementSecond":"火","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"9081"}
 							,
-							{"id":"381","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"公爵與隨從？_克拉黎亞＆威拉姆","gender":"男女","element":"雷水","elementSecond":"水","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9084"}
+							{"id":"381","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"公爵與隨從？_克拉黎亞＆威拉姆","gender":"多人","element":"雷水","elementSecond":"水","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9084"}
 							,
-							{"id":"382","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"歷戰必勝龍擊兵團_凱娜＆萊薩","gender":"女","element":"火水","elementSecond":"水","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"9087"}
+							{"id":"382","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"歷戰必勝龍擊兵團_凱娜＆萊薩","gender":"多人","element":"火水","elementSecond":"水","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"9087"}
 							,
-							{"id":"383","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"天譴到來_普魯米耶＆盧凡爾","gender":"男女","element":"水光","elementSecond":"光","special":"複屬性回復","specialSecond":"複屬性回復","wikiNumber":"9090"}
+							{"id":"383","eventID":"66","event":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","name":"天譴到來_普魯米耶＆盧凡爾","gender":"多人","element":"水光","elementSecond":"光","special":"複屬性回復","specialSecond":"複屬性回復","wikiNumber":"9090"}
 							,
 							{"id":"384","eventID":"67","event":"空戰的德爾基馬斯Ⅱ 昏暗英雄","name":"叛逆大元帥_迪特利希‧貝爾克","gender":"男","element":"雷火","elementSecond":"火","special":"提升能力數值(全體)","specialSecond":"提昇(全體)","wikiNumber":"9133"}
 							,
@@ -1098,17 +1098,17 @@ var individualData = new Vue({
 							,
 							{"id":"398","eventID":"68","event":"空戰的德爾基馬斯","name":"炎龍的進擊者_凱娜·埃爾蓋茲","gender":"女","element":"火火","elementSecond":"火","special":"犧牲魔術(全體)","specialSecond":"犧牲魔術(全體)","wikiNumber":"10263"}
 							,
-							{"id":"399","eventID":"69","event":"虛實難辨的假面宴會","name":"爾虞我詐的心機組合_薩伯爾&朧莉","gender":"男女","element":"火光","elementSecond":"光","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"801812"}
+							{"id":"399","eventID":"69","event":"虛實難辨的假面宴會","name":"爾虞我詐的心機組合_薩伯爾&朧莉","gender":"多人","element":"火光","elementSecond":"光","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"801812"}
 							,
 							{"id":"400","eventID":"69","event":"虛實難辨的假面宴會","name":"賞玩慾望的魔翼天使_珂珂","gender":"女","element":"水雷","elementSecond":"雷","special":"強化精靈【持續回復＆異常狀態失效】","specialSecond":"強化精靈【持續回復＆異常狀態失效】","wikiNumber":"801813"}
 							,
-							{"id":"401","eventID":"69","event":"虛實難辨的假面宴會","name":"宴會間的花蝴蝶_歌莉亞&格拉娜","gender":"女","element":"水光","elementSecond":"光","special":"變換問題類型","specialSecond":"大魔術(全體)","wikiNumber":"801814"}
+							{"id":"401","eventID":"69","event":"虛實難辨的假面宴會","name":"宴會間的花蝴蝶_歌莉亞&格拉娜","gender":"多人","element":"水光","elementSecond":"光","special":"變換問題類型","specialSecond":"大魔術(全體)","wikiNumber":"801814"}
 							,
 							{"id":"402","eventID":"69","event":"虛實難辨的假面宴會","name":"中華風滿漢料理_蜜多莉","gender":"女","element":"火火","elementSecond":"火","special":"純屬性強化","specialSecond":"純屬性強化","wikiNumber":"801815"}
 							,
 							{"id":"403","eventID":"69","event":"虛實難辨的假面宴會","name":"善邪不分的烘焙路_帕西娜","gender":"女","element":"雷雷","elementSecond":"雷","special":"炸裂大魔術","specialSecond":"炸裂大魔術","wikiNumber":"801816"}
 							,
-							{"id":"404","eventID":"69","event":"虛實難辨的假面宴會","name":"復出的傳說勇者_斯林&莎曼妲","gender":"男女","element":"火雷","elementSecond":"雷","special":"多重魔術(單體)","specialSecond":"強化傷害(自身)","wikiNumber":"801817"}
+							{"id":"404","eventID":"69","event":"虛實難辨的假面宴會","name":"復出的傳說勇者_斯林&莎曼妲","gender":"多人","element":"火雷","elementSecond":"雷","special":"多重魔術(單體)","specialSecond":"強化傷害(自身)","wikiNumber":"801817"}
 							,
 							{"id":"405","eventID":"70","event":"《沙灘上的冰果宴》","name":"酸甜沁涼的特效藥_紬","gender":"女","element":"水水","elementSecond":"水","special":"純屬性大魔術(全體)","specialSecond":"純屬性大魔術(全體)","wikiNumber":"801352"}
 							,
@@ -1130,9 +1130,9 @@ var individualData = new Vue({
 							,
 							{"id":"414","eventID":"72","event":"偶像ω喵！！","name":"優雅護士_卡多琳‧G‧U","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性大魔術(單體)","specialSecond":"純屬性大魔術(單體)","wikiNumber":"10034"}
 							,
-							{"id":"415","eventID":"72","event":"偶像ω喵！！","name":"純白小貓咪_莉莉＆艾克賽莉亞","gender":"女","element":"水光","elementSecond":"光","special":"炸裂大魔術","specialSecond":"炸裂大魔術","wikiNumber":"10036"}
+							{"id":"415","eventID":"72","event":"偶像ω喵！！","name":"純白小貓咪_莉莉＆艾克賽莉亞","gender":"多人","element":"水光","elementSecond":"光","special":"炸裂大魔術","specialSecond":"炸裂大魔術","wikiNumber":"10036"}
 							,
-							{"id":"416","eventID":"72","event":"偶像ω喵！！","name":"白線運動風_艾拉＆賽拉妲","gender":"女","element":"火雷","elementSecond":"雷","special":"阻隔傷害","specialSecond":"阻隔傷害","wikiNumber":"10038"}
+							{"id":"416","eventID":"72","event":"偶像ω喵！！","name":"白線運動風_艾拉＆賽拉妲","gender":"多人","element":"火雷","elementSecond":"雷","special":"阻隔傷害","specialSecond":"阻隔傷害","wikiNumber":"10038"}
 							,
 							{"id":"417","eventID":"72","event":"偶像ω喵！！","name":"嚴守時間偶像_優卡‧恩德","gender":"女","element":"雷火","elementSecond":"火","special":"賦予雙重技能(單體)","specialSecond":"賦予雙重技能(單體)","wikiNumber":"10040"}
 							,
@@ -1154,7 +1154,7 @@ var individualData = new Vue({
 							,
 							{"id":"426","eventID":"73","event":"偶像ω喵！前&後篇","name":"成立！擦身之緣也是天意","gender":"女","element":"雷光","elementSecond":"光","special":"強化精靈【持續回復＆提升能力數值】","specialSecond":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","wikiNumber":"10951"}
 							,
-							{"id":"427","eventID":"74","event":"淡薄的藍色光芒 最終章 終極聖祈","name":"終極聖祈_莎倫＆西奧多","gender":"男女","element":"水火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"強化複屬性傷害","wikiNumber":"9594"}
+							{"id":"427","eventID":"74","event":"淡薄的藍色光芒 最終章 終極聖祈","name":"終極聖祈_莎倫＆西奧多","gender":"多人","element":"水火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"強化複屬性傷害","wikiNumber":"9594"}
 							,
 							{"id":"428","eventID":"75","event":"淡薄的藍色光芒 第二章 虛幻聖域","name":"包容皇界的慈愛_莎倫‧耶爾格","gender":"女","element":"水光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"9588"}
 							,
@@ -1172,7 +1172,7 @@ var individualData = new Vue({
 							,
 							{"id":"435","eventID":"77","event":"智慧的意義","name":"連結星星的恆等式_裘浩斯","gender":"男","element":"雷雷","elementSecond":"雷","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"801507"}
 							,
-							{"id":"436","eventID":"78","event":"片翼天使的轉世約定","name":"誓約兩世不悔的羈絆_瞬&陽","gender":"男","element":"水雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801279"}
+							{"id":"436","eventID":"78","event":"片翼天使的轉世約定","name":"誓約兩世不悔的羈絆_瞬&陽","gender":"多人","element":"水雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801279"}
 							,
 							{"id":"437","eventID":"78","event":"片翼天使的轉世約定","name":"月下的命運編織者_珂珂","gender":"女","element":"水闇","elementSecond":"闇","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"801280"}
 							,
@@ -1182,7 +1182,7 @@ var individualData = new Vue({
 							,
 							{"id":"440","eventID":"78","event":"片翼天使的轉世約定","name":"軍中的白衣救贖_紬","gender":"女","element":"水火","elementSecond":"火","special":"強化精靈【強化傷害＆減輕傷害】","specialSecond":"強化精靈【強化傷害＆減輕傷害】","wikiNumber":"801283"}
 							,
-							{"id":"441","eventID":"78","event":"片翼天使的轉世約定","name":"操控命運的可愛殺手_真冬&霧子","gender":"男女","element":"水火","elementSecond":"火","special":"強化傷害(自身)","specialSecond":"強化傷害(自身)","wikiNumber":"801284"}
+							{"id":"441","eventID":"78","event":"片翼天使的轉世約定","name":"操控命運的可愛殺手_真冬&霧子","gender":"多人","element":"水火","elementSecond":"火","special":"強化傷害(自身)","specialSecond":"強化傷害(自身)","wikiNumber":"801284"}
 							,
 							{"id":"442","eventID":"78","event":"片翼天使的轉世約定","name":"在黑夜捉弄人們的少女_格拉娜","gender":"女","element":"火水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加】","specialSecond":"強化傷害(指定屬性)","wikiNumber":"801285"}
 							,
@@ -1234,7 +1234,7 @@ var individualData = new Vue({
 							,
 							{"id":"466","eventID":"82","event":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","name":"鶴鳴九皋_冰雨‧鶴鳴","gender":"女","element":"水水","elementSecond":"水","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"9759"}
 							,
-							{"id":"467","eventID":"82","event":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","name":"名揚天地的風雷神_風華＆米蕾","gender":"女","element":"水雷","elementSecond":"雷","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9762"}
+							{"id":"467","eventID":"82","event":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","name":"名揚天地的風雷神_風華＆米蕾","gender":"多人","element":"水雷","elementSecond":"雷","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9762"}
 							,
 							{"id":"468","eventID":"82","event":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","name":"看我大展身手_春彥‧堀川","gender":"男","element":"雷光","elementSecond":"光","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"9765"}
 							,
@@ -1318,7 +1318,7 @@ var individualData = new Vue({
 							,
 							{"id":"508","eventID":"91","event":"聖惡魔女子學院2","name":"不可觸碰的Bull_蜜亞‧雅卡達","gender":"女","element":"火火","elementSecond":"火","special":"殘滅大魔術","specialSecond":"殘滅大魔術","wikiNumber":"8815"}
 							,
-							{"id":"509","eventID":"91","event":"聖惡魔女子學院2","name":"蘊藏的野心_伊迪絲＆卡娜美","gender":"女","element":"火雷","elementSecond":"雷","special":"賦予雙重技能(全體)","specialSecond":"賦予雙重技能(全體)","wikiNumber":"8818"}
+							{"id":"509","eventID":"91","event":"聖惡魔女子學院2","name":"蘊藏的野心_伊迪絲＆卡娜美","gender":"多人","element":"火雷","elementSecond":"雷","special":"賦予雙重技能(全體)","specialSecond":"賦予雙重技能(全體)","wikiNumber":"8818"}
 							,
 							{"id":"510","eventID":"91","event":"聖惡魔女子學院2","name":"向天使惡作劇_烏麗希拉‧法蕾","gender":"女","element":"水水","elementSecond":"水","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"8821"}
 							,
@@ -1374,9 +1374,9 @@ var individualData = new Vue({
 							,
 							{"id":"536","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"冷靜沈著的潛艇艦長_尼莫","gender":"男","element":"雷雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801254"}
 							,
-							{"id":"537","eventID":"94","event":"《聖誕情侶決定戰》","name":"星和月的輝映_瞬&陽","gender":"男","element":"火水","elementSecond":"水","special":"提升能力數值(自身)","specialSecond":"提昇(自身)","wikiNumber":"801729"}
+							{"id":"537","eventID":"94","event":"《聖誕情侶決定戰》","name":"星和月的輝映_瞬&陽","gender":"多人","element":"火水","elementSecond":"水","special":"提升能力數值(自身)","specialSecond":"提昇(自身)","wikiNumber":"801729"}
 							,
-							{"id":"538","eventID":"94","event":"《聖誕情侶決定戰》","name":"夜間浪漫約會_艾爾多＆雅西兒","gender":"男女","element":"雷水","elementSecond":"水","special":"防禦連鎖","specialSecond":"多重魔術(單體)","wikiNumber":"801730"}
+							{"id":"538","eventID":"94","event":"《聖誕情侶決定戰》","name":"夜間浪漫約會_艾爾多＆雅西兒","gender":"多人","element":"雷水","elementSecond":"水","special":"防禦連鎖","specialSecond":"多重魔術(單體)","wikiNumber":"801730"}
 							,
 							{"id":"539","eventID":"94","event":"《聖誕情侶決定戰》","name":"醇厚的戀愛口感_寶菈","gender":"女","element":"水水","elementSecond":"水","special":"回復異常狀態","specialSecond":"回復異常狀態＆復活","wikiNumber":"801731"}
 							,
@@ -1416,7 +1416,7 @@ var individualData = new Vue({
 							,
 							{"id":"557","eventID":"96","event":"黑夜中的甜點大盜","name":"最適合萬聖節的料理人_艾絲塔","gender":"女","element":"雷水","elementSecond":"水","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"800999"}
 							,
-							{"id":"558","eventID":"96","event":"黑夜中的甜點大盜","name":"操弄冰火的狐狸兄妹_真冬＆霧子","gender":"男女","element":"水火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"801000"}
+							{"id":"558","eventID":"96","event":"黑夜中的甜點大盜","name":"操弄冰火的狐狸兄妹_真冬＆霧子","gender":"多人","element":"水火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"801000"}
 							,
 							{"id":"559","eventID":"97","event":"武鬥之巔‧寒冰嶺上的召集令","name":"青苑綴丹_琉璃妘","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性大魔術(全體)","specialSecond":"純屬性大魔術(全體)","wikiNumber":"801550"}
 							,
@@ -1424,7 +1424,7 @@ var individualData = new Vue({
 							,
 							{"id":"561","eventID":"97","event":"武鬥之巔‧寒冰嶺上的召集令","name":"教堂之劍_佛蘭塞爾","gender":"男","element":"火火","elementSecond":"火","special":"提升能力數值(自身)","specialSecond":"斬擊大魔術","wikiNumber":"801552"}
 							,
-							{"id":"562","eventID":"97","event":"武鬥之巔‧寒冰嶺上的召集令","name":"星與月之雙子神_艾希&艾拉","gender":"女","element":"水水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【減輕傷害＆技能充填】","wikiNumber":"801553"}
+							{"id":"562","eventID":"97","event":"武鬥之巔‧寒冰嶺上的召集令","name":"星與月之雙子神_艾希&艾拉","gender":"多人","element":"水水","elementSecond":"水","special":"特殊變換問題類型【技能充填】","specialSecond":"特殊變換問題類型【減輕傷害＆技能充填】","wikiNumber":"801553"}
 							,
 							{"id":"563","eventID":"97","event":"武鬥之巔‧寒冰嶺上的召集令","name":"自殺教練_瑪嘉雷特","gender":"女","element":"雷水","elementSecond":"水","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"801554"}
 							,
@@ -1448,19 +1448,19 @@ var individualData = new Vue({
 							,
 							{"id":"573","eventID":"98","event":"心龍天翔 Rising Dragon","name":"深謀遠慮之人_阿瑪雅","gender":"女","element":"雷雷","elementSecond":"雷","special":"解除效果(全體)【屬性吸收】","specialSecond":"解除效果大魔術(全體)【屬性吸收】","wikiNumber":"10655"}
 							,
-							{"id":"574","eventID":"99","event":"來自異界的天使","name":"天界的嚮導_羽翼天使‧芙蘭&卡蒂雅","gender":"女","element":"雷光","elementSecond":"光","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"800971"}
+							{"id":"574","eventID":"99","event":"來自異界的天使","name":"天界的嚮導_羽翼天使‧芙蘭&卡蒂雅","gender":"多人","element":"雷光","elementSecond":"光","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"800971"}
 							,
 							{"id":"575","eventID":"99","event":"來自異界的天使","name":"聖耀流光_神翼天使‧惠","gender":"女","element":"水光","elementSecond":"光","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"800972"}
 							,
 							{"id":"576","eventID":"99","event":"來自異界的天使","name":"滅神無道_戮翼天使‧菲爾","gender":"男","element":"雷闇","elementSecond":"闇","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"800973"}
 							,
-							{"id":"577","eventID":"99","event":"來自異界的天使","name":"無盡的暴食_煌翼天使‧鵑&洛茵","gender":"女","element":"雷火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"800974"}
+							{"id":"577","eventID":"99","event":"來自異界的天使","name":"無盡的暴食_煌翼天使‧鵑&洛茵","gender":"多人","element":"雷火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"800974"}
 							,
 							{"id":"578","eventID":"99","event":"來自異界的天使","name":"奇蹟的鈴裝_熾翼天使‧湊","gender":"女","element":"火雷","elementSecond":"雷","special":"變換問題類型","specialSecond":"特殊變換問題類型【隨機】","wikiNumber":"800975"}
 							,
-							{"id":"579","eventID":"99","event":"來自異界的天使","name":"禁忌的戀情_殘翼天使‧瞬&陽","gender":"男","element":"水雷","elementSecond":"雷","special":"阻隔傷害","specialSecond":"阻隔傷害","wikiNumber":"800976"}
+							{"id":"579","eventID":"99","event":"來自異界的天使","name":"禁忌的戀情_殘翼天使‧瞬&陽","gender":"多人","element":"水雷","elementSecond":"雷","special":"阻隔傷害","specialSecond":"阻隔傷害","wikiNumber":"800976"}
 							,
-							{"id":"580","eventID":"99","event":"來自異界的天使","name":"流星的雙壁_煉翼天使‧星娜&星羅","gender":"女","element":"火水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"800977"}
+							{"id":"580","eventID":"99","event":"來自異界的天使","name":"流星的雙壁_煉翼天使‧星娜&星羅","gender":"多人","element":"火水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"800977"}
 							,
 							{"id":"581","eventID":"99","event":"來自異界的天使","name":"愛的特效藥_白翼天使‧紬","gender":"女","element":"水火","elementSecond":"火","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"800978"}
 							,
@@ -1536,15 +1536,15 @@ var individualData = new Vue({
 							,
 							{"id":"617","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"誓約的凜炎_凜華‧懷亞特","gender":"女","element":"火水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加＆強化傷害】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11616"}
 							,
-							{"id":"618","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"被強烈的情感染上色彩_愛席亞＆妮可拉","gender":"女","element":"水雷","elementSecond":"雷","special":"技能充填＆延遲(全體)","specialSecond":"技能充填＆延遲(全體)","wikiNumber":"11617"}
+							{"id":"618","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"被強烈的情感染上色彩_愛席亞＆妮可拉","gender":"多人","element":"水雷","elementSecond":"雷","special":"技能充填＆延遲(全體)","specialSecond":"技能充填＆延遲(全體)","wikiNumber":"11617"}
 							,
-							{"id":"619","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"機獸的咆哮_雪莉＆沃爾夫","gender":"男女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"11618"}
+							{"id":"619","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"機獸的咆哮_雪莉＆沃爾夫","gender":"多人","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"11618"}
 							,
 							{"id":"620","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"雙刃的潛行者_艾瑪‧尤因古","gender":"女","element":"水水","elementSecond":"水","special":"毒","specialSecond":"毒","wikiNumber":"11619"}
 							,
 							{"id":"621","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"超絕夏天比基尼_MIU☆MIU","gender":"女","element":"雷雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"強化精靈【持續回復＆減輕傷害＆異常狀態失效】","wikiNumber":"11620"}
 							,
-							{"id":"622","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"總是共鬥戰線_艾密莉亞＆楓","gender":"女","element":"火雷","elementSecond":"雷","special":"特殊變換問題類型【減輕傷害】","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"11621"}
+							{"id":"622","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"總是共鬥戰線_艾密莉亞＆楓","gender":"多人","element":"火雷","elementSecond":"雷","special":"特殊變換問題類型【減輕傷害】","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"11621"}
 							,
 							{"id":"623","eventID":"109","event":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","name":"只屬於我的笑容_一樹‧麥斯格雷夫","gender":"男","element":"水水","elementSecond":"水","special":"回復異常狀態","specialSecond":"回復異常狀態","wikiNumber":"11627"}
 							,
@@ -1626,7 +1626,7 @@ var individualData = new Vue({
 							,
 							{"id":"662","eventID":"121","event":"金貓盃繁中人氣王 後半","name":"吸引麻煩事的體質 奧菲莉亞","gender":"女","element":"火闇","elementSecond":"闇","special":"變換問題類型","specialSecond":"融合變換問題類型【技能充填】","wikiNumber":"801891"}
 							,
-							{"id":"663","eventID":"121","event":"金貓盃繁中人氣王 後半","name":"墜入凡塵的雙星天使 瞬&陽","gender":"男","element":"火雷","elementSecond":"雷","special":"捕食大魔術(全體)","specialSecond":"捕食大魔術(全體)","wikiNumber":"801889"}
+							{"id":"663","eventID":"121","event":"金貓盃繁中人氣王 後半","name":"墜入凡塵的雙星天使 瞬&陽","gender":"多人","element":"火雷","elementSecond":"雷","special":"捕食大魔術(全體)","specialSecond":"捕食大魔術(全體)","wikiNumber":"801889"}
 							,
 							{"id":"664","eventID":"121","event":"金貓盃繁中人氣王 後半","name":"夜願與惡意之棘 貝蘿莫蕊","gender":"女","element":"雷闇","elementSecond":"闇","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"801887"}
 							,
@@ -1692,13 +1692,13 @@ var individualData = new Vue({
 							,
 							{"id":"695","eventID":"126","event":"魔幻金夏趴2020 序曲","name":"詠星聖女 克蕾緹雅‧布萊葉","gender":"女","element":"水光","elementSecond":"光","special":"提升能力數值(指定屬性)","specialSecond":"提升能力數值(指定屬性)","wikiNumber":"11790"}
 							,
-							{"id":"696","eventID":"127","event":"Under Night Tale 童話戰爭","name":"哥哥無法違抗妹妹_托露特＆史托路","gender":"男女","element":"火光","elementSecond":"光","special":"提升能力數值(指定屬性)","specialSecond":"提升能力數值(指定屬性)","wikiNumber":"11823"}
+							{"id":"696","eventID":"127","event":"Under Night Tale 童話戰爭","name":"哥哥無法違抗妹妹_托露特＆史托路","gender":"多人","element":"火光","elementSecond":"光","special":"提升能力數值(指定屬性)","specialSecond":"提升能力數值(指定屬性)","wikiNumber":"11823"}
 							,
 							{"id":"697","eventID":"127","event":"Under Night Tale 童話戰爭","name":"超級血紅帽_莓莓莉‧波普","gender":"女","element":"雷光","elementSecond":"光","special":"問題類型屬性次數大魔術","specialSecond":"問題類型屬性次數大魔術","wikiNumber":"11821"}
 							,
 							{"id":"698","eventID":"127","event":"Under Night Tale 童話戰爭","name":"狼總是反派_麗可拉‧拉雷特","gender":"女","element":"水雷","elementSecond":"雷","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11819"}
 							,
-							{"id":"699","eventID":"127","event":"Under Night Tale 童話戰爭","name":"尋找珍貴之物_柯特＆皮諾丘","gender":"女","element":"雷光","elementSecond":"光","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"11817"}
+							{"id":"699","eventID":"127","event":"Under Night Tale 童話戰爭","name":"尋找珍貴之物_柯特＆皮諾丘","gender":"多人","element":"雷光","elementSecond":"光","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"11817"}
 							,
 							{"id":"700","eventID":"127","event":"Under Night Tale 童話戰爭","name":"白雪王國的姬王子_斯諾‧白雪","gender":"男","element":"火雷","elementSecond":"雷","special":"蓄積解放大魔術‧連(全體)","specialSecond":"蓄積解放大魔術‧連(全體)","wikiNumber":"11815"}
 							,
@@ -1712,27 +1712,27 @@ var individualData = new Vue({
 							,
 							{"id":"705","eventID":"129","event":"恭賀新禧2020","name":"新春開花！ 艾尼格瑪伽利","gender":"女","element":"火水","elementSecond":"水","special":"捕食大魔術(全體)","specialSecond":"捕食大魔術(全體)","wikiNumber":"10977"}
 							,
-							{"id":"706","eventID":"129","event":"恭賀新禧2020","name":"夢中的未來 蘿莎莉亞＆諾庫斯","gender":"男女","element":"火雷","elementSecond":"雷","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"10971"}
+							{"id":"706","eventID":"129","event":"恭賀新禧2020","name":"夢中的未來 蘿莎莉亞＆諾庫斯","gender":"多人","element":"火雷","elementSecond":"雷","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"10971"}
 							,
 							{"id":"707","eventID":"129","event":"恭賀新禧2020","name":"可喜可賀的正月 文繼‧葦原","gender":"男","element":"水雷","elementSecond":"雷","special":"變換問題類型","specialSecond":"統一變換問題類型【強化傷害】","wikiNumber":"10975"}
 							,
-							{"id":"708","eventID":"129","event":"恭賀新禧2020","name":"佐巴新年 卡多琳＆小滅","gender":"女","element":"水光","elementSecond":"光","special":"提升能力數值(自身)","specialSecond":"問題類型爆破大魔術","wikiNumber":"10973"}
+							{"id":"708","eventID":"129","event":"恭賀新禧2020","name":"佐巴新年 卡多琳＆小滅","gender":"多人","element":"水光","elementSecond":"光","special":"提升能力數值(自身)","specialSecond":"問題類型爆破大魔術","wikiNumber":"10973"}
 							,
 							{"id":"709","eventID":"129","event":"恭賀新禧2020","name":"屍國的黎明 維雷夫基納‧安曼","gender":"男","element":"雷雷","elementSecond":"雷","special":"回答時間停止","specialSecond":"回答時間停止","wikiNumber":"10981"}
 							,
 							{"id":"710","eventID":"129","event":"恭賀新禧2020","name":"與家人乾杯 薇塔‧芭比奈","gender":"女","element":"雷雷","elementSecond":"雷","special":"保留問題類型","specialSecond":"保留問題類型","wikiNumber":"10979"}
 							,
-							{"id":"711","eventID":"130","event":"5th Anniversary","name":"與你並肩作戰 極＆八千代","gender":"男女","element":"火火","elementSecond":"火","special":"無屬性變化","specialSecond":"無屬性變化","wikiNumber":"11206"}
+							{"id":"711","eventID":"130","event":"5th Anniversary","name":"與你並肩作戰 極＆八千代","gender":"多人","element":"火火","elementSecond":"火","special":"無屬性變化","specialSecond":"無屬性變化","wikiNumber":"11206"}
 							,
 							{"id":"712","eventID":"130","event":"5th Anniversary","name":"讓棉花糖融化的幻夜 尊音・歌詠","gender":"女","element":"雷雷","elementSecond":"雷","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"11208"}
 							,
-							{"id":"713","eventID":"130","event":"5th Anniversary","name":"培育大魔導士 伊妮亞＆愛莉葉塔","gender":"女","element":"水火","elementSecond":"火","special":"蓄積解放大魔術‧破(全體)","specialSecond":"蓄積解放大魔術‧破(全體)","wikiNumber":"11207"}
+							{"id":"713","eventID":"130","event":"5th Anniversary","name":"培育大魔導士 伊妮亞＆愛莉葉塔","gender":"多人","element":"水火","elementSecond":"火","special":"蓄積解放大魔術‧破(全體)","specialSecond":"蓄積解放大魔術‧破(全體)","wikiNumber":"11207"}
 							,
-							{"id":"714","eventID":"130","event":"5th Anniversary","name":"魔王盛宴 艾盧多貝里克＆露席菈","gender":"男女","element":"火雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"11210"}
+							{"id":"714","eventID":"130","event":"5th Anniversary","name":"魔王盛宴 艾盧多貝里克＆露席菈","gender":"多人","element":"火雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"11210"}
 							,
 							{"id":"715","eventID":"130","event":"5th Anniversary","name":"不空想之人 桑榭特‧莉菲爾","gender":"女","element":"雷光","elementSecond":"光","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11205"}
 							,
-							{"id":"716","eventID":"130","event":"5th Anniversary","name":"清純LIVE 卡多琳＆莉露姆","gender":"女","element":"水水","elementSecond":"水","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"11209"}
+							{"id":"716","eventID":"130","event":"5th Anniversary","name":"清純LIVE 卡多琳＆莉露姆","gender":"多人","element":"水水","elementSecond":"水","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"11209"}
 							,
 							{"id":"717","eventID":"131","event":"FairyChord 妖精的和弦","name":"劍星華_拉米斯費蕾絲","gender":"女","element":"雷火","elementSecond":"火","special":"L次數大魔術","specialSecond":"L次數大魔術","wikiNumber":"11224"}
 							,
@@ -1746,11 +1746,11 @@ var individualData = new Vue({
 							,
 							{"id":"722","eventID":"131","event":"FairyChord 妖精的和弦","name":"胡纏亂攪惡魔_蒂姬","gender":"女","element":"火水","elementSecond":"水","special":"蓄積解放大魔術‧破(全體)","specialSecond":"蓄積解放大魔術‧破(全體)","wikiNumber":"11239"}
 							,
-							{"id":"723","eventID":"132","event":"感謝祭2020","name":"握星與流星 莉亞菈＆克蕾緹雅","gender":"女","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧聖(全體)","specialSecond":"蓄積解放大魔術‧聖(全體)","wikiNumber":"11376"}
+							{"id":"723","eventID":"132","event":"感謝祭2020","name":"握星與流星 莉亞菈＆克蕾緹雅","gender":"多人","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧聖(全體)","specialSecond":"蓄積解放大魔術‧聖(全體)","wikiNumber":"11376"}
 							,
-							{"id":"724","eventID":"132","event":"感謝祭2020","name":"黃金盜賊 凱涅斯＆迦斯帕","gender":"男","element":"雷雷","elementSecond":"雷","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"11378"}
+							{"id":"724","eventID":"132","event":"感謝祭2020","name":"黃金盜賊 凱涅斯＆迦斯帕","gender":"多人","element":"雷雷","elementSecond":"雷","special":"提昇(自身)","specialSecond":"提昇(自身)","wikiNumber":"11378"}
 							,
-							{"id":"725","eventID":"132","event":"感謝祭2020","name":"雙火武盡 瑠璃揚羽＆莉菲爾","gender":"女","element":"雷雷","elementSecond":"雷","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"11380"}
+							{"id":"725","eventID":"132","event":"感謝祭2020","name":"雙火武盡 瑠璃揚羽＆莉菲爾","gender":"多人","element":"雷雷","elementSecond":"雷","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"11380"}
 							,
 							{"id":"726","eventID":"132","event":"感謝祭2020","name":"司令官的副官 洛冽緹‧卡那拉","gender":"女","element":"火火","elementSecond":"火","special":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","specialSecond":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","wikiNumber":"11382"}
 							,
@@ -1762,9 +1762,9 @@ var individualData = new Vue({
 							,
 							{"id":"730","eventID":"133","event":"Christmas2019","name":"聖夜之王 米迦菈‧撒拉弗","gender":"女","element":"火火","elementSecond":"火","special":"保留問題類型","specialSecond":"保留問題類型","wikiNumber":"10909"}
 							,
-							{"id":"731","eventID":"133","event":"Christmas2019","name":"超魔導聖夜 愛莉葉塔＆艾莉絲","gender":"女","element":"水雷","elementSecond":"雷","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"10907"}
+							{"id":"731","eventID":"133","event":"Christmas2019","name":"超魔導聖夜 愛莉葉塔＆艾莉絲","gender":"多人","element":"水雷","elementSecond":"雷","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"10907"}
 							,
-							{"id":"732","eventID":"133","event":"Christmas2019","name":"聖誕老人不辛苦 史特莉＆哈克亞","gender":"女","element":"水水","elementSecond":"水","special":"回答時間停止","specialSecond":"回答時間停止","wikiNumber":"10917"}
+							{"id":"732","eventID":"133","event":"Christmas2019","name":"聖誕老人不辛苦 史特莉＆哈克亞","gender":"多人","element":"水水","elementSecond":"水","special":"回答時間停止","specialSecond":"回答時間停止","wikiNumber":"10917"}
 							,
 							{"id":"733","eventID":"133","event":"Christmas2019","name":"聖夜魔王 伊薩克‧撒拉弗","gender":"男","element":"雷闇","elementSecond":"闇","special":"決鬥","specialSecond":"決鬥","wikiNumber":"10911"}
 							,
@@ -1790,19 +1790,19 @@ var individualData = new Vue({
 							,
 							{"id":"744","eventID":"136","event":"感謝祭2019","name":"應該閱讀的神獸托托‧獏羅","gender":"男女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10162"}
 							,
-							{"id":"745","eventID":"137","event":"4th anniversary","name":"晚宴的計策 迪特利希＆蘿葳","gender":"男女","element":"火水","elementSecond":"水","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"9952"}
+							{"id":"745","eventID":"137","event":"4th anniversary","name":"晚宴的計策 迪特利希＆蘿葳","gender":"多人","element":"火水","elementSecond":"水","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"9952"}
 							,
 							{"id":"746","eventID":"137","event":"4th anniversary","name":"心連心 和國三神駕到！","gender":"男女","element":"火雷","elementSecond":"雷","special":"賦予雙重技能(單體)","specialSecond":"賦予雙重技能(單體)","wikiNumber":"9950"}
 							,
-							{"id":"747","eventID":"137","event":"4th anniversary","name":"羽翼之舞 艾盧多貝里克＆露席菈","gender":"男女","element":"水光","elementSecond":"光","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9954"}
+							{"id":"747","eventID":"137","event":"4th anniversary","name":"羽翼之舞 艾盧多貝里克＆露席菈","gender":"多人","element":"水光","elementSecond":"光","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9954"}
 							,
 							{"id":"748","eventID":"137","event":"4th anniversary","name":"抵抗原罪的凜煌眼","gender":"女","element":"水闇","elementSecond":"闇","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"9956"}
 							,
-							{"id":"749","eventID":"137","event":"4th anniversary","name":"祕密隱於玫瑰下 一樹＆凜華篇","gender":"男女","element":"雷光","elementSecond":"光","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9948"}
+							{"id":"749","eventID":"137","event":"4th anniversary","name":"祕密隱於玫瑰下 一樹＆凜華篇","gender":"多人","element":"雷光","elementSecond":"光","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9948"}
 							,
-							{"id":"750","eventID":"137","event":"4th anniversary","name":"緊緊連繫的姊妹羈絆 法姆＆費露琪","gender":"女","element":"雷火","elementSecond":"火","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"9958"}
+							{"id":"750","eventID":"137","event":"4th anniversary","name":"緊緊連繫的姊妹羈絆 法姆＆費露琪","gender":"多人","element":"雷火","elementSecond":"火","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"9958"}
 							,
-							{"id":"751","eventID":"138","event":"恭賀新禧2019","name":"全新的救世與正義 萊葛爾＆席菈","gender":"男女","element":"火雷","elementSecond":"雷","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"11011"}
+							{"id":"751","eventID":"138","event":"恭賀新禧2019","name":"全新的救世與正義 萊葛爾＆席菈","gender":"多人","element":"火雷","elementSecond":"雷","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"11011"}
 							,
 							{"id":"752","eventID":"138","event":"恭賀新禧2019","name":"拂曉空賊記 齊格‧庫勒耶","gender":"男","element":"火闇","elementSecond":"闇","special":"提昇(相鄰)","specialSecond":"提昇(相鄰)","wikiNumber":"11008"}
 							,
@@ -1810,21 +1810,21 @@ var individualData = new Vue({
 							,
 							{"id":"754","eventID":"138","event":"恭賀新禧2019","name":"搖響新春之鈴 史特莉‧席絲特","gender":"女","element":"水雷","elementSecond":"雷","special":"融合強化","specialSecond":"融合強化","wikiNumber":"11007"}
 							,
-							{"id":"755","eventID":"138","event":"恭賀新禧2019","name":"黎明的雙星 愛＆愛","gender":"女","element":"雷雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"11009"}
+							{"id":"755","eventID":"138","event":"恭賀新禧2019","name":"黎明的雙星 愛＆愛","gender":"多人","element":"雷雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"11009"}
 							,
-							{"id":"756","eventID":"138","event":"恭賀新禧2019","name":"恭賀新禧‧雙劍羽 樁＆葉月","gender":"女","element":"雷水","elementSecond":"水","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"11012"}
+							{"id":"756","eventID":"138","event":"恭賀新禧2019","name":"恭賀新禧‧雙劍羽 樁＆葉月","gender":"多人","element":"雷水","elementSecond":"水","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"11012"}
 							,
-							{"id":"757","eventID":"139","event":"秋末迎冬感謝祭","name":"雙龍天翔 阿德萊德＆蜜涅娃","gender":"女","element":"火光","elementSecond":"光","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"11718"}
+							{"id":"757","eventID":"139","event":"秋末迎冬感謝祭","name":"雙龍天翔 阿德萊德＆蜜涅娃","gender":"多人","element":"火光","elementSecond":"光","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"11718"}
 							,
-							{"id":"758","eventID":"139","event":"秋末迎冬感謝祭","name":"誘惑的幻想顯界 謝爾菈＆普拉米亞","gender":"女","element":"火光","elementSecond":"光","special":"複屬性回復","specialSecond":"複屬性回復","wikiNumber":"11721"}
+							{"id":"758","eventID":"139","event":"秋末迎冬感謝祭","name":"誘惑的幻想顯界 謝爾菈＆普拉米亞","gender":"多人","element":"火光","elementSecond":"光","special":"複屬性回復","specialSecond":"複屬性回復","wikiNumber":"11721"}
 							,
-							{"id":"759","eventID":"139","event":"秋末迎冬感謝祭","name":"Like Sisters 艾妮＆庫蘭","gender":"女","element":"水水","elementSecond":"水","special":"炸裂大魔術","specialSecond":"炸裂大魔術","wikiNumber":"11717"}
+							{"id":"759","eventID":"139","event":"秋末迎冬感謝祭","name":"Like Sisters 艾妮＆庫蘭","gender":"多人","element":"水水","elementSecond":"水","special":"炸裂大魔術","specialSecond":"炸裂大魔術","wikiNumber":"11717"}
 							,
-							{"id":"760","eventID":"139","event":"秋末迎冬感謝祭","name":"情比天高 八重＆冰雨","gender":"女","element":"水光","elementSecond":"光","special":"提昇(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11722"}
+							{"id":"760","eventID":"139","event":"秋末迎冬感謝祭","name":"情比天高 八重＆冰雨","gender":"多人","element":"水光","elementSecond":"光","special":"提昇(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11722"}
 							,
-							{"id":"761","eventID":"139","event":"秋末迎冬感謝祭","name":"突擊勝利！ 亞露露＆維多利亞","gender":"女","element":"雷火","elementSecond":"火","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"11719"}
+							{"id":"761","eventID":"139","event":"秋末迎冬感謝祭","name":"突擊勝利！ 亞露露＆維多利亞","gender":"多人","element":"雷火","elementSecond":"火","special":"產生連結問題類型","specialSecond":"產生連結問題類型","wikiNumber":"11719"}
 							,
-							{"id":"762","eventID":"139","event":"秋末迎冬感謝祭","name":"年少的聖劍王與霸眼王 《邂逅》","gender":"男","element":"雷雷","elementSecond":"雷","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"11720"}
+							{"id":"762","eventID":"139","event":"秋末迎冬感謝祭","name":"年少的聖劍王與霸眼王 《邂逅》","gender":"多人","element":"雷雷","elementSecond":"雷","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"11720"}
 							,
 							{"id":"763","eventID":"140","event":"仲夏感謝季2018","name":"人類總護士 卡多琳‧G‧U","gender":"女","element":"火水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"強化複屬性傷害","wikiNumber":"11174"}
 							,
@@ -1840,9 +1840,9 @@ var individualData = new Vue({
 							,
 							{"id":"769","eventID":"140","event":"仲夏感謝季2018","name":"黑之頂點 艾盧多貝里克‧哥德","gender":"男","element":"水火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"11171"}
 							,
-							{"id":"770","eventID":"140","event":"仲夏感謝季2018","name":"靦腆破顏一笑戰線 阿斯塔‧拉德","gender":"男女","element":"雷光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"11173"}
+							{"id":"770","eventID":"140","event":"仲夏感謝季2018","name":"靦腆破顏一笑戰線 阿斯塔‧拉德","gender":"多人","element":"雷光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"11173"}
 							,
-							{"id":"771","eventID":"141","event":"丁酉年末感謝季2018","name":"假日主從 茲洛瓦＆露露貝爾","gender":"女","element":"火闇","elementSecond":"闇","special":"強化精靈【持續回復＆提升能力數值】","specialSecond":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","wikiNumber":"11405"}
+							{"id":"771","eventID":"141","event":"丁酉年末感謝季2018","name":"假日主從 茲洛瓦＆露露貝爾","gender":"多人","element":"火闇","elementSecond":"闇","special":"強化精靈【持續回復＆提升能力數值】","specialSecond":"強化精靈【持續回復＆減輕傷害＆提升能力數值】","wikiNumber":"11405"}
 							,
 							{"id":"772","eventID":"141","event":"丁酉年末感謝季2018","name":"傭兵仁義 菲利庫斯‧榭法","gender":"男","element":"水水","elementSecond":"水","special":"技能充填(全體)","specialSecond":"技能充填(全體)","wikiNumber":"11404"}
 							,
@@ -1852,7 +1852,7 @@ var individualData = new Vue({
 							,
 							{"id":"775","eventID":"141","event":"丁酉年末感謝季2018","name":"耀眼奪目的黃金 愛莉葉塔‧多娃","gender":"女","element":"水水","elementSecond":"水","special":"純屬性大魔術(全體)","specialSecond":"純屬性大魔術(全體)","wikiNumber":"11403"}
 							,
-							{"id":"776","eventID":"141","event":"丁酉年末感謝季2018","name":"唯一的幸福 愛麗絲＆艾莉卡","gender":"女","element":"雷火","elementSecond":"火","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"11402"}
+							{"id":"776","eventID":"141","event":"丁酉年末感謝季2018","name":"唯一的幸福 愛麗絲＆艾莉卡","gender":"多人","element":"雷火","elementSecond":"火","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"11402"}
 							,
 							{"id":"777","eventID":"142","event":"神龍降臨Ⅱ","name":"秘妖的朧月騎士_婕莉‧婕莉","gender":"女","element":"水火","elementSecond":"火","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"7437"}
 							,
@@ -1890,15 +1890,15 @@ var individualData = new Vue({
 							,
 							{"id":"794","eventID":"144","event":"鬼月限定2017","name":"吸食男子首級的妖魔‧絡新婦 麗子","gender":"女","element":"雷雷","elementSecond":"雷","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"800815"}
 							,
-							{"id":"795","eventID":"145","event":"情人紀念2017","name":"跨越鵲橋的戀人 牛郎&織女","gender":"男女","element":"水光","elementSecond":"光","special":"技能複製","specialSecond":"技能複製","wikiNumber":"800714"}
+							{"id":"795","eventID":"145","event":"情人紀念2017","name":"跨越鵲橋的戀人 牛郎&織女","gender":"多人","element":"水光","elementSecond":"光","special":"技能複製","specialSecond":"技能複製","wikiNumber":"800714"}
 							,
-							{"id":"796","eventID":"145","event":"情人紀念2017","name":"珍惜彼此的幸福 斯林&莎曼妲","gender":"男女","element":"火闇","elementSecond":"闇","special":"大魔術(單體)","specialSecond":"大魔術(單體)","wikiNumber":"800715"}
+							{"id":"796","eventID":"145","event":"情人紀念2017","name":"珍惜彼此的幸福 斯林&莎曼妲","gender":"多人","element":"火闇","elementSecond":"闇","special":"大魔術(單體)","specialSecond":"大魔術(單體)","wikiNumber":"800715"}
 							,
-							{"id":"797","eventID":"145","event":"情人紀念2017","name":"難以坦率的戀情 艾爾多&雅西兒","gender":"男女","element":"水雷","elementSecond":"雷","special":"回復異常狀態","specialSecond":"回復異常狀態＆復活","wikiNumber":"800716"}
+							{"id":"797","eventID":"145","event":"情人紀念2017","name":"難以坦率的戀情 艾爾多&雅西兒","gender":"多人","element":"水雷","elementSecond":"雷","special":"回復異常狀態","specialSecond":"回復異常狀態＆復活","wikiNumber":"800716"}
 							,
-							{"id":"798","eventID":"145","event":"情人紀念2017","name":"魔界的貴族愛侶 路克&瑪姬","gender":"男女","element":"雷火","elementSecond":"火","special":"延遲(單體)","specialSecond":"延遲(單體)","wikiNumber":"800717"}
+							{"id":"798","eventID":"145","event":"情人紀念2017","name":"魔界的貴族愛侶 路克&瑪姬","gender":"多人","element":"雷火","elementSecond":"火","special":"延遲(單體)","specialSecond":"延遲(單體)","wikiNumber":"800717"}
 							,
-							{"id":"799","eventID":"145","event":"情人紀念2017","name":"盜賊與公主的奇戀 凱&琪琪","gender":"男女","element":"雷水","elementSecond":"水","special":"犧牲魔術(全體)","specialSecond":"犧牲魔術(全體)","wikiNumber":"800718"}
+							{"id":"799","eventID":"145","event":"情人紀念2017","name":"盜賊與公主的奇戀 凱&琪琪","gender":"多人","element":"雷水","elementSecond":"水","special":"犧牲魔術(全體)","specialSecond":"犧牲魔術(全體)","wikiNumber":"800718"}
 							,
 							{"id":"800","eventID":"145","event":"情人紀念2017","name":"紫羅蘭的浪漫情意 迦瑪","gender":"男","element":"水水","elementSecond":"水","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"800719"}
 							,
@@ -1908,7 +1908,7 @@ var individualData = new Vue({
 							,
 							{"id":"803","eventID":"145","event":"情人紀念2017","name":"融化愛意的蜂蜜鬆餅 蜜多莉","gender":"女","element":"雷雷","elementSecond":"雷","special":"技能複製","specialSecond":"技能複製","wikiNumber":"800818"}
 							,
-							{"id":"804","eventID":"146","event":"跑錯地方的聖誕驚喜","name":"神樹下王子的祝福_瑟爾&提利爾","gender":"男","element":"水光","elementSecond":"光","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"801093"}
+							{"id":"804","eventID":"146","event":"跑錯地方的聖誕驚喜","name":"神樹下王子的祝福_瑟爾&提利爾","gender":"多人","element":"水光","elementSecond":"光","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"801093"}
 							,
 							{"id":"805","eventID":"146","event":"跑錯地方的聖誕驚喜","name":"在聖誕夜溫暖你的心_可蘿涅","gender":"女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"801094"}
 							,

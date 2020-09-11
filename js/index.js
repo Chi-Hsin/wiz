@@ -20,9 +20,10 @@ var indexData = new Vue({
 				"nameSelect":"",
 				"genderSelect":"",
 				"genderStyle":[
-					{"style":{"active":false},"text":"♂","name":"男"},
-					{"style":{"active":false},"text":"♀","name":"女"},
-					{"style":{"active":true},"text":"不限","name":""}
+					{"style":{"opacity":1},"checked":true,"text":"不限","name":"","src":"img/decoration/all.png"},
+					{"style":{"opacity":0.5},"checked":false,"text":"男","name":"男","src":"img/decoration/male.png"},
+					{"style":{"opacity":0.5},"checked":false,"text":"多人","name":"多人","src":"img/decoration/couple.png"},
+					{"style":{"opacity":0.5},"checked":false,"text":"女","name":"女","src":"img/decoration/female.png"}
 				],
 				"elementSelect":"",
 				"elementStyle":{
@@ -303,9 +304,9 @@ var indexData = new Vue({
 					
 					//變化樣式
 					for(var i=0;i<this.genderStyle.length;i++){
-						this.genderStyle[i].style.active = false;
+						this.genderStyle[i].style.opacity = 0.5;
 					}
-					this.genderStyle[data].style.active = true;
+					this.genderStyle[data].style.opacity = 1;
 					
 					//變更性別篩選
 					this.genderSelect = this.genderStyle[data].name;

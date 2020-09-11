@@ -15,15 +15,17 @@ display: none;
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowLeft.png");
+	opacity:0.5;
 }
 #eventArrowRight{/*右箭頭*/
 	background-repeat:no-repeat; 
 	background-position: center center;
 	background-size: 50px 50px;
 	background-image:url("../img/decoration/arrowRight.png");
+	opacity:0.5;
 }
 #eventArrowLeft:hover,#eventArrowRight:hover{
-	opacity:0.5;
+	opacity:1;
 	cursor:pointer;
 }
 #eventNumber{/*目前顯示的活動編號*/
@@ -136,32 +138,43 @@ display: none;
 	height:65vh;
 	/* background:blue; */
 }
+#innerSelectOptionArea{padding-left:0}
 #nameSelect{
 	/* background:red; */
 	height:5vh;
-	}
-#nameSelect input{
-	height:3vh;
-	}
+}	
 #genderDiv{
 	/* background:orange; */
-	height:3vh}
+	height:3vh;
+	margin-top:2vh;
+	margin-bottom:2vh;
+}
 #genderSelect{
-	/* background:yellow; */
-	height:5vh;
-	align-items:center;}
+	align-content: space-between;
+	/* background:red; */
+	height:45vh;
+}
+#genderSelect>div{
+	padding-left:0;
+}	
+#genderSelect>div img{
+	height:12vh;
+}
+#genderSelect img:hover{opacity:1!important;background:red}
 #elementDiv{
 	/* background:green; */
-	height:3vh}
+	height:3vh;
+	margin-top:7vh;
+	margin-bottom:2vh;
+	}
 #elementSelect{
 	/* background:blue; */
 	height:49vh;
 	}
 #elementSelect>div{
 	/* background:pink; */
-	justify-content:space-between;/*讓元素垂直分布*/
-	display: flex;
-    flex-direction:column;
+	justify-content:space-between;
+	display:flex;
 }
 #elementSelect img{height:5vh}
 #elementSelect img:hover{border-color:#007BFF !important;cursor:pointer;}

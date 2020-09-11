@@ -8,7 +8,7 @@
 <link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet"  href="css/index.css?number=202007172251">
+<link rel="stylesheet"  href="css/index.css?number=202009111805">
 
 
 <!-- <script src="js/html2canvas.js"></script> -->
@@ -16,6 +16,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.rawgit.com/tonystar/bootstrap-hover-tabs/v3.1.1/bootstrap-hover-tabs.js"></script>
 <body>
 
 
@@ -110,33 +111,69 @@
 		</div>
 		<div class="col-md-12 col-lg-6 offset-1">
 			<div class="row" id="selectOptionArea"><!--篩選選項區-->
-				<div class="col-4">
-					<div class="row pt-1" id="nameSelect">
-						<input type="text"  placeholder="在此輸入精靈真名" v-model="nameSelect">
-					</div>
-					<div class="row" id="genderDiv">Gender</div>
-					<div class="row"  id="genderSelect">
-						<div class="col-4 pl-2" v-for="(v,k) in genderStyle">
-							<button type="button" class="btn btn-sm btn-outline-primary" :class="v.style" 
-							:data-dataInfo="k" @click="genderSelectEvent">{{v.text}}</button>
-						</div>
+				<div class="col-12" id="innerSelectOptionArea">
+					<ul class="nav nav-tabs">
+						<li>
+						  <a class="nav-link active" data-toggle="tab" href="#home">篩選</a>
+						</li>
+						<li>
+						  <a class="nav-link" data-toggle="tab" href="#menu1">公告</a>
+						</li>
+						<li>
+						  <a class="nav-link" data-toggle="tab" href="#menu2">設定</a>
+						</li>
+					</ul>
 
-					</div>
-					<div class="row" id="elementDiv">Element</div>
-					<!-- 元素篩選選項 -->
-					<div class="row" id="elementSelect">
-						<div v-for="(v,k) in elementStyle" class="col-4 pr-0 pl-0">
-							<div v-for="(v2,k2) in v">
-									<img :src="v2.type" class="ml-2" :class="v2.style" 
-									:data-dataElement="k" :data-dataIndex="k2" @click="elementSelectEvent">
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div id="home" class="container tab-pane active"><br>
+							<div class="row">
+								<div class="col-4">
+									<div class="row" id="nameSelect">
+										<input type="text"  placeholder="在此輸入精靈真名" v-model="nameSelect">
+									</div>
+									<div class="row" id="genderDiv">Gender</div>
+									<div class="row"  id="genderSelect">
+									
+										<div class="col-6" v-for="(v,k) in genderStyle">
+											<label :for="v.text"><img :src="v.src" :style="v.style"></label>
+											<p>
+											<input type="radio" :id="v.text" name="gender" :checked="v.checked"
+												value="male" @click="genderSelectEvent" :data-dataInfo="k">
+											<label :for="v.text">{{v.text}}</label>
+										</div>
+
+									</div>
+									
+								</div>
+								<div class="col-1"></div>
+								<div class="col-7">
+									<div class="row" id="elementDiv">Element</div>
+									<!-- 元素篩選選項 -->
+									<div class="row" id="elementSelect">
+										<div v-for="(v,k) in elementStyle" class="col-12 pr-0 pl-0">
+											<img v-for="(v2,k2) in v" :src="v2.type" :class="v2.style" 
+													:data-dataElement="k" :data-dataIndex="k2" @click="elementSelectEvent">
+										</div>
+									</div>
+								</div>
+							
+							
 							</div>
+							
+								
+								
+						 </div>
+						<div id="menu1" class="container tab-pane fade"><br>
+						  <h3>目前幸運輪盤未開放，詳細開放時間請參考官方網站</h3>
+						</div>
+						<div id="menu2" class="container tab-pane fade"><br>
+						  <h3>施工中~</h3>
 						</div>
 					</div>
-
-					
-					
-					
-				</div>
+				</div>	
+				
+				
 			
 			</div>
 			<div class="row" id="selectButtonDiv">
@@ -196,6 +233,6 @@
 </body>
 </html>
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-<script src="js/individualData_all.js?number=202009091624"></script>
+<script src="js/individualData_all.js?number=202009112058"></script>
 <!-- 上面這一行跟下面這一行 順序不能弄反  因為有這一行的資料  下面這一行才能正確載入資源 -->
-<script src="js/index.js?number=202009091624"></script>
+<script src="js/index.js?number=202009112058"></script>

@@ -189,6 +189,8 @@ display: none;
 	/* background:red; */
 	height:8vh;
 	align-items:center;
+	position:relative;
+	z-index:9999;
 }
 #selectButtonDiv button{height:5vh;line-height:1.8em;}
 

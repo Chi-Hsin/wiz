@@ -135,12 +135,14 @@
 									<div class="row" id="genderDiv">Gender</div>
 									<div class="row"  id="genderSelect">
 									
-										<div class="col-6" v-for="(v,k) in genderStyle">
-											<label :for="v.text"><img :src="v.src" :style="v.style"></label>
-											<p>
+										<div class="col-6" v-for="(v,k) in genderStyle" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut">
+											<label :for="v.text" >
+												<img :src="v.src" :style="v.style" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut" :data-dataInfo="k"
+												>
+											</label><p>
 											<input type="radio" :id="v.text" name="gender" :checked="v.checked"
 												value="male" @click="genderSelectEvent" :data-dataInfo="k">
-											<label :for="v.text">{{v.text}}</label>
+											<label :for="v.text" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut" :data-dataInfo="k">{{v.text}}</label>
 										</div>
 
 									</div>

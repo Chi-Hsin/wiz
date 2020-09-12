@@ -63,7 +63,6 @@ var indexData = new Vue({
 					{name:"Facebook",url:"<a target='_new' href='https://www.facebook.com/hsinhsin.hung/'>Facebook交個朋友吧.或是找我聊天都歡迎哦⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄<a>"},
 					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
 				],
-
                },
 			computed:{
 				event:function(){
@@ -305,11 +304,28 @@ var indexData = new Vue({
 					//變化樣式
 					for(var i=0;i<this.genderStyle.length;i++){
 						this.genderStyle[i].style.opacity = 0.5;
+						this.genderStyle[i].checked = false;
 					}
 					this.genderStyle[data].style.opacity = 1;
-					
+					this.genderStyle[data].checked = true;
 					//變更性別篩選
 					this.genderSelect = this.genderStyle[data].name;
+				},
+				genderSelectMouseOver:function(e){
+					var index = e.target.getAttribute("data-dataInfo");
+					// console.log(e.target.tagName)
+					if(e.target.tagName == "IMG"){
+						this.genderStyle[index].style.opacity = 1;
+					}
+					
+				},
+				genderSelectMouseOut:function(e){
+					var index = e.target.getAttribute("data-dataInfo");
+					// console.log(e.target.tagName)
+					var condition = e.target.tagName == "IMG" && !this.genderStyle[index].checked;
+					if(condition){
+						this.genderStyle[index].style.opacity = 0.5;
+					}
 				},
 				elementSelectEvent:function(e){//元素篩選 修改按鈕樣式
 					var element = e.target.getAttribute("data-dataElement");

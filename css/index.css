@@ -160,7 +160,11 @@ display: none;
 #genderSelect>div img{
 	height:12vh;
 }
-#genderSelect img:hover{opacity:1!important;background:red}
+#genderSelect img:hover{
+	/* opacity:1!important; */
+	/* background:red */
+}
+#genderSelect label:hover{cursor:pointer;}
 #elementDiv{
 	/* background:green; */
 	height:3vh;

@@ -535,7 +535,17 @@ var indexData = new Vue({
 					
 				});
 				// console.log("測試",this.lotteryFairy);
-				
+				InlineEditor
+				  .create( document.querySelector("#editor1"), { 
+							toolbar: ['heading', '|', 'bold', 'italic', 'blockQuote', 
+							'ImageUpload', 'link', 'mediaEmbed', 'insterTable', 'undo', 'redo'] } 
+						 )
+				  .then( editor => {
+						console.log( Array.from( editor.ui.componentFactory.names() ));
+					} )
+				  .catch( error => {
+					console.error( error );
+				  } ); 
             },
            })
 		   

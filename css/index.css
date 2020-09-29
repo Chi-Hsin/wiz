@@ -71,13 +71,16 @@ display: none;
 #eventFairy{
 	height:30vh;
 	overflow:auto;
-}
-#marginDiv{/*活動圖區域與下方區域的間隔距離*/
-	height:5vh;
-	/* background:blue; */
+	margin-top:5vh;
 }
 
 /*左下區域的按鈕樣式*/
+.warningMessage{
+	background:#fff3CD;
+	padding-top:4px;
+	padding-bottom:4px;
+	border-radius:.2rem;
+}
 #leftButtonDiv{
 	/* background:red; */
 	height:8vh;
@@ -130,7 +133,14 @@ display: none;
 	color:green;
 	font-weight:bold;
 }
-
+/*中間按鈕區域*/
+#middleButtonDiv_top{
+	height:73vh;
+}
+#middleButtonDiv_btn{
+	height:50vh;
+	justify-content:start;
+}
 
 
 /*右上半部篩選區域*/

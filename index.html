@@ -73,7 +73,6 @@
 				<div class="col-2 order-4  d-lg-none" id="menuButton"></div>
 				<div class="col-3 order-7 d-lg-none"></div><!-- 調整中間圖片位置用  不顯示 -->
 			</div>
-			<div class="row" id="marginDiv"></div>
 			<div class="row bg-dark" id="eventFairy"><!--精靈圖區(活動)-->
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
@@ -86,14 +85,11 @@
 				</div>
 			</div>
 			<div class="row" id="leftButtonDiv">
-				<div class="alert alert-warning mr-1" v-show="warningMessage !=''" v-html="warningMessage"></div>
+				<div class="warningMessage mr-1" v-show="warningMessage !=''" v-html="warningMessage"></div>
 				<button type="button" class="btn btn-dark btn-sm mr-1">
 					最多可選{{limitNumber}}個.已選擇：{{lotteryFairy.length}}
 				</button>
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="randomSelect" v-show=" urlId == ''">電腦幫你選</button>
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="goHome" v-show=" urlId != ''">回首頁</button>
+				
 				<!-- <button type="button" class="btn btn-primary btn-sm mr-1" :class="buttonStyle" @click="">鎖定</button> -->
 				
 			</div>
@@ -109,7 +105,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-12 col-lg-6 offset-1">
+		<div class="col-md-12 col-lg-1"><!--中間置放按鈕區-->
+			<div class="row" id="middleButtonDiv_top"></div>
+			<div class="row" id="middleButtonDiv_btn">
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="randomSelect" v-show=" urlId == ''">電腦幫你選</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="goHome" v-show=" urlId != ''">回首頁</button>
+			</div>
+		
+		</div>
+		<div class="col-md-12 col-lg-6">
 			<div class="row" id="selectOptionArea"><!--篩選選項區-->
 				<div class="col-12" id="innerSelectOptionArea">
 					<ul class="nav nav-tabs">
@@ -167,7 +173,10 @@
 								
 						 </div>
 						<div id="menu1" class="container tab-pane fade"><br>
-						  <h3>目前幸運輪盤未開放，詳細開放時間請參考官方網站</h3>
+						  <!-- <h3>目前幸運輪盤未開放，詳細開放時間請參考官方網站</h3> -->
+						  <div id="editor1">
+							<p>hello i am defualt inline editor, click here to start to edit</p>
+						  </div>
 						</div>
 						<div id="menu2" class="container tab-pane fade"><br>
 						  <h3>施工中~</h3>
@@ -236,5 +245,7 @@
 </html>
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 <script src="js/individualData_all.js?number=202009112058"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/inline/ckeditor.js"></script>
 <!-- 上面這一行跟下面這一行 順序不能弄反  因為有這一行的資料  下面這一行才能正確載入資源 -->
 <script src="js/index.js?number=202009112058"></script>
+

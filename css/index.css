@@ -138,10 +138,11 @@ display: none;
 	height:73vh;
 }
 #middleButtonDiv_btn{
-	height:50vh;
-	justify-content:start;
+	/* background:red; */
 }
-
+#middleButtonDiv_btn button{
+	margin-bottom:1vh;
+}
 
 /*右上半部篩選區域*/
 #selectOptionArea{

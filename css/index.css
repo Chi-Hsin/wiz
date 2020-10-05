@@ -76,6 +76,9 @@ display: none;
 
 /*左下區域的按鈕樣式*/
 .warningMessage{
+	height:5vh;
+	line-height:4vh;
+	font-size:.875rem;
 	background:#fff3CD;
 	padding-top:4px;
 	padding-bottom:4px;
@@ -139,6 +142,7 @@ display: none;
 }
 #middleButtonDiv_btn{
 	/* background:red; */
+	flex-direction: column
 }
 #middleButtonDiv_btn button{
 	margin-bottom:1vh;

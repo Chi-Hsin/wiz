@@ -214,6 +214,8 @@ var indexData = new Vue({
 						// console.log("重複了")
 						this.warningMessage = "欲匯入的精靈已經重複囉";
 					}
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
 					
 					
 				    

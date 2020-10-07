@@ -422,22 +422,29 @@ var indexData = new Vue({
 					var condition2 = this.lotteryFairy.length > this.limitNumber;
 					if(condition1){
 						this.warningMessage = "目前沒有匯入的精靈";
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						return;
 					}
 					else if(condition2){
 						this.warningMessage = "超過最大數量:" + this.limitNumber;
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						return;
 					}
 					else if(!confirm("確認儲存嗎?")){
 						this.warningMessage = "儲存動作取消";
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						return;
 					}
 					else if(!confirm("儲存後.將無法做更改.確定繼續嗎?")){
 						this.warningMessage = "儲存動作取消";
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						return;
 					}
-					this.warningMsgShowLeft = true;
-					this.warningMsgShowRight = false;
+					
 					//通過上述步驟檢測  即可繼續執行判斷
 				
 				

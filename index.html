@@ -8,7 +8,7 @@
 <link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet"  href="css/index.css?number=202009111805">
+<link rel="stylesheet"  href="css/index.css?number=20201007">
 
 
 <!-- <script src="js/html2canvas.js"></script> -->
@@ -67,7 +67,10 @@
 				<div class="col-1 order-5 col-lg-2 order-lg-2 " id="eventNumber" data-target="#myModal" data-toggle="modal">{{eventNumber+1}}</div><!-- 數字(第幾個活動) -->
 				<div class="col-6 order-2 col-lg-6 order-lg-3 " id="eventTitle" data-target="#myModal" data-toggle="modal">{{event[eventNumber].name}}</div>
 				<div class="col-8 order-6 col-lg-12 order-lg-6" id="eventPic">
-				  <img :src="eventPicUrl" data-target="#myModal" data-toggle="modal">
+					<div id="eventPicInnerDiv">
+						<img :src="eventPicUrl" data-target="#myModal" data-toggle="modal">
+					</div>
+				  
 				</div>
 				<div class="col-2 order-3 col-lg-2 order-lg-4" id="eventArrowRight" @click="turnNextEvent"></div><!-- 右箭頭 -->
 				<div class="col-2 order-4  d-lg-none" id="menuButton"></div>
@@ -77,7 +80,8 @@
 				<div class="col">
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in eventFairy">
-							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" @mousedown="picMouseDown" @dragover="picDragOver" 
+							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'"  @mouseover="picMouseOverLeft"
+							@mousedown="picMouseDown" @dragover="picDragOver" 
 							:data-dataInfo="JSON.stringify(v)" @dragstart="picDragStart" @click="openFairyWiki" 
 							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
@@ -85,7 +89,7 @@
 				</div>
 			</div>
 			<div class="row" id="leftButtonDiv">
-				<div class="warningMessage mr-1" v-show="warningMessage !=''" v-html="warningMessage"></div>
+				<div class="warningMessage mr-1" v-show="warningMsgShowLeft" v-html="warningMessage"></div>
 				<button type="button" class="btn btn-dark btn-sm mr-1">
 					最多可選{{limitNumber}}個.已選擇：{{lotteryFairy.length}}
 				</button>
@@ -98,7 +102,7 @@
 					<div class="row  mt-2 mb-2 eventFairyRowStyle">
 						<div class="col-4" v-for="(v,k) in orderLotteryFairy" >
 							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
-							@click="goToPicEvent" @contextmenu="picCancell"
+							@click="goToPicEvent" @contextmenu="picCancell" @mouseover="picMouseOverBottom"
 							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
 					</div>
@@ -189,6 +193,7 @@
 			</div>
 			<div class="row" id="selectButtonDiv">
 				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button>
+				<div class="warningMessage ml-1" v-show="warningMsgShowRight" v-html="warningMessage"></div>
 			</div>
 			
 			
@@ -197,7 +202,8 @@
 					<div class="row  eventFairyRowStyle mt-2">
 						<div class="col-3" v-for="(v,k) in selectFairy" >
 							<img class="mb-2 ml-3" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
-							@click="goToPicEvent" @mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart"
+							@click="goToPicEvent" @mouseover="picMouseOverRight" 
+							@mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart"
 							data-toggle="tooltip" data-placement="right" :title="v.name">
 						</div>
 					</div>

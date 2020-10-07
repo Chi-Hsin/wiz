@@ -55,6 +55,15 @@ display: none;
 /*左上區域  顯示的活動圖*/
 #eventPic{
 	height:20vh;
+	/* background:red; */
+	/* overflow:hidden; */
+}
+#eventPicInnerDiv{
+	/* background:blue; */
+	height:20vh;
+	width:64vh;/*原圖高.寬為250X800 比例為1:3.2*/
+	overflow:hidden;/*裏頭的圖片放大時  會用遮色片那樣的方式隱藏*/
+	margin:auto;
 }
 #eventPic img{
 	height:100%;
@@ -62,7 +71,7 @@ display: none;
 	margin:auto;
 	transition: all 0.5s ease-in-out;
 }
-#eventPic img:hover{cursor:pointer;height:110%;}
+#eventPic img:hover{cursor:pointer;transform: scale(1.2)}
 
 /*左中區域  顯示的活動精靈圖*/
 .eventFairyRowStyle>div img{
@@ -204,8 +213,6 @@ display: none;
 	/* background:red; */
 	height:8vh;
 	align-items:center;
-	position:relative;
-	z-index:9999;
 }
 #selectButtonDiv button{height:5vh;line-height:1.8em;}
 

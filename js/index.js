@@ -55,6 +55,9 @@ var indexData = new Vue({
 				"memberList":[],
 				"urlId":"",
 				"warningMessage":"",//提示訊息
+				"warningMsgShowLeft":false,//左邊的文字提示訊息
+				"warningMsgShowRight":false,//右邊的文字提示訊息
+				"warningMsgShowTime":6000,//文字提示的顯示時間
 				"setTimer":"",//定時器  放在公用變數  用來識別/取消用
 				"iconMessage":"",
 				"footerIcon":[
@@ -63,6 +66,7 @@ var indexData = new Vue({
 					{name:"Facebook",url:"<a target='_new' href='https://www.facebook.com/hsinhsin.hung/'>Facebook交個朋友吧.或是找我聊天都歡迎哦⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄<a>"},
 					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
 				],
+				
                },
 			computed:{
 				event:function(){
@@ -138,6 +142,24 @@ var indexData = new Vue({
 						return;
 					}
 					this.eventNumber -= 1;
+				},
+				picMouseOverLeft:function(){//左上角的圖片文字提示
+				
+					this.warningMessage = "<span class='warningMsgStyleImport'>左鍵點擊</span>查詢詳細資訊,<span class='warningMsgStyleImport'>按著不放</span>拖曳至下方區域";
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
+				},
+				picMouseOverBottom:function(){//左下角的圖片文字提示
+				
+					this.warningMessage = "<span class='warningMsgStyleImport'>左鍵點擊</span>跳至該活動,<span class='warningMsgStyleImport'>右鍵點擊</span>移除選取";
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
+				},
+				picMouseOverRight:function(){//右上角的圖片文字提示
+				
+					this.warningMessage = "<span class='warningMsgStyleImport'>左鍵點擊</span>跳至該活動,<span class='warningMsgStyleImport'>按著不放</span>拖曳至左半部區域";
+					this.warningMsgShowLeft = false;
+					this.warningMsgShowRight = true;
 				},
 				picMouseDown:function(e){//圖片滑鼠按下不放開
 					
@@ -264,6 +286,8 @@ var indexData = new Vue({
 					if(this.lotteryFairy.length != 0){
 						if(!confirm("盤面上已有資料.確定覆蓋嗎?")){
 							this.warningMessage = "執行動作取消";
+							this.warningMsgShowLeft = true;
+							this.warningMsgShowRight = false;
 							return;
 						}
 					}
@@ -280,15 +304,21 @@ var indexData = new Vue({
 						
 					}
 					this.warningMessage = "已自動選擇" + this.limitNumber + "隻精靈";
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
 				},
 				goHome:function(){
 					if(!confirm("將跳往首頁,確定繼續嗎?")){
 							//按下取消 不執行
 							this.warningMessage = "動作取消";
+							this.warningMsgShowLeft = true;
+							this.warningMsgShowRight = false;
 							return;
 						}
 					else{
 						this.warningMessage = "將引導至首頁  請稍後";
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						setTimeout(function(){
 							window.location.href = indexData.baseurl;
 						},1000)
@@ -358,11 +388,15 @@ var indexData = new Vue({
 					
 					if(condition1){
 						this.warningMessage = "沒有可匯入的精靈";
+						this.warningMsgShowLeft = false;
+						this.warningMsgShowRight = true;
 						return;
 					}
 					else if(!confirm("確認匯入嗎?")){
 						//篩選區裡頭沒資料 或者按下取消 都不執行
 						this.warningMessage = "匯入動作取消";
+						this.warningMsgShowLeft = false;
+						this.warningMsgShowRight = true;
 						return;
 					}
 				
@@ -378,6 +412,8 @@ var indexData = new Vue({
 					//合併成新的Lottery陣列
 					this.lotteryFairy = this.lotteryFairy.concat(arr);
 					this.warningMessage = "匯入成功";
+					this.warningMsgShowLeft = false;
+					this.warningMsgShowRight = true;
 				},
 				saveData:function(){//儲存至雲端
 					var condition1 = this.lotteryFairy.length == 0;
@@ -398,6 +434,8 @@ var indexData = new Vue({
 						this.warningMessage = "儲存動作取消";
 						return;
 					}
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
 					//通過上述步驟檢測  即可繼續執行判斷
 				
 				
@@ -441,12 +479,16 @@ var indexData = new Vue({
 					if(this.lotteryFairy.length==0 || !confirm("確認清除嗎?")){
 						//Lottery裡頭沒資料 或者按下取消 都不執行
 						this.warningMessage = "清除動作取消";
+						this.warningMsgShowLeft = true;
+						this.warningMsgShowRight = false;
 						return;
 					}
 				
 					localStorage.removeItem("lotteryFairy");
 					this.lotteryFairy = [];
 					this.warningMessage = "選盤精靈已清空";
+					this.warningMsgShowLeft = true;
+					this.warningMsgShowRight = false;
 				},
 				showIconMessage:function(e){
 					var data = e.target.getAttribute("data-dataInfo");
@@ -461,8 +503,10 @@ var indexData = new Vue({
 						clearTimeout(this.setTimer);
 						this.setTimer = setTimeout(function(){
 							indexData.warningMessage = "";
+							indexData.warningMsgShowLeft = false;
+							indexData.warningMsgShowRight = false;
 							console.log("提示訊息已清空");
-						},3000);
+						},this.warningMsgShowTime);
 					}
 					
 					

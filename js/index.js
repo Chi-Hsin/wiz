@@ -1,3 +1,4 @@
+var CKEDITOR_BASEPATH = 'https://chi-hsin.github.io/wiz/';
 var indexData = new Vue({
             el: '#outerDiv',
             data: {
@@ -67,6 +68,7 @@ var indexData = new Vue({
 					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
 				],
 				"editor":{},
+				
 				
                },
 			computed:{

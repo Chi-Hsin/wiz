@@ -5,6 +5,8 @@
 	--modalTop:0;
 	--modalLeft:45vw;
 }
+.ck-editor__editable {max-height: 500px;overflow:auto;}
+/*文字編輯器外觀設定*/
 
 [v-cloak] {
 display: none;
@@ -82,7 +84,6 @@ display: none;
 	overflow:auto;
 	margin-top:5vh;
 }
-
 /*左下區域的按鈕樣式*/
 .warningMessage{
 	height:5vh;

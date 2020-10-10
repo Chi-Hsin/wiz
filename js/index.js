@@ -66,6 +66,7 @@ var indexData = new Vue({
 					{name:"Facebook",url:"<a target='_new' href='https://www.facebook.com/hsinhsin.hung/'>Facebook交個朋友吧.或是找我聊天都歡迎哦⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄<a>"},
 					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
 				],
+				"editor":{},
 				
                },
 			computed:{
@@ -587,18 +588,26 @@ var indexData = new Vue({
 					}
 					
 				});
-				// console.log("測試",this.lotteryFairy);
-				InlineEditor
-				  .create( document.querySelector("#editor1"), { 
-							toolbar: ['heading', '|', 'bold', 'italic', 'blockQuote', 
-							'ImageUpload', 'link', 'mediaEmbed', 'insterTable', 'undo', 'redo'] } 
-						 )
-				  .then( editor => {
-						console.log( Array.from( editor.ui.componentFactory.names() ));
-					} )
-				  .catch( error => {
-					console.error( error );
-				  } ); 
+				ClassicEditor
+				.create( document.querySelector( '#editor' ), {
+					toolbar: [ 'heading', '|', 'bold', 'link', 'bulletedList', 'numberedList', 'blockQuote' ,'fontColor'],
+					heading: {
+						options: [
+							{ model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+							{ model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+							{ model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+						]
+					},
+					
+				} )
+				.then(function(editor){
+					indexData.editor = editor;
+				})
+				.catch( error => {
+					console.log( error );
+				} );
+				
+				
             },
            })
 		   

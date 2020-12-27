@@ -189,9 +189,9 @@
 				
 			
 			</div>
-			<div class="row" id="selectButtonDiv">
-				<button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button>
-				<div class="warningMessage ml-1" v-show="warningMsgShowRight" v-html="warningMessage"></div>
+			<div class="row" id="selectButtonDiv" style="">
+				<div class="col-1"><button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button></div>
+				<div class="warningMessage ml-1 col-9" v-show="warningMsgShowRight" v-html="warningMessage"></div>
 			</div>
 			
 			

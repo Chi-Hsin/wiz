@@ -215,6 +215,7 @@ display: none;
 	height:8vh;
 	align-items:center;
 }
+#selectButtonDiv>div{padding:0}
 #selectButtonDiv button{height:5vh;line-height:1.8em;}
 
 img:hover{

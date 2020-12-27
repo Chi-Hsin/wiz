@@ -925,7 +925,7 @@ var individualData = new Vue({
 							,
 							{"id":"306","eventID":"54","event":"天界的雙子 訣別的年代記","name":"虛幻世界的念想_普流姆‧諾瓦蘭","gender":"女","element":"雷光","elementSecond":"光","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"7303"}
 							,
-							{"id":"307","eventID":"54","event":"天界的雙子 訣別的年代記","name":"遊遍歷史的神獸_托托‧獏羅","gender":"男女","element":"雷雷","elementSecond":"雷","special":"刪去回答","specialSecond":"刪去回答","wikiNumber":"6292"}
+							{"id":"307","eventID":"54","event":"天界的雙子 訣別的年代記","name":"遊遍歷史的神獸_托托‧獏羅","gender":"多人","element":"雷雷","elementSecond":"雷","special":"刪去回答","specialSecond":"刪去回答","wikiNumber":"6292"}
 							,
 							{"id":"308","eventID":"55","event":"響命CrossDerive ACT3","name":"With_Brave_Heart_艾妮","gender":"女","element":"雷雷","elementSecond":"雷","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"11314"}
 							,
@@ -1799,11 +1799,11 @@ var individualData = new Vue({
 							,
 							{"id":"743","eventID":"136","event":"感謝祭2019","name":"這就是富含文化的生活夏娃‧貝茨","gender":"女","element":"雷闇","elementSecond":"闇","special":"蓄積解放大魔術‧邪(全體)","specialSecond":"蓄積解放大魔術‧邪(全體)","wikiNumber":"10156"}
 							,
-							{"id":"744","eventID":"136","event":"感謝祭2019","name":"應該閱讀的神獸托托‧獏羅","gender":"男女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10162"}
+							{"id":"744","eventID":"136","event":"感謝祭2019","name":"應該閱讀的神獸托托‧獏羅","gender":"多人","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10162"}
 							,
 							{"id":"745","eventID":"137","event":"4th anniversary","name":"晚宴的計策 迪特利希＆蘿葳","gender":"多人","element":"火水","elementSecond":"水","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"9952"}
 							,
-							{"id":"746","eventID":"137","event":"4th anniversary","name":"心連心 和國三神駕到！","gender":"男女","element":"火雷","elementSecond":"雷","special":"賦予雙重技能(單體)","specialSecond":"賦予雙重技能(單體)","wikiNumber":"9950"}
+							{"id":"746","eventID":"137","event":"4th anniversary","name":"心連心 和國三神駕到！","gender":"多人","element":"火雷","elementSecond":"雷","special":"賦予雙重技能(單體)","specialSecond":"賦予雙重技能(單體)","wikiNumber":"9950"}
 							,
 							{"id":"747","eventID":"137","event":"4th anniversary","name":"羽翼之舞 艾盧多貝里克＆露席菈","gender":"多人","element":"水光","elementSecond":"光","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9954"}
 							,
@@ -2039,7 +2039,7 @@ var individualData = new Vue({
 							,
 							{"id":"863","eventID":"156","event":"FairyChord2 Chord Sharing","name":"善意的引導 紅鬼颯夜","gender":"男","element":"火闇","elementSecond":"闇","special":"防禦","specialSecond":"防禦","wikiNumber":"11997"}
 							,
-							{"id":"864","eventID":"157","event":"Christmas stories 2020","name":"聖誕馴鹿 麗維塔＆吉米","gender":"男女","element":"火雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12025"}
+							{"id":"864","eventID":"157","event":"Christmas stories 2020","name":"聖誕馴鹿 麗維塔＆吉米","gender":"多人","element":"火雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12025"}
 							,
 							{"id":"865","eventID":"157","event":"Christmas stories 2020","name":"聖誕快樂 尊音・歌詠","gender":"女","element":"雷雷","elementSecond":"雷","special":"蓄積解放大魔術‧印(單體)","specialSecond":"蓄積解放大魔術‧印(單體)","wikiNumber":"12023"}
 							,
@@ -2087,7 +2087,7 @@ var individualData = new Vue({
 							,
 							{"id":"887","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"直面恐懼與真實的月亮 月柔","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性變換問題類型【技能充填】","specialSecond":"提升能力數值(全體)","wikiNumber":"802072"}
 							,
-							{"id":"888","eventID":"161","event":"Birth Of New Order3","name":"希望之風 流昂＆伊絲卡","gender":"男女","element":"水光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"激化大魔術(全體)","wikiNumber":"12145"}
+							{"id":"888","eventID":"161","event":"Birth Of New Order3","name":"希望之風 流昂＆伊絲卡","gender":"多人","element":"水光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"激化大魔術(全體)","wikiNumber":"12145"}
 							,
 							{"id":"889","eventID":"161","event":"Birth Of New Order3","name":"叛逆的審判獸 伊絲卡‧尼爾瓦","gender":"女","element":"火闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12134"}
 							,
@@ -2105,9 +2105,9 @@ var individualData = new Vue({
 							,
 							{"id":"896","eventID":"162","event":"恭賀新禧2021","name":"HAPPY NEW YEAR 哈迪斯D962","gender":"女","element":"水雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12061"}
 							,
-							{"id":"897","eventID":"162","event":"恭賀新禧2021","name":"初春我收下了！ 千優與好介","gender":"男女","element":"雷闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12063"}
+							{"id":"897","eventID":"162","event":"恭賀新禧2021","name":"初春我收下了！ 千優與好介","gender":"多人","element":"雷闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12063"}
 							,
-							{"id":"898","eventID":"162","event":"恭賀新禧2021","name":"粗枝參拜 莉露姆＆洛亞","gender":"男女","element":"雷光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12065"}
+							{"id":"898","eventID":"162","event":"恭賀新禧2021","name":"粗枝參拜 莉露姆＆洛亞","gender":"多人","element":"雷光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12065"}
 							,
 							{"id":"899","eventID":"162","event":"恭賀新禧2021","name":"來吃年糕，啊～！ 斯諾‧白雪","gender":"男","element":"火雷","elementSecond":"雷","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"12067"}
 							,

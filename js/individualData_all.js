@@ -299,7 +299,18 @@ var individualData = new Vue({
 							,
 							{"eventID":"155","name":"2020年感謝下載紀念","picName":"E156"}
 							,
-							{"eventID":"156","name":"FairyChord2 Chord Sharing","picName":"E157"}
+							{"eventID":"156","name":"FairyChord2 Chord Sharing","picName":"E157"},
+							{"eventID":"157","name":"Christmas stories 2020","picName":"E158"},
+							{"eventID":"158","name":"神樹戀歌：風暴卡里昂II──風暴的起源","picName":"E159"}
+							,
+							{"eventID":"159","name":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","picName":"E160"}
+							,
+							{"eventID":"160","name":"阿爾克納與星之旅途III 失落秘儀","picName":"E161"}
+							,
+							{"eventID":"161","name":"Birth Of New Order3","picName":"E162"},
+							{"eventID":"162","name":"恭賀新禧2021","picName":"E163"}
+							,
+							{"eventID":"163","name":"Merry Christmas 2020","picName":"E164"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"801802"}
@@ -2027,6 +2038,92 @@ var individualData = new Vue({
 							{"id":"862","eventID":"156","event":"FairyChord2 Chord Sharing","name":"舔個乾淨惡魔 蒂姬","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"12006"}
 							,
 							{"id":"863","eventID":"156","event":"FairyChord2 Chord Sharing","name":"善意的引導 紅鬼颯夜","gender":"男","element":"火闇","elementSecond":"闇","special":"防禦","specialSecond":"防禦","wikiNumber":"11997"}
+							,
+							{"id":"864","eventID":"157","event":"Christmas stories 2020","name":"聖誕馴鹿 麗維塔＆吉米","gender":"男女","element":"火雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12025"}
+							,
+							{"id":"865","eventID":"157","event":"Christmas stories 2020","name":"聖誕快樂 尊音・歌詠","gender":"女","element":"雷雷","elementSecond":"雷","special":"蓄積解放大魔術‧印(單體)","specialSecond":"蓄積解放大魔術‧印(單體)","wikiNumber":"12023"}
+							,
+							{"id":"866","eventID":"157","event":"Christmas stories 2020","name":"思念與被思念 琉迪格‧希古拉","gender":"男","element":"雷光","elementSecond":"光","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"12027"}
+							,
+							{"id":"867","eventID":"157","event":"Christmas stories 2020","name":"和月亮對話 琪夏菈‧歐羅爾","gender":"女","element":"火光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12031"}
+							,
+							{"id":"868","eventID":"157","event":"Christmas stories 2020","name":"在永恆時光的盡頭 畢畢亞＆芙莉蕾‧琪夏菈","gender":"女","element":"水光","elementSecond":"光","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12029"}
+							,
+							{"id":"869","eventID":"157","event":"Christmas stories 2020","name":"Last‧Christmas 早瀨凜","gender":"女","element":"水火","elementSecond":"火","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"12033"}
+							,
+							{"id":"870","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"愛情的紅月 米拉","gender":"女","element":"火光","elementSecond":"光","special":"蓄積解放大魔術‧連(單體)","specialSecond":"蓄積解放大魔術‧連(單體)","wikiNumber":"802037"}
+							,
+							{"id":"871","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"魔力的橙月 瑪爾珍","gender":"女","element":"水水","elementSecond":"水","special":"純屬性強化","specialSecond":"純屬性大魔術(全體)","wikiNumber":"802039"}
+							,
+							{"id":"872","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"戰爭的黃月 希科蒂娜","gender":"女","element":"水闇","elementSecond":"闇","special":"決鬥","specialSecond":"物理反擊","wikiNumber":"802041"}
+							,
+							{"id":"873","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"狩獵的綠月 法蒂亞","gender":"女","element":"水雷","elementSecond":"雷","special":"延遲大魔術(全體)","specialSecond":"比例削減(全體)","wikiNumber":"802043"}
+							,
+							{"id":"874","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"權力的藍月 阿克夏","gender":"女","element":"雷火","elementSecond":"火","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"802045"}
+							,
+							{"id":"875","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"智慧的紫月 泰辛雅","gender":"女","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"802047"}
+							,
+							{"id":"876","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"八百八町的祭典之男 文繼‧葦原","gender":"男","element":"水光","elementSecond":"光","special":"統一大魔術","specialSecond":"統一大魔術","wikiNumber":"12090"}
+							,
+							{"id":"877","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"噹噹噹的祭典女孩 木葉‧依姬","gender":"女","element":"雷火","elementSecond":"火","special":"蓄積解放大魔術‧連(單體)","specialSecond":"蓄積解放大魔術‧連(單體)","wikiNumber":"12096"}
+							,
+							{"id":"878","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"綻放的祭典之花 美緒‧葛折","gender":"女","element":"火水","elementSecond":"水","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12093"}
+							,
+							{"id":"879","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"羅曼史的女神大人 真都斐・那毘佐古","gender":"女","element":"水水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12102"}
+							,
+							{"id":"880","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"與風雪共舞 燈‧夜帷","gender":"女","element":"雷光","elementSecond":"光","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12099"}
+							,
+							{"id":"881","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"鮮血沸騰 夜道‧黃泉殿","gender":"女","element":"火闇","elementSecond":"闇","special":"強化反轉‧邪","specialSecond":"強化反轉‧邪","wikiNumber":"12105"}
+							,
+							{"id":"882","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"吹響號角的審判 亞魯薩格爾‧薛卜斯坦","gender":"男","element":"火光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加】","specialSecond":"問題類型屬性次數大魔術(單體)","wikiNumber":"802062"}
+							,
+							{"id":"883","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"浴火的冰心戀人 冰花","gender":"女","element":"水水","elementSecond":"水","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"802064"}
+							,
+							{"id":"884","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"自我犧牲的吊人 菡葛","gender":"女","element":"火水","elementSecond":"水","special":"蓄積解放大魔術‧邪(全體)","specialSecond":"蓄積解放大魔術‧邪(全體)","wikiNumber":"802066"}
+							,
+							{"id":"885","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"純粹耀眼的太陽 魚君","gender":"男","element":"水火","elementSecond":"火","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"802068"}
+							,
+							{"id":"886","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"象徵調和的節制 愛勒貝拉","gender":"女","element":"水闇","elementSecond":"闇","special":"強化擊破","specialSecond":"殘滅大魔術","wikiNumber":"802070"}
+							,
+							{"id":"887","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"直面恐懼與真實的月亮 月柔","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性變換問題類型【技能充填】","specialSecond":"提升能力數值(全體)","wikiNumber":"802072"}
+							,
+							{"id":"888","eventID":"161","event":"Birth Of New Order3","name":"希望之風 流昂＆伊絲卡","gender":"男女","element":"水光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"激化大魔術(全體)","wikiNumber":"12145"}
+							,
+							{"id":"889","eventID":"161","event":"Birth Of New Order3","name":"叛逆的審判獸 伊絲卡‧尼爾瓦","gender":"女","element":"火闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12134"}
+							,
+							{"id":"890","eventID":"161","event":"Birth Of New Order3","name":"與伊絲卡的契約 流昂‧特拉姆","gender":"男","element":"水光","elementSecond":"光","special":"特殊變換問題類型【AS倍率強化】","specialSecond":"特殊變換問題類型【AS倍率強化】","wikiNumber":"12132"}
+							,
+							{"id":"891","eventID":"161","event":"Birth Of New Order3","name":"從束縛中解放 西里士‧埃洛奇亞","gender":"男","element":"火光","elementSecond":"光","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"12139"}
+							,
+							{"id":"892","eventID":"161","event":"Birth Of New Order3","name":"保護妹妹們 梅爾泰‧尼瑟","gender":"女","element":"水闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12143"}
+							,
+							{"id":"893","eventID":"161","event":"Birth Of New Order3","name":"締結了誓約 拉夏‧路茨斯","gender":"女","element":"雷光","elementSecond":"光","special":"統一大魔術","specialSecond":"統一大魔術","wikiNumber":"12137"}
+							,
+							{"id":"894","eventID":"161","event":"Birth Of New Order3","name":"去除枷鎖 克羅什‧特勞","gender":"男","element":"雷闇","elementSecond":"闇","special":"強化反轉‧邪","specialSecond":"強化反轉‧邪","wikiNumber":"12141"}
+							,
+							{"id":"895","eventID":"162","event":"恭賀新禧2021","name":"恭賀新禧！ 艾瑞斯","gender":"女","element":"火雷","elementSecond":"雷","special":"賦予雙重AS(自身)","specialSecond":"賦予雙重AS(自身)","wikiNumber":"12059"}
+							,
+							{"id":"896","eventID":"162","event":"恭賀新禧2021","name":"HAPPY NEW YEAR 哈迪斯D962","gender":"女","element":"水雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12061"}
+							,
+							{"id":"897","eventID":"162","event":"恭賀新禧2021","name":"初春我收下了！ 千優與好介","gender":"男女","element":"雷闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12063"}
+							,
+							{"id":"898","eventID":"162","event":"恭賀新禧2021","name":"粗枝參拜 莉露姆＆洛亞","gender":"男女","element":"雷光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12065"}
+							,
+							{"id":"899","eventID":"162","event":"恭賀新禧2021","name":"來吃年糕，啊～！ 斯諾‧白雪","gender":"男","element":"火雷","elementSecond":"雷","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"12067"}
+							,
+							{"id":"900","eventID":"162","event":"恭賀新禧2021","name":"邪神的供品 伊萊恩‧英尼斯","gender":"女","element":"水雷","elementSecond":"雷","special":"蓄積解放大魔術‧連(單體)","specialSecond":"蓄積解放大魔術‧連(單體)","wikiNumber":"12069"}
+							,
+							{"id":"901","eventID":"163","event":"Merry Christmas 2020","name":"帶回聖誕樹 安德魯古","gender":"男","element":"雷光","elementSecond":"光","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"802116"}
+							,
+							{"id":"902","eventID":"163","event":"Merry Christmas 2020","name":"聖誕老人見習生 美美","gender":"女","element":"火光","elementSecond":"光","special":"蓄積解放大魔術‧印(單體)","specialSecond":"蓄積解放大魔術‧印(單體)","wikiNumber":"802118"}
+							,
+							{"id":"903","eventID":"163","event":"Merry Christmas 2020","name":"要不要吃一口 愛蜜莉","gender":"女","element":"水光","elementSecond":"光","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"802120"}
+							,
+							{"id":"904","eventID":"163","event":"Merry Christmas 2020","name":"聖夜禮物小精靈 米婭","gender":"女","element":"火闇","elementSecond":"闇","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"802122"}
+							,
+							{"id":"905","eventID":"163","event":"Merry Christmas 2020","name":"夢幻雪地裡的天使 皮諾絲","gender":"女","element":"水闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"802124"}
+							,
+							{"id":"906","eventID":"163","event":"Merry Christmas 2020","name":"記性太好回憶太多 阿克斯土","gender":"男","element":"雷闇","elementSecond":"闇","special":"技能複製","specialSecond":"技能複製","wikiNumber":"802126"}
 
 						],
 				"baseurl":"index.html",//相對路徑

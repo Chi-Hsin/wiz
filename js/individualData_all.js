@@ -1807,7 +1807,7 @@ var individualData = new Vue({
 							,
 							{"id":"747","eventID":"137","event":"4th anniversary","name":"羽翼之舞 艾盧多貝里克＆露席菈","gender":"多人","element":"水光","elementSecond":"光","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9954"}
 							,
-							{"id":"748","eventID":"137","event":"4th anniversary","name":"抵抗原罪的凜煌眼","gender":"女","element":"水闇","elementSecond":"闇","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"9956"}
+							{"id":"748","eventID":"137","event":"4th anniversary","name":"抵抗原罪的凜煌眼","gender":"多人","element":"水闇","elementSecond":"闇","special":"詠唱多重大魔術","specialSecond":"詠唱多重大魔術","wikiNumber":"9956"}
 							,
 							{"id":"749","eventID":"137","event":"4th anniversary","name":"祕密隱於玫瑰下 一樹＆凜華篇","gender":"多人","element":"雷光","elementSecond":"光","special":"融合大魔術(全體)","specialSecond":"融合大魔術(全體)","wikiNumber":"9948"}
 							,

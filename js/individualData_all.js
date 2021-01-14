@@ -310,7 +310,9 @@ var individualData = new Vue({
 							{"eventID":"161","name":"Birth Of New Order3","picName":"E162"},
 							{"eventID":"162","name":"恭賀新禧2021","picName":"E163"}
 							,
-							{"eventID":"163","name":"Merry Christmas 2020","picName":"E164"}
+							{"eventID":"163","name":"Merry Christmas 2020","picName":"E164"},
+							{"eventID":"164","name":"Summer Collection 2020","picName":"E165"},
+							{"eventID":"165","name":"終日無夢者","picName":"E166"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"801802"}
@@ -925,7 +927,7 @@ var individualData = new Vue({
 							,
 							{"id":"306","eventID":"54","event":"天界的雙子 訣別的年代記","name":"虛幻世界的念想_普流姆‧諾瓦蘭","gender":"女","element":"雷光","elementSecond":"光","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"7303"}
 							,
-							{"id":"307","eventID":"54","event":"天界的雙子 訣別的年代記","name":"遊遍歷史的神獸_托托‧獏羅","gender":"多人","element":"雷雷","elementSecond":"雷","special":"刪去回答","specialSecond":"刪去回答","wikiNumber":"6292"}
+							{"id":"307","eventID":"54","event":"天界的雙子 訣別的年代記","name":"遊遍歷史的神獸_托托‧獏羅","gender":"男女","element":"雷雷","elementSecond":"雷","special":"刪去回答","specialSecond":"刪去回答","wikiNumber":"6292"}
 							,
 							{"id":"308","eventID":"55","event":"響命CrossDerive ACT3","name":"With_Brave_Heart_艾妮","gender":"女","element":"雷雷","elementSecond":"雷","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"11314"}
 							,
@@ -1799,7 +1801,7 @@ var individualData = new Vue({
 							,
 							{"id":"743","eventID":"136","event":"感謝祭2019","name":"這就是富含文化的生活夏娃‧貝茨","gender":"女","element":"雷闇","elementSecond":"闇","special":"蓄積解放大魔術‧邪(全體)","specialSecond":"蓄積解放大魔術‧邪(全體)","wikiNumber":"10156"}
 							,
-							{"id":"744","eventID":"136","event":"感謝祭2019","name":"應該閱讀的神獸托托‧獏羅","gender":"多人","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10162"}
+							{"id":"744","eventID":"136","event":"感謝祭2019","name":"應該閱讀的神獸托托‧獏羅","gender":"男女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"激化大魔術","wikiNumber":"10162"}
 							,
 							{"id":"745","eventID":"137","event":"4th anniversary","name":"晚宴的計策 迪特利希＆蘿葳","gender":"多人","element":"火水","elementSecond":"水","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"9952"}
 							,
@@ -2124,6 +2126,28 @@ var individualData = new Vue({
 							{"id":"905","eventID":"163","event":"Merry Christmas 2020","name":"夢幻雪地裡的天使 皮諾絲","gender":"女","element":"水闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"802124"}
 							,
 							{"id":"906","eventID":"163","event":"Merry Christmas 2020","name":"記性太好回憶太多 阿克斯土","gender":"男","element":"雷闇","elementSecond":"闇","special":"技能複製","specialSecond":"技能複製","wikiNumber":"802126"}
+							,
+							{"id":"907","eventID":"164","event":"Summer Collection 2020","name":"寶石時間 茜茜＆瑪琪亞","gender":"多人","element":"火火","elementSecond":"火","special":"弱化大魔術(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11638"}
+							,
+							{"id":"908","eventID":"164","event":"Summer Collection 2020","name":"傳說中的泳衣提督 蘿葳‧弗洛伊賽","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"11642"}
+							,
+							{"id":"909","eventID":"164","event":"Summer Collection 2020","name":"夏日艾尼格瑪 艾尼格瑪太陽花","gender":"女","element":"雷水","elementSecond":"水","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"11646"}
+							,
+							{"id":"910","eventID":"164","event":"Summer Collection 2020","name":"大冒險一夏 芙莉蕾‧吉福特","gender":"女","element":"水水","elementSecond":"水","special":"純屬性大魔術(全體)","specialSecond":"純屬性大魔術(全體)","wikiNumber":"11644"}
+							,
+							{"id":"911","eventID":"164","event":"Summer Collection 2020","name":"在八百八里海灘奔跑 美緒＆木葉","gender":"多人","element":"水火","elementSecond":"火","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11640"}
+							,
+							{"id":"912","eventID":"165","event":"終日無夢者","name":"兩人一起購物 傑拉德＆蔻比修","gender":"多人","element":"雷火","elementSecond":"火","special":"變換問題類型","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"11524"}
+							,
+							{"id":"913","eventID":"165","event":"終日無夢者","name":"該擦拭的窗戶就在那裡 雷吉","gender":"男","element":"雷火","elementSecond":"火","special":"鐵壁‧極","specialSecond":"鐵壁‧極","wikiNumber":"11518"}
+							,
+							{"id":"914","eventID":"165","event":"終日無夢者","name":"偶爾也會有這種事 拉吉特","gender":"男","element":"水水","elementSecond":"水","special":"蓄積解放大魔術‧邪(全體)","specialSecond":"蓄積解放大魔術‧邪(全體)","wikiNumber":"11515"}
+							,
+							{"id":"915","eventID":"165","event":"終日無夢者","name":"優雅小酌的賞月酒 瑠璃揚羽","gender":"女","element":"水水","elementSecond":"水","special":"弱化大魔術(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11512"}
+							,
+							{"id":"916","eventID":"165","event":"終日無夢者","name":"將手伸向顫抖的小貓 蜜莉","gender":"女","element":"火光","elementSecond":"光","special":"蓄積解放大魔術‧印(全體)","specialSecond":"蓄積解放大魔術‧印(全體)","wikiNumber":"11521"}
+							,
+							{"id":"917","eventID":"165","event":"終日無夢者","name":"出門前整理儀容 莉菲爾","gender":"女","element":"雷雷","elementSecond":"雷","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11509"}
 
 						],
 				"baseurl":"index.html",//相對路徑

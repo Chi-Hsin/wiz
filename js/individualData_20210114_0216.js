@@ -2,317 +2,285 @@ var individualData = new Vue({
             el: '#dataEventFairy',
 			data: {
 				"event":[//活動事件
-							{"eventID":"1","name":"阿爾克納與星之旅途Ⅱ 永戰之地","picName":"E1"}
+							{"name":"終日無夢者","eventID":"165","picName":"E166"}
 							,
-							{"eventID":"2","name":"八百八町妖怪捕物帳","picName":"E2"}
+							{"name":"AbyssCode08 落入星雲的淚珠","eventID":"114","picName":"E115"}
 							,
-							{"eventID":"3","name":"MARELESSⅡ 夢境與現實的夾縫","picName":"E3"}
+							{"name":"幻魔特區RELOADEDⅢ Final Assemble","eventID":"59","picName":"E60"}
 							,
-							{"eventID":"4","name":"MARELESS 夢境之蝶","picName":"E4"}
+							{"name":"Summer Collection 2020","eventID":"164","picName":"E165"},
+							{"name":"魔幻金夏趴2020 序曲","eventID":"126","picName":"E127"}
 							,
-							{"eventID":"5","name":"阿爾克納與星之旅途","picName":"E5"}
+							{"name":"神都匹卡雷斯克 黑貓的魔術師","eventID":"123","picName":"E124"}
 							,
-							{"eventID":"6","name":"再續‧超魔導列傳","picName":"E6"}
+							{"name":"Under Night Tale 童話戰爭","eventID":"127","picName":"E128"}
 							,
-							{"eventID":"7","name":"續.超魔導列傳","picName":"E7"}
+							{"name":"ARES THE VANGUARD","eventID":"128","picName":"E129"},
+							{"name":"黑貓維茲魔幻金夏趴2020 安可曲","eventID":"150","picName":"E151"}
 							,
-							{"eventID":"8","name":"超魔導列傳","picName":"E8"}
+							{"name":"MARELESSⅢ 夢境訣別","eventID":"151","picName":"E152"}
 							,
-							{"eventID":"9","name":"職‧超魔導列傳","picName":"E9"}
+							{"name":"女神的惡作劇之戰！ 光明與黑暗的亂七八糟萬聖節","eventID":"153","picName":"E154"}
 							,
-							{"eventID":"10","name":"The Iridescence of Soul 靈魂的虹彩","picName":"E10"}
+							{"name":"艾尼格瑪之花","eventID":"154","picName":"E155"}
 							,
-							{"eventID":"11","name":"The Luminescence of Soul 靈魂的微光","picName":"E11"}
+							{"name":"2020年感謝下載紀念","eventID":"155","picName":"E156"}
 							,
-							{"eventID":"12","name":"天上岬的調香師","picName":"E13"}
+							{"name":"FairyChord2 Chord Sharing","eventID":"156","picName":"E157"},
+							{"name":"Christmas stories 2020","eventID":"157","picName":"E158"},
+							{"name":"FairyChord Prelude","eventID":"24","picName":"E25"},
+							{"name":"SUGARLESS BAMBINA Ⅱ Slaughter Prison","eventID":"23","picName":"E24"}
 							,
-							{"eventID":"13","name":"天上岬～永恆的公主～","picName":"E14"}
+							{"name":"啵！神明大人_～北風精靈與炎之鳥～","eventID":"21","picName":"E22"}
 							,
-							{"eventID":"14","name":"歡迎光臨天上岬山麓咖啡廳！","picName":"E15"}
+							{"name":"歡迎光臨天上岬山麓咖啡廳！","eventID":"14","picName":"E15"}
 							,
-							{"eventID":"15","name":"雙翼的失落伊甸Ⅲ","picName":"E16"}
+							{"name":"職‧超魔導列傳","eventID":"9","picName":"E9"}
 							,
-							{"eventID":"16","name":"雙翼的失落伊甸Ⅱ WWMF","picName":"E17"}
+							{"name":"恭賀新禧2020","eventID":"129","picName":"E130"}
 							,
-							{"eventID":"17","name":"雙翼的失落伊甸","picName":"E18"}
+							{"name":"5th Anniversary","eventID":"130","picName":"E131"},
+							{"name":"FairyChord 妖精的和弦","eventID":"131","picName":"E132"}
 							,
-							{"eventID":"18","name":"歌頌永恆的克羅諾斯Ⅲ","picName":"E19"}
+							{"name":"響命CrossDerive ACT3","eventID":"55","picName":"E56"}
 							,
-							{"eventID":"19","name":"歌頌永恆的克羅諾斯Ⅱ","picName":"E20"}
+							{"name":"神明大人 ～土精靈與黑貓主人～","eventID":"122","picName":"E123"}
 							,
-							{"eventID":"20","name":"歌頌永恆的克羅諾斯","picName":"E21"}
+							{"name":"霸眼戰線 終戰之凜煌眼 -前篇","eventID":"43","picName":"E44"}
 							,
-							{"eventID":"21","name":"啵！神明大人_～北風精靈與炎之鳥～","picName":"E22"}
+							{"name":"感謝祭2020","eventID":"132","picName":"E133"}
 							,
-							{"eventID":"22","name":"SUGARLESS_BAMBINA","picName":"E23"},
-							{"eventID":"23","name":"SUGARLESS BAMBINA Ⅱ Slaughter Prison","picName":"E24"}
+							{"name":"Christmas2019","eventID":"133","picName":"E134"},
+							{"name":"暑假即將到來","eventID":"134","picName":"E135"}
 							,
-							{"eventID":"24","name":"FairyChord Prelude","picName":"E25"},
-							{"eventID":"25","name":"寄語冬夜的祈願者","picName":"E26"}
+							{"name":"太陽與月亮之國 喀姆吉納","eventID":"135","picName":"E136"}
 							,
-							{"eventID":"26","name":"寄語冬夜的祈願者Ⅱ_虛妄之地的追尋者","picName":"E27"}
+							{"name":"喰牙RIZE3 -Fang-O’-Blazer","eventID":"27","picName":"E28"}
 							,
-							{"eventID":"27","name":"喰牙RIZE3 -Fang-O’-Blazer","picName":"E28"}
+							{"name":"八百八町妖怪捕物帳","eventID":"2","picName":"E2"}
 							,
-							{"eventID":"28","name":"喰牙RIZE3-外傳- 冥道死門的極境者","picName":"E29"}
+							{"name":"Birth Of New Order2 大罪","eventID":"36","picName":"E37"}
 							,
-							{"eventID":"29","name":"喰牙RIZE2_-Tearing_Eyes","picName":"E30"}
+							{"name":"黑貓維茲 仲夏感謝季2019","eventID":"38","picName":"E39"}
 							,
-							{"eventID":"30","name":"喰牙RIZE","picName":"E31"}
+							{"name":"MARELESSⅡ 夢境與現實的夾縫","eventID":"3","picName":"E3"}
 							,
-							{"eventID":"31","name":"八百萬諸神祕聞4_沉眠京城的悠久之歌","picName":"E32"}
+							{"name":"霸眼戰線4 覺醒之王","eventID":"44","picName":"E45"}
 							,
-							{"eventID":"32","name":"YAOYORO_Z","picName":"E33"},
-							{"eventID":"33","name":"八百萬諸神祕聞2","picName":"E34"}
+							{"name":"神聖天空之星3","eventID":"50","picName":"E51"}
 							,
-							{"eventID":"34","name":"八百萬諸神祕聞","picName":"E35"}
+							{"name":"惡作劇女神與兔子的故事","eventID":"53","picName":"E54"}
 							,
-							{"eventID":"35","name":"豔夏濱海大騷動","picName":"E36"}
+							{"name":"幻魔特區RELOADEDⅡ -RE:unite","eventID":"60","picName":"E61"}
 							,
-							{"eventID":"36","name":"Birth Of New Order2 大罪","picName":"E37"}
+							{"name":"空戰的修瓦爾茲","eventID":"65","picName":"E66"}
 							,
-							{"eventID":"37","name":"Birth Of New Order","picName":"E38"},
-							{"eventID":"38","name":"黑貓維茲 仲夏感謝季2019","picName":"E39"}
+							{"name":"感謝祭2019","eventID":"136","picName":"E137"}
 							,
-							{"eventID":"39","name":"黃昏無夢者Ⅳ 黃昏mareless","picName":"E40"}
+							{"name":"黃昏無夢者Ⅳ 黃昏mareless","eventID":"39","picName":"E40"}
 							,
-							{"eventID":"40","name":"黃昏無夢者Ⅲ_絡園loreless","picName":"E41"}
+							{"name":"Birth Of New Order","eventID":"37","picName":"E38"},
+							{"name":"4th anniversary","eventID":"137","picName":"E138"},
+							{"name":"沉睡的遺跡 Outlander","eventID":"58","picName":"E59"}
 							,
-							{"eventID":"41","name":"黃昏無夢者Ⅱ 殘響dearless","picName":"E42"}
+							{"name":"恭賀新禧2019","eventID":"138","picName":"E139"}
 							,
-							{"eventID":"42","name":"黃昏無夢者","picName":"E43"}
+							{"name":"給夏日綻放的你","eventID":"87","picName":"E88"}
 							,
-							{"eventID":"43","name":"霸眼戰線 終戰之凜煌眼 -前篇","picName":"E44"}
+							{"name":"偶像ω喵！！","eventID":"72","picName":"E73"}
 							,
-							{"eventID":"44","name":"霸眼戰線4 覺醒之王","picName":"E45"}
+							{"name":"淡薄的藍色光芒 最終章 終極聖祈","eventID":"74","picName":"E75"}
 							,
-							{"eventID":"45","name":"霸眼戰線3 聖劍與霸眼","picName":"E46"}
+							{"name":"神聖天空之星2","eventID":"51","picName":"E52"}
 							,
-							{"eventID":"46","name":"霸眼戰線2 起始之眼","picName":"E47"}
+							{"name":"SUGARLESS_BAMBINA","eventID":"22","picName":"E23"},
+							{"name":"秋末迎冬感謝祭","eventID":"139","picName":"E140"}
 							,
-							{"eventID":"47","name":"霸眼戰線","picName":"E48"}
+							{"name":"再續‧超魔導列傳","eventID":"6","picName":"E6"}
 							,
-							{"eventID":"48","name":"神都匹卡雷斯克&機械與少女Ⅱ","picName":"E49"}
+							{"name":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","eventID":"82","picName":"E83"}
 							,
-							{"eventID":"49","name":"庫耶斯式拍拖約會","picName":"E50"}
+							{"name":"雙翼的失落伊甸Ⅲ","eventID":"15","picName":"E16"}
 							,
-							{"eventID":"50","name":"神聖天空之星3","picName":"E51"}
+							{"name":"AbyssCode07 寂寞的境界","eventID":"85","picName":"E86"}
 							,
-							{"eventID":"51","name":"神聖天空之星2","picName":"E52"}
+							{"name":"幻魔特區RELOADED -GardeniA dist.","eventID":"61","picName":"E62"}
 							,
-							{"eventID":"52","name":"神聖天空之星","picName":"E53"}
+							{"name":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","eventID":"66","picName":"E67"}
 							,
-							{"eventID":"53","name":"惡作劇女神與兔子的故事","picName":"E54"}
+							{"name":"喰牙RIZE2_-Tearing_Eyes","eventID":"29","picName":"E30"}
 							,
-							{"eventID":"54","name":"天界的雙子 訣別的年代記","picName":"E55"}
+							{"name":"仲夏感謝季2018","eventID":"140","picName":"E141"}
 							,
-							{"eventID":"55","name":"響命CrossDerive ACT3","picName":"E56"}
+							{"name":"聖惡魔女子學院2","eventID":"91","picName":"E92"}
 							,
-							{"eventID":"56","name":"響命CrossDerive ACT2","picName":"E57"}
+							{"name":"響命CrossDerive ACT2","eventID":"56","picName":"E57"}
 							,
-							{"eventID":"57","name":"響命CrossDerive","picName":"E58"}
+							{"name":"歌頌永恆的克羅諾斯Ⅲ","eventID":"18","picName":"E19"}
 							,
-							{"eventID":"58","name":"沉睡的遺跡 Outlander","picName":"E59"}
+							{"name":"黃昏無夢者Ⅲ_絡園loreless","eventID":"40","picName":"E41"}
 							,
-							{"eventID":"59","name":"幻魔特區RELOADEDⅢ Final Assemble","picName":"E60"}
+							{"name":"八百萬諸神祕聞4_沉眠京城的悠久之歌","eventID":"31","picName":"E32"}
 							,
-							{"eventID":"60","name":"幻魔特區RELOADEDⅡ -RE:unite","picName":"E61"}
+							{"name":"偶像ω喵！前&後篇","eventID":"73","picName":"E74"}
 							,
-							{"eventID":"61","name":"幻魔特區RELOADED -GardeniA dist.","picName":"E62"}
+							{"name":"喰牙RIZE","eventID":"30","picName":"E31"}
 							,
-							{"eventID":"62","name":"幻魔特區朱雀Ⅲ 幻夢之光","picName":"E63"}
+							{"name":"響命CrossDerive","eventID":"57","picName":"E58"}
 							,
-							{"eventID":"63","name":"幻魔特區朱雀Ⅱ 鋼鐵之槍","picName":"E64"}
+							{"name":"丁酉年末感謝季2018","eventID":"141","picName":"E142"}
 							,
-							{"eventID":"64","name":"幻魔特區朱雀","picName":"E65"}
+							{"name":"新說 桃娘傳 妖爺合戰誓助劍","eventID":"83","picName":"E84"}
 							,
-							{"eventID":"65","name":"空戰的修瓦爾茲","picName":"E66"}
+							{"name":"魔轟三鐵傑 對 地獄三十六歌仙","eventID":"95","picName":"E96"}
 							,
-							{"eventID":"66","name":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","picName":"E67"}
+							{"name":"霸眼戰線3 聖劍與霸眼","eventID":"45","picName":"E46"}
 							,
-							{"eventID":"67","name":"空戰的德爾基馬斯Ⅱ 昏暗英雄","picName":"E68"}
+							{"name":"霸眼戰線2 起始之眼","eventID":"46","picName":"E47"}
 							,
-							{"eventID":"68","name":"空戰的德爾基馬斯","picName":"E69"}
+							{"name":"霸眼戰線","eventID":"47","picName":"E48"}
 							,
-							{"eventID":"69","name":"虛實難辨的假面宴會","picName":"E70"}
+							{"name":"黃昏無夢者Ⅱ 殘響dearless","eventID":"41","picName":"E42"}
 							,
-							{"eventID":"70","name":"《沙灘上的冰果宴》","picName":"E71"}
+							{"name":"黃昏無夢者","eventID":"42","picName":"E43"}
 							,
-							{"eventID":"71","name":"神祕委託‧寒冰之巔的考驗","picName":"E72"}
+							{"name":"雙翼的失落伊甸Ⅱ WWMF","eventID":"16","picName":"E17"}
 							,
-							{"eventID":"72","name":"偶像ω喵！！","picName":"E73"}
+							{"name":"雙翼的失落伊甸","eventID":"17","picName":"E18"}
 							,
-							{"eventID":"73","name":"偶像ω喵！前&後篇","picName":"E74"}
+							{"name":"YAOYORO_Z","eventID":"32","picName":"E33"},
+							{"name":"八百萬諸神祕聞2","eventID":"33","picName":"E34"}
 							,
-							{"eventID":"74","name":"淡薄的藍色光芒 最終章 終極聖祈","picName":"E75"}
+							{"name":"八百萬諸神祕聞","eventID":"34","picName":"E35"}
 							,
-							{"eventID":"75","name":"淡薄的藍色光芒 第二章 虛幻聖域","picName":"E76"}
+							{"name":"續.超魔導列傳","eventID":"7","picName":"E7"}
 							,
-							{"eventID":"76","name":"淡薄的藍色光芒 第一章 皇帝與劍","picName":"E77"}
+							{"name":"超魔導列傳","eventID":"8","picName":"E8"}
 							,
-							{"eventID":"77","name":"智慧的意義","picName":"E78"}
+							{"name":"空戰的德爾基馬斯Ⅱ 昏暗英雄","eventID":"67","picName":"E68"}
 							,
-							{"eventID":"78","name":"片翼天使的轉世約定","picName":"E79"}
+							{"name":"空戰的德爾基馬斯","eventID":"68","picName":"E69"}
 							,
-							{"eventID":"79","name":"炎夏的海灘風情！","picName":"E80"}
+							{"name":"神聖天空之星","eventID":"52","picName":"E53"}
 							,
-							{"eventID":"80","name":"七夕夜‧煙花燦爛","picName":"E81"}
+							{"name":"心龍天翔 Rising Dragon","eventID":"98","picName":"E99"}
 							,
-							{"eventID":"81","name":"《靈界魔女：危險紳士之章》","picName":"E82"}
+							{"name":"神龍降臨Ⅱ","eventID":"142","picName":"E143"}
 							,
-							{"eventID":"82","name":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","picName":"E83"}
+							{"name":"追憶的閃耀光輝","eventID":"100","picName":"E101"}
 							,
-							{"eventID":"83","name":"新說 桃娘傳 妖爺合戰誓助劍","picName":"E84"}
+							{"name":"聖惡魔女子學院","eventID":"92","picName":"E93"}
 							,
-							{"eventID":"84","name":"桃娘傳","picName":"E85"}
+							{"name":"庫洛姆‧麥格納 零","eventID":"108","picName":"E109"}
 							,
-							{"eventID":"85","name":"AbyssCode07 寂寞的境界","picName":"E86"}
+							{"name":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","eventID":"109","picName":"E110"}
 							,
-							{"eventID":"86","name":"《裝神弄鬼》","picName":"E87"}
+							{"name":"庫洛姆‧麥格納Ⅳ單戀☆狂想曲","eventID":"110","picName":"E111"}
 							,
-							{"eventID":"87","name":"給夏日綻放的你","picName":"E88"}
+							{"name":"庫洛姆‧麥格納Ⅲ臨海學校","eventID":"111","picName":"E112"}
 							,
-							{"eventID":"88","name":"《沉眠之血2》幼龍的鳴嘶","picName":"E89"}
+							{"name":"幻魔特區朱雀Ⅲ 幻夢之光","eventID":"62","picName":"E63"}
 							,
-							{"eventID":"89","name":"《沉眠之血》—焚焰的國度","picName":"E90"}
+							{"name":"幻魔特區朱雀Ⅱ 鋼鐵之槍","eventID":"63","picName":"E64"}
 							,
-							{"eventID":"90","name":"冰雪薔薇的黑影","picName":"E91"}
+							{"name":"幻魔特區朱雀","eventID":"64","picName":"E65"}
 							,
-							{"eventID":"91","name":"聖惡魔女子學院2","picName":"E92"}
+							{"name":"歌頌永恆的克羅諾斯Ⅱ","eventID":"19","picName":"E20"}
 							,
-							{"eventID":"92","name":"聖惡魔女子學院","picName":"E93"}
+							{"name":"天上岬的調香師","eventID":"12","picName":"E13"}
 							,
-							{"eventID":"93","name":"拉鍊裡的無盡黑霧","picName":"E94"}
+							{"name":"天上岬～永恆的公主～","eventID":"13","picName":"E14"}
 							,
-							{"eventID":"94","name":"《聖誕情侶決定戰》","picName":"E95"}
+							{"name":"天界的雙子 訣別的年代記","eventID":"54","picName":"E55"}
 							,
-							{"eventID":"95","name":"魔轟三鐵傑 對 地獄三十六歌仙","picName":"E96"}
+							{"name":"古代森林的千年櫻花","eventID":"143","picName":"E144"}
 							,
-							{"eventID":"96","name":"黑夜中的甜點大盜","picName":"E97"}
+							{"name":"AbyssCode06 劫末之獸","eventID":"102","picName":"E103"}
 							,
-							{"eventID":"97","name":"武鬥之巔‧寒冰嶺上的召集令","picName":"E98"}
+							{"name":"AbyssCode05 冥世的天蓋","eventID":"115","picName":"E116"}
 							,
-							{"eventID":"98","name":"心龍天翔 Rising Dragon","picName":"E99"}
+							{"name":"AbyssCode04 燃燒殆盡的陽光","eventID":"116","picName":"E117"}
 							,
-							{"eventID":"99","name":"來自異界的天使","picName":"E100"}
+							{"name":"AbyssCode03 生而墮於虛無","eventID":"117","picName":"E118"}
 							,
-							{"eventID":"100","name":"追憶的閃耀光輝","picName":"E101"}
+							{"name":"AbyssCode02 盲目的調和","eventID":"118","picName":"E119"}
 							,
-							{"eventID":"101","name":"被封印的舞台劇目","picName":"E102"}
+							{"name":"AbyssCode01 黑殼之王","eventID":"119","picName":"E120"}
 							,
-							{"eventID":"102","name":"AbyssCode06 劫末之獸","picName":"E103"}
+							{"name":"Tempest Blader","eventID":"106","picName":"E107"},
+							{"name":"Heretic Blader","eventID":"105","picName":"E106"},
+							{"name":"Divine Blader","eventID":"107","picName":"E108"},
+							{"name":"Demons Blader","eventID":"104","picName":"E105"},
+							{"name":"鬼月限定2017","eventID":"144","picName":"E145"}
 							,
-							{"eventID":"103","name":"巧克力森林","picName":"E104"}
+							{"name":"情人紀念2017","eventID":"145","picName":"E146"}
 							,
-							{"eventID":"104","name":"Demons Blader","picName":"E105"},
-							{"eventID":"105","name":"Heretic Blader","picName":"E106"},
-							{"eventID":"106","name":"Tempest Blader","picName":"E107"},
-							{"eventID":"107","name":"Divine Blader","picName":"E108"},
-							{"eventID":"108","name":"庫洛姆‧麥格納 零","picName":"E109"}
+							{"name":"來自異界的天使","eventID":"99","picName":"E100"}
 							,
-							{"eventID":"109","name":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","picName":"E110"}
+							{"name":"黑夜中的甜點大盜","eventID":"96","picName":"E97"}
 							,
-							{"eventID":"110","name":"庫洛姆‧麥格納Ⅳ單戀☆狂想曲","picName":"E111"}
+							{"name":"跑錯地方的聖誕驚喜","eventID":"146","picName":"E147"}
 							,
-							{"eventID":"111","name":"庫洛姆‧麥格納Ⅲ臨海學校","picName":"E112"}
+							{"name":"初夏的魔法使慶典","eventID":"147","picName":"E148"}
 							,
-							{"eventID":"112","name":"庫洛姆‧麥格納Ⅱ學園祭","picName":"E113"}
+							{"name":"被封印的舞台劇目","eventID":"101","picName":"E102"}
 							,
-							{"eventID":"113","name":"庫洛姆‧麥格納Ⅰ魔導學園","picName":"E114"}
+							{"name":"神祕委託‧寒冰之巔的考驗","eventID":"71","picName":"E72"}
 							,
-							{"eventID":"114","name":"AbyssCode08 落入星雲的淚珠","picName":"E115"}
+							{"name":"武鬥之巔‧寒冰嶺上的召集令","eventID":"97","picName":"E98"}
 							,
-							{"eventID":"115","name":"AbyssCode05 冥世的天蓋","picName":"E116"}
+							{"name":"七夕夜‧煙花燦爛","eventID":"80","picName":"E81"}
 							,
-							{"eventID":"116","name":"AbyssCode04 燃燒殆盡的陽光","picName":"E117"}
+							{"name":"炎夏的海灘風情！","eventID":"79","picName":"E80"}
 							,
-							{"eventID":"117","name":"AbyssCode03 生而墮於虛無","picName":"E118"}
+							{"name":"雞茲限定  感謝祭2017","eventID":"148","picName":"E149"}
 							,
-							{"eventID":"118","name":"AbyssCode02 盲目的調和","picName":"E119"}
+							{"name":"Holloween night2017","eventID":"149","picName":"E150"},
+							{"name":"片翼天使的轉世約定","eventID":"78","picName":"E79"}
 							,
-							{"eventID":"119","name":"AbyssCode01 黑殼之王","picName":"E120"}
+							{"name":"《聖誕情侶決定戰》","eventID":"94","picName":"E95"}
 							,
-							{"eventID":"120","name":"金貓盃繁中人氣王 前半","picName":"E121"}
+							{"name":"虛實難辨的假面宴會","eventID":"69","picName":"E70"}
 							,
-							{"eventID":"121","name":"金貓盃繁中人氣王 後半","picName":"E122"}
+							{"name":"冰雪薔薇的黑影","eventID":"90","picName":"E91"}
 							,
-							{"eventID":"122","name":"神明大人 ～土精靈與黑貓主人～","picName":"E123"}
+							{"name":"《沉眠之血2》幼龍的鳴嘶","eventID":"88","picName":"E89"}
 							,
-							{"eventID":"123","name":"神都匹卡雷斯克 黑貓的魔術師","picName":"E124"}
+							{"name":"《沉眠之血》—焚焰的國度","eventID":"89","picName":"E90"}
 							,
-							{"eventID":"124","name":"年之運行","picName":"E125"}
+							{"name":"《沙灘上的冰果宴》","eventID":"70","picName":"E71"}
 							,
-							{"eventID":"125","name":"風暴卡里昂──風暴中心的少女","picName":"E126"}
+							{"name":"《裝神弄鬼》","eventID":"86","picName":"E87"}
 							,
-							{"eventID":"126","name":"魔幻金夏趴2020 序曲","picName":"E127"}
+							{"name":"《靈界魔女：危險紳士之章》","eventID":"81","picName":"E82"}
 							,
-							{"eventID":"127","name":"Under Night Tale 童話戰爭","picName":"E128"}
+							{"name":"寄語冬夜的祈願者","eventID":"25","picName":"E26"}
 							,
-							{"eventID":"128","name":"ARES THE VANGUARD","picName":"E129"},
-							{"eventID":"129","name":"恭賀新禧2020","picName":"E130"}
+							{"name":"阿爾克納與星之旅途","eventID":"5","picName":"E5"}
 							,
-							{"eventID":"130","name":"5th Anniversary","picName":"E131"},
-							{"eventID":"131","name":"FairyChord 妖精的和弦","picName":"E132"}
+							{"name":"The Luminescence of Soul 靈魂的微光","eventID":"11","picName":"E11"}
 							,
-							{"eventID":"132","name":"感謝祭2020","picName":"E133"}
+							{"name":"The Iridescence of Soul 靈魂的虹彩","eventID":"10","picName":"E10"}
 							,
-							{"eventID":"133","name":"Christmas2019","picName":"E134"},
-							{"eventID":"134","name":"暑假即將到來","picName":"E135"}
+							{"name":"庫耶斯式拍拖約會","eventID":"49","picName":"E50"}
 							,
-							{"eventID":"135","name":"太陽與月亮之國 喀姆吉納","picName":"E136"}
+							{"name":"豔夏濱海大騷動","eventID":"35","picName":"E36"}
 							,
-							{"eventID":"136","name":"感謝祭2019","picName":"E137"}
+							{"name":"寄語冬夜的祈願者Ⅱ_虛妄之地的追尋者","eventID":"26","picName":"E27"}
 							,
-							{"eventID":"137","name":"4th anniversary","picName":"E138"},
-							{"eventID":"138","name":"恭賀新禧2019","picName":"E139"}
+							{"name":"阿爾克納與星之旅途Ⅱ 永戰之地","eventID":"1","picName":"E1"}
 							,
-							{"eventID":"139","name":"秋末迎冬感謝祭","picName":"E140"}
+							{"name":"年之運行","eventID":"124","picName":"E125"}
 							,
-							{"eventID":"140","name":"仲夏感謝季2018","picName":"E141"}
+							{"name":"金貓盃繁中人氣王 前半","eventID":"120","picName":"E121"}
 							,
-							{"eventID":"141","name":"丁酉年末感謝季2018","picName":"E142"}
+							{"name":"金貓盃繁中人氣王 後半","eventID":"121","picName":"E122"}
 							,
-							{"eventID":"142","name":"神龍降臨Ⅱ","picName":"E143"}
+							{"name":"風暴卡里昂──風暴中心的少女","eventID":"125","picName":"E126"}
 							,
-							{"eventID":"143","name":"古代森林的千年櫻花","picName":"E144"}
+							{"name":"迷幻泛神祭","eventID":"152","picName":"E153"}
 							,
-							{"eventID":"144","name":"鬼月限定2017","picName":"E145"}
-							,
-							{"eventID":"145","name":"情人紀念2017","picName":"E146"}
-							,
-							{"eventID":"146","name":"跑錯地方的聖誕驚喜","picName":"E147"}
-							,
-							{"eventID":"147","name":"初夏的魔法使慶典","picName":"E148"}
-							,
-							{"eventID":"148","name":"雞茲限定  感謝祭2017","picName":"E149"}
-							,
-							{"eventID":"149","name":"Holloween night2017","picName":"E150"},
-							{"eventID":"150","name":"黑貓維茲魔幻金夏趴2020 安可曲","picName":"E151"}
-							,
-							{"eventID":"151","name":"MARELESSⅢ 夢境訣別","picName":"E152"}
-							,
-							{"eventID":"152","name":"迷幻泛神祭","picName":"E153"}
-							,
-							{"eventID":"153","name":"女神的惡作劇之戰！ 光明與黑暗的亂七八糟萬聖節","picName":"E154"}
-							,
-							{"eventID":"154","name":"艾尼格瑪之花","picName":"E155"}
-							,
-							{"eventID":"155","name":"2020年感謝下載紀念","picName":"E156"}
-							,
-							{"eventID":"156","name":"FairyChord2 Chord Sharing","picName":"E157"},
-							{"eventID":"157","name":"Christmas stories 2020","picName":"E158"},
-							{"eventID":"158","name":"神樹戀歌：風暴卡里昂II──風暴的起源","picName":"E159"}
-							,
-							{"eventID":"159","name":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","picName":"E160"}
-							,
-							{"eventID":"160","name":"阿爾克納與星之旅途III 失落秘儀","picName":"E161"}
-							,
-							{"eventID":"161","name":"Birth Of New Order3","picName":"E162"},
-							{"eventID":"162","name":"恭賀新禧2021","picName":"E163"}
-							,
-							{"eventID":"163","name":"Merry Christmas 2020","picName":"E164"},
-							{"eventID":"164","name":"Summer Collection 2020","picName":"E165"},
-							{"eventID":"165","name":"終日無夢者","picName":"E166"}
+							{"name":"神樹戀歌：風暴卡里昂II──風暴的起源","eventID":"158","picName":"E159"}
 						],
 				"fairy":[//角色資料
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"801802"}
@@ -350,12 +318,6 @@ var individualData = new Vue({
 							{"id":"17","eventID":"3","event":"MARELESSⅡ 夢境與現實的夾縫","name":"求夢妖精的化身 阿浮利德","gender":"男","element":"水闇","elementSecond":"闇","special":"產生連結問題類型","specialSecond":"強化傷害(自身)","wikiNumber":"10508"}
 							,
 							{"id":"18","eventID":"3","event":"MARELESSⅡ 夢境與現實的夾縫","name":"為了主人的夢想 露西尼雅‧雷梅蒂","gender":"女","element":"火","elementSecond":"火","special":"問題類型爆破大魔術","specialSecond":"問題類型爆破大魔術","wikiNumber":"10514"}
-							,
-							{"id":"19","eventID":"4","event":"MARELESS 夢境之蝶","name":"飲魔之闇 諾庫斯‧瓦尼塔斯","gender":"男","element":"雷闇","elementSecond":"闇","special":"融合大魔術(單體)","specialSecond":"融合大魔術(單體)","wikiNumber":"10118"}
-							,
-							{"id":"20","eventID":"4","event":"MARELESS 夢境之蝶","name":"繼承遺志的魔匠師 愛琳‧葉茨","gender":"女","element":"水光","elementSecond":"光","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"10115"}
-							,
-							{"id":"21","eventID":"4","event":"MARELESS 夢境之蝶","name":"消除惡夢者 蘿莎莉亞‧哈特","gender":"女","element":"火","elementSecond":"火","special":"特效大魔術(全體)","specialSecond":"特效大魔術(全體)","wikiNumber":"10112"}
 							,
 							{"id":"22","eventID":"5","event":"阿爾克納與星之旅途","name":"以柔克剛的力量 絲炟爾·瓊","gender":"女","element":"雷闇","elementSecond":"闇","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801573"}
 							,
@@ -539,18 +501,6 @@ var individualData = new Vue({
 							,
 							{"id":"112","eventID":"19","event":"歌頌永恆的克羅諾斯Ⅱ","name":"刻下司神_席琳‧伊凡斯","gender":"女","element":"雷雷","elementSecond":"雷","special":"防禦","specialSecond":"防禦","wikiNumber":"8709"}
 							,
-							{"id":"113","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"前刻蒼神_伊蕾娜‧芙莉愛兒","gender":"女","element":"水水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"8704"}
-							,
-							{"id":"114","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"悠之照神_史黛西‧瑪丘里","gender":"女","element":"火火","elementSecond":"火","special":"變換問題類型","specialSecond":"特殊變換問題類型【連鎖數增加＆強化傷害】","wikiNumber":"8703"}
-							,
-							{"id":"115","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"刻下光神_席琳‧伊凡斯","gender":"女","element":"雷光","elementSecond":"光","special":"變換問題類型","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"8702"}
-							,
-							{"id":"116","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"時海冒險者_蒂‧李伏利斯","gender":"女","element":"水火","elementSecond":"火","special":"防禦","specialSecond":"防禦","wikiNumber":"8701"}
-							,
-							{"id":"117","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"時海航海者_達姆‧李伏利斯","gender":"女","element":"火水","elementSecond":"水","special":"變換問題類型","specialSecond":"變換問題類型","wikiNumber":"8700"}
-							,
-							{"id":"118","eventID":"20","event":"歌頌永恆的克羅諾斯","name":"星霜的詠人_愛麗絲‧史都華","gender":"女","element":"雷火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"8699"}
-							,
 							{"id":"119","eventID":"21","event":"啵！神明大人_～北風精靈與炎之鳥～","name":"冬季天空的光輝_卡奴耶‧德‧亞克","gender":"女","element":"火火","elementSecond":"火","special":"物理反擊（充填）","specialSecond":"物理反擊（充填）","wikiNumber":"11441"}
 							,
 							{"id":"120","eventID":"21","event":"啵！神明大人_～北風精靈與炎之鳥～","name":"飄洋過海的羽翼_梨莎‧洛特蘭達","gender":"女","element":"水水","elementSecond":"水","special":"AS特殊變化","specialSecond":"AS特殊變化","wikiNumber":"11442"}
@@ -620,12 +570,6 @@ var individualData = new Vue({
 							{"id":"152","eventID":"27","event":"喰牙RIZE3 -Fang-O’-Blazer","name":"冥搜魔葬者_孚盧克‧拉","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧破(全體)","specialSecond":"蓄積解放大魔術‧破(全體)","wikiNumber":"10773"}
 							,
 							{"id":"153","eventID":"27","event":"喰牙RIZE3 -Fang-O’-Blazer","name":"驅魔聖言_尤維爾＆艾絲皮納","gender":"多人","element":"雷光","elementSecond":"光","special":"AS特殊變化","specialSecond":"AS特殊變化","wikiNumber":"10776"}
-							,
-							{"id":"154","eventID":"28","event":"喰牙RIZE3-外傳- 冥道死門的極境者","name":"亡魂戰神公主_希露蒂‧雷路爾","gender":"女","element":"水雷","elementSecond":"雷","special":"技能充填(相鄰)","specialSecond":"技能充填(相鄰)","wikiNumber":"10803"}
-							,
-							{"id":"155","eventID":"28","event":"喰牙RIZE3-外傳- 冥道死門的極境者","name":"虛幻與蛇謀的魔神_艾拉‧納爾維","gender":"女","element":"火火","elementSecond":"火","special":"捕食大魔術(單體)","specialSecond":"捕食大魔術(單體)","wikiNumber":"10806"}
-							,
-							{"id":"156","eventID":"28","event":"喰牙RIZE3-外傳- 冥道死門的極境者","name":"冥道死門的極境者_席德‧哈洛克","gender":"男","element":"雷闇","elementSecond":"闇","special":"大魔術(單體)","specialSecond":"大魔術(單體)","wikiNumber":"10809"}
 							,
 							{"id":"157","eventID":"29","event":"喰牙RIZE2_-Tearing_Eyes","name":"雙牙剛炎_雷迪厄斯‧利維斯","gender":"男","element":"火火","elementSecond":"火","special":"一閃斬擊大魔術","specialSecond":"一閃斬擊大魔術","wikiNumber":"8983"}
 							,
@@ -852,18 +796,6 @@ var individualData = new Vue({
 							{"id":"268","eventID":"47","event":"霸眼戰線","name":"煌炎的白銀狐_嘉露蒂海菈‧亞爾巴","gender":"女","element":"火火","elementSecond":"火","special":"持續回復","specialSecond":"強化傷害(自身)","wikiNumber":"10494"}
 							,
 							{"id":"269","eventID":"47","event":"霸眼戰線","name":"迅雷的煌絕劍_雅瑪佳德‧姬石榴","gender":"女","element":"雷水","elementSecond":"水","special":"回復","specialSecond":"回復異常狀態","wikiNumber":"10495"}
-							,
-							{"id":"270","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"白貌之獸 埃雅露姆‧阿多拉","gender":"女","element":"火雷","elementSecond":"雷","special":"詠唱大魔術","specialSecond":"詠唱大魔術","wikiNumber":"10645"}
-							,
-							{"id":"271","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"悲哀的機巧兵 菲歐爾‧德雷曼","gender":"女","element":"水光","elementSecond":"光","special":"AS特殊變化","specialSecond":"AS特殊變化","wikiNumber":"10648"}
-							,
-							{"id":"272","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"戰場的夢想家 歐魯特斯‧邦特","gender":"男","element":"雷火","elementSecond":"火","special":"強化複屬性傷害","specialSecond":"提昇(全體)","wikiNumber":"10642"}
-							,
-							{"id":"273","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"復仇的女義賊 桃花","gender":"女","element":"火火","elementSecond":"火","special":"變換問題類型","specialSecond":"純屬性變換問題類型【技能充填】","wikiNumber":"11662"}
-							,
-							{"id":"274","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"偷竊的美學 迦斯帕‧阿爾尼克","gender":"男","element":"水水","elementSecond":"水","special":"賦予雙重技能(全體)","specialSecond":"賦予雙重技能(全體)","wikiNumber":"11661"}
-							,
-							{"id":"275","eventID":"48","event":"神都匹卡雷斯克&機械與少女Ⅱ","name":"偷到的人就贏 凱涅斯‧哈瓦","gender":"男","element":"雷雷","elementSecond":"雷","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"11660"}
 							,
 							{"id":"276","eventID":"49","event":"庫耶斯式拍拖約會","name":"簡單的戀愛_奧菲莉亞","gender":"女","element":"水光","elementSecond":"光","special":"變換問題類型","specialSecond":"統一變換問題類型【強化傷害】","wikiNumber":"801650"}
 							,
@@ -1171,22 +1103,6 @@ var individualData = new Vue({
 							,
 							{"id":"428","eventID":"74","event":"淡薄的藍色光芒 最終章 終極聖祈","name":"終極聖祈_莎倫＆西奧多","gender":"多人","element":"水火","elementSecond":"火","special":"大魔術(全體)","specialSecond":"強化複屬性傷害","wikiNumber":"9594"}
 							,
-							{"id":"429","eventID":"75","event":"淡薄的藍色光芒 第二章 虛幻聖域","name":"包容皇界的慈愛_莎倫‧耶爾格","gender":"女","element":"水光","elementSecond":"光","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"9588"}
-							,
-							{"id":"430","eventID":"75","event":"淡薄的藍色光芒 第二章 虛幻聖域","name":"蒼翼破斷皇零劍_西奧多‧薩扎","gender":"男","element":"水水","elementSecond":"水","special":"殘滅大魔術","specialSecond":"殘滅大魔術","wikiNumber":"9589"}
-							,
-							{"id":"431","eventID":"76","event":"淡薄的藍色光芒 第一章 皇帝與劍","name":"現在開花的世界_莎倫‧耶爾格","gender":"女","element":"雷光","elementSecond":"光","special":"物理反擊","specialSecond":"物理反擊","wikiNumber":"9587"}
-							,
-							{"id":"432","eventID":"77","event":"智慧的意義","name":"飛花熒煌綴明鮮_夏孟","gender":"女","element":"火雷","elementSecond":"雷","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"801495"}
-							,
-							{"id":"433","eventID":"77","event":"智慧的意義","name":"埋首莘莘萬卷中_秋辛","gender":"男","element":"雷水","elementSecond":"水","special":"強化精靈【持續回復＆減輕傷害＆強化傷害】","specialSecond":"強化精靈【持續回復＆減輕傷害＆強化傷害】","wikiNumber":"801497"}
-							,
-							{"id":"434","eventID":"77","event":"智慧的意義","name":"狐裘髮鬢覆霜雪_冬禹","gender":"女","element":"水火","elementSecond":"火","special":"時限大魔術","specialSecond":"時限大魔術","wikiNumber":"801499"}
-							,
-							{"id":"435","eventID":"77","event":"智慧的意義","name":"明月星輝忘返_愛絲翠雅","gender":"女","element":"水水","elementSecond":"水","special":"防禦連鎖","specialSecond":"防禦連鎖","wikiNumber":"801501"}
-							,
-							{"id":"436","eventID":"77","event":"智慧的意義","name":"連結星星的恆等式_裘浩斯","gender":"男","element":"雷雷","elementSecond":"雷","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"801507"}
-							,
 							{"id":"437","eventID":"78","event":"片翼天使的轉世約定","name":"誓約兩世不悔的羈絆_瞬&陽","gender":"多人","element":"水雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801279"}
 							,
 							{"id":"438","eventID":"78","event":"片翼天使的轉世約定","name":"月下的命運編織者_珂珂","gender":"女","element":"水闇","elementSecond":"闇","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"801280"}
@@ -1266,12 +1182,6 @@ var individualData = new Vue({
 							{"id":"475","eventID":"83","event":"新說 桃娘傳 妖爺合戰誓助劍","name":"遭遇外世界_Y.U.N.A","gender":"女","element":"雷雷","elementSecond":"雷","special":"自我犧牲魔術(單體)","specialSecond":"自我犧牲魔術(單體)","wikiNumber":"9809"}
 							,
 							{"id":"476","eventID":"83","event":"新說 桃娘傳 妖爺合戰誓助劍","name":"正牌溫泉桃娘傳","gender":"女","element":"水水","elementSecond":"水","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"9810"}
-							,
-							{"id":"477","eventID":"84","event":"桃娘傳","name":"桃娘傳_李太郎‧普露姆","gender":"女","element":"火火","elementSecond":"火","special":"比例削減(單體)","specialSecond":"比例削減(單體)","wikiNumber":"7841"}
-							,
-							{"id":"478","eventID":"84","event":"桃娘傳","name":"清朗的天雷鬼神_米蕾‧凱拉姆","gender":"女","element":"雷雷","elementSecond":"雷","special":"延遲(全體)","specialSecond":"延遲大魔術(全體)","wikiNumber":"7842"}
-							,
-							{"id":"479","eventID":"84","event":"桃娘傳","name":"勇猛的天風鬼神_風華‧凱拉姆","gender":"女","element":"水水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"7843"}
 							,
 							{"id":"480","eventID":"85","event":"AbyssCode07 寂寞的境界","name":"AbCd-Φφ：《閉鎖深淵_史托路》","gender":"男","element":"火闇","elementSecond":"闇","special":"行動感應","specialSecond":"行動感應","wikiNumber":"11841"}
 							,
@@ -1354,40 +1264,6 @@ var individualData = new Vue({
 							{"id":"519","eventID":"92","event":"聖惡魔女子學院","name":"深血黃昏_克魯斯‧德拉古","gender":"男","element":"雷雷","elementSecond":"雷","special":"斬擊大魔術","specialSecond":"斬擊大魔術","wikiNumber":"8894"}
 							,
 							{"id":"520","eventID":"92","event":"聖惡魔女子學院","name":"虹色的縱橫家_卡娜美‧巴巴羅薩","gender":"女","element":"雷水","elementSecond":"水","special":"防禦連鎖","specialSecond":"延長AS時間限制","wikiNumber":"8895"}
-							,
-							{"id":"521","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"無雙的西洋棋手_凱蘿","gender":"女","element":"水水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"801237"}
-							,
-							{"id":"522","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"祈禱的聖女_露雪","gender":"女","element":"火水","elementSecond":"水","special":"回復異常狀態","specialSecond":"回復異常狀態","wikiNumber":"801238"}
-							,
-							{"id":"523","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"擁有最強大雙親的少女_緹娜","gender":"女","element":"水水","elementSecond":"水","special":"特殊變換問題類型【連鎖數增加】","specialSecond":"特殊變換問題類型【連鎖數增加】","wikiNumber":"801239"}
-							,
-							{"id":"524","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"身穿華服的忍者_洋梨","gender":"女","element":"水闇","elementSecond":"闇","special":"特殊變換問題類型【強化傷害】","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"801240"}
-							,
-							{"id":"525","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"斬斷一切連結_梅亞","gender":"女","element":"雷闇","elementSecond":"闇","special":"弱化大魔術(單體)","specialSecond":"弱化大魔術(單體)","wikiNumber":"801241"}
-							,
-							{"id":"526","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"旅行中的天才演奏者_泰瑞莎","gender":"女","element":"雷雷","elementSecond":"雷","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"801242"}
-							,
-							{"id":"527","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"受到明月照耀的少女_月觀","gender":"女","element":"雷雷","elementSecond":"雷","special":"提昇(全體)","specialSecond":"提昇(全體)","wikiNumber":"801243"}
-							,
-							{"id":"528","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"從龍之國來的公主_艾克賽莉亞","gender":"女","element":"水光","elementSecond":"光","special":"強化傷害(自身)","specialSecond":"強化傷害(自身)","wikiNumber":"801244"}
-							,
-							{"id":"529","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"在夏日隨著海浪飄飄_諾亞","gender":"女","element":"水水","elementSecond":"水","special":"技能充填＆延遲(單體)","specialSecond":"技能充填＆延遲(單體)","wikiNumber":"801246"}
-							,
-							{"id":"530","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"想要成為傳說_利亞姆","gender":"男","element":"火火","elementSecond":"火","special":"提升能力數值(全體)","specialSecond":"提升能力數值(全體)","wikiNumber":"801247"}
-							,
-							{"id":"531","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"就算軍人也有休假日_拉裴德","gender":"男","element":"雷雷","elementSecond":"雷","special":"強化傷害(指定屬性)","specialSecond":"強化傷害(指定屬性)","wikiNumber":"801248"}
-							,
-							{"id":"532","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"絕不停下腳步的副理_沃爾特","gender":"男","element":"雷雷","elementSecond":"雷","special":"反動大魔術(全體)","specialSecond":"反動大魔術(全體)","wikiNumber":"801249"}
-							,
-							{"id":"533","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"戀愛大師不擅長告白_傑羅奇斯","gender":"男","element":"火火","elementSecond":"火","special":"延遲(單體)","specialSecond":"延遲(單體)","wikiNumber":"801250"}
-							,
-							{"id":"534","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"任性妄為的狼魂_猶大","gender":"男","element":"雷闇","elementSecond":"闇","special":"毒","specialSecond":"毒","wikiNumber":"801251"}
-							,
-							{"id":"535","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"獲得魔龍認同的情感_約書亞","gender":"男","element":"火闇","elementSecond":"闇","special":"自我犧牲魔術(全體)","specialSecond":"自我犧牲魔術(全體)","wikiNumber":"801252"}
-							,
-							{"id":"536","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"跟混沌戰鬥的退魔士_毒牙","gender":"男","element":"雷闇","elementSecond":"闇","special":"阻隔傷害","specialSecond":"阻隔傷害","wikiNumber":"801253"}
-							,
-							{"id":"537","eventID":"93","event":"拉鍊裡的無盡黑霧","name":"冷靜沈著的潛艇艦長_尼莫","gender":"男","element":"雷雷","elementSecond":"雷","special":"異常狀態失效","specialSecond":"異常狀態失效","wikiNumber":"801254"}
 							,
 							{"id":"538","eventID":"94","event":"《聖誕情侶決定戰》","name":"星和月的輝映_瞬&陽","gender":"多人","element":"火水","elementSecond":"水","special":"提升能力數值(自身)","specialSecond":"提昇(自身)","wikiNumber":"801729"}
 							,
@@ -1513,12 +1389,6 @@ var individualData = new Vue({
 							,
 							{"id":"599","eventID":"102","event":"AbyssCode06 劫末之獸","name":"AbCd-Ιι：《萌生劫初的英雄》","gender":"女","element":"雷光","elementSecond":"光","special":"物理反擊(多段式反擊)","specialSecond":"物理反擊(多段式反擊)","wikiNumber":"11199"}
 							,
-							{"id":"600","eventID":"103","event":"巧克力森林","name":"無盡愛情_露嘉‧華倫泰","gender":"女","element":"火水","elementSecond":"水","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"7923"}
-							,
-							{"id":"601","eventID":"103","event":"巧克力森林","name":"真實愛情的傳道者_帕妮拉‧愛莫","gender":"女","element":"雷雷","elementSecond":"雷","special":"回復","specialSecond":"回復異常狀態","wikiNumber":"7924"}
-							,
-							{"id":"602","eventID":"103","event":"巧克力森林","name":"滾燙熱情_露嘉‧華倫泰","gender":"女","element":"火火","elementSecond":"火","special":"延遲(全體)","specialSecond":"延遲(全體)","wikiNumber":"2492"}
-							,
 							{"id":"603","eventID":"104","event":"Demons Blader","name":"真理與和平的永劫_奧拉‧阿瑪達","gender":"女","element":"水水","elementSecond":"水","special":"異常狀態失效","specialSecond":"強化精靈【持續回復＆減輕傷害＆異常狀態失效】","wikiNumber":"11191"}
 							,
 							{"id":"604","eventID":"104","event":"Demons Blader","name":"溫柔眾神的冷酷_奧拉‧阿瑪達","gender":"女","element":"水水","elementSecond":"水","special":"防禦","specialSecond":"防禦","wikiNumber":"11187"}
@@ -1578,22 +1448,6 @@ var individualData = new Vue({
 							{"id":"631","eventID":"111","event":"庫洛姆‧麥格納Ⅲ臨海學校","name":"今天也是大豐收！_雪莉‧柯爾特","gender":"女","element":"雷雷","elementSecond":"雷","special":"變換問題類型","specialSecond":"特殊變換問題類型【強化傷害】","wikiNumber":"6992"}
 							,
 							{"id":"632","eventID":"111","event":"庫洛姆‧麥格納Ⅲ臨海學校","name":"與大海之獸嬉戲_沃爾夫‧羅伊","gender":"男","element":"火水","elementSecond":"水","special":"變換問題類型","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"6993"}
-							,
-							{"id":"633","eventID":"112","event":"庫洛姆‧麥格納Ⅱ學園祭","name":"終極「妹妹」_艾密莉亞‧轟","gender":"女","element":"火火","elementSecond":"火","special":"比例削減(全體)","specialSecond":"比例削減(全體)","wikiNumber":"10568"}
-							,
-							{"id":"634","eventID":"112","event":"庫洛姆‧麥格納Ⅱ學園祭","name":"學園偶像傳說_MIU☆MIU","gender":"女","element":"雷雷","elementSecond":"雷","special":"回復","specialSecond":"提昇(全體)","wikiNumber":"10569"}
-							,
-							{"id":"635","eventID":"112","event":"庫洛姆‧麥格納Ⅱ學園祭","name":"可愛盛放_愛席亞‧貝涅特","gender":"女","element":"水水","elementSecond":"水","special":"特殊變換問題類型【減輕傷害】","specialSecond":"特殊變換問題類型【減輕傷害】","wikiNumber":"10570"}
-							,
-							{"id":"636","eventID":"112","event":"庫洛姆‧麥格納Ⅱ學園祭","name":"貨真價實的鐵壁_楓‧神宮寺","gender":"女","element":"雷水","elementSecond":"水","special":"防禦","specialSecond":"防禦","wikiNumber":"10571"}
-							,
-							{"id":"637","eventID":"113","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"大義的灼刃_凜華‧懷亞特","gender":"女","element":"火火","elementSecond":"火","special":"特效大魔術(單體)","specialSecond":"特效大魔術(單體)","wikiNumber":"10564"}
-							,
-							{"id":"638","eventID":"113","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"轟雷的機弓_妮可拉‧摩根","gender":"女","element":"雷雷","elementSecond":"雷","special":"延遲(全體)","specialSecond":"延遲大魔術(全體)","wikiNumber":"10565"}
-							,
-							{"id":"639","eventID":"113","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"猛獸的統領者_沃爾夫‧羅伊","gender":"男","element":"火火","elementSecond":"火","special":"持續回復","specialSecond":"強化傷害(自身)","wikiNumber":"10566"}
-							,
-							{"id":"640","eventID":"113","event":"庫洛姆‧麥格納Ⅰ魔導學園","name":"閃雷的槍擊_雪莉‧柯爾特","gender":"女","element":"雷火","elementSecond":"火","special":"多重魔術(單體)","specialSecond":"融合大魔術(全體)","wikiNumber":"10567"}
 							,
 							{"id":"641","eventID":"114","event":"AbyssCode08 落入星雲的淚珠","name":"AbCd-Ππ：《無止境的旅程_亞絲緹拉》","gender":"女","element":"雷雷","elementSecond":"雷","special":"犧牲連鎖強化","specialSecond":"犧牲連鎖強化","wikiNumber":"11503"}
 							,
@@ -2061,68 +1915,6 @@ var individualData = new Vue({
 							,
 							{"id":"873","eventID":"158","event":"神樹戀歌：風暴卡里昂II──風暴的起源","name":"智慧的紫月 泰辛雅","gender":"女","element":"雷光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"802047"}
 							,
-							{"id":"874","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"八百八町的祭典之男 文繼‧葦原","gender":"男","element":"水光","elementSecond":"光","special":"統一大魔術","specialSecond":"統一大魔術","wikiNumber":"12090"}
-							,
-							{"id":"875","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"噹噹噹的祭典女孩 木葉‧依姬","gender":"女","element":"雷火","elementSecond":"火","special":"蓄積解放大魔術‧連(單體)","specialSecond":"蓄積解放大魔術‧連(單體)","wikiNumber":"12096"}
-							,
-							{"id":"876","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"綻放的祭典之花 美緒‧葛折","gender":"女","element":"火水","elementSecond":"水","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12093"}
-							,
-							{"id":"877","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"羅曼史的女神大人 真都斐・那毘佐古","gender":"女","element":"水水","elementSecond":"水","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12102"}
-							,
-							{"id":"878","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"與風雪共舞 燈‧夜帷","gender":"女","element":"雷光","elementSecond":"光","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12099"}
-							,
-							{"id":"879","eventID":"159","event":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","name":"鮮血沸騰 夜道‧黃泉殿","gender":"女","element":"火闇","elementSecond":"闇","special":"強化反轉‧邪","specialSecond":"強化反轉‧邪","wikiNumber":"12105"}
-							,
-							{"id":"880","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"吹響號角的審判 亞魯薩格爾‧薛卜斯坦","gender":"男","element":"火光","elementSecond":"光","special":"特殊變換問題類型【連鎖數增加】","specialSecond":"問題類型屬性次數大魔術(單體)","wikiNumber":"802062"}
-							,
-							{"id":"881","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"浴火的冰心戀人 冰花","gender":"女","element":"水水","elementSecond":"水","special":"反動大魔術‧蝕(全體)","specialSecond":"反動大魔術‧蝕(全體)","wikiNumber":"802064"}
-							,
-							{"id":"882","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"自我犧牲的吊人 菡葛","gender":"女","element":"火水","elementSecond":"水","special":"蓄積解放大魔術‧邪(全體)","specialSecond":"蓄積解放大魔術‧邪(全體)","wikiNumber":"802066"}
-							,
-							{"id":"883","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"純粹耀眼的太陽 魚君","gender":"男","element":"水火","elementSecond":"火","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"802068"}
-							,
-							{"id":"884","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"象徵調和的節制 愛勒貝拉","gender":"女","element":"水闇","elementSecond":"闇","special":"強化擊破","specialSecond":"殘滅大魔術","wikiNumber":"802070"}
-							,
-							{"id":"885","eventID":"160","event":"阿爾克納與星之旅途III 失落秘儀","name":"直面恐懼與真實的月亮 月柔","gender":"女","element":"雷雷","elementSecond":"雷","special":"純屬性變換問題類型【技能充填】","specialSecond":"提升能力數值(全體)","wikiNumber":"802072"}
-							,
-							{"id":"886","eventID":"161","event":"Birth Of New Order3","name":"希望之風 流昂＆伊絲卡","gender":"多人","element":"水光","elementSecond":"光","special":"殘滅大魔術","specialSecond":"激化大魔術(全體)","wikiNumber":"12145"}
-							,
-							{"id":"887","eventID":"161","event":"Birth Of New Order3","name":"叛逆的審判獸 伊絲卡‧尼爾瓦","gender":"女","element":"火闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"12134"}
-							,
-							{"id":"888","eventID":"161","event":"Birth Of New Order3","name":"與伊絲卡的契約 流昂‧特拉姆","gender":"男","element":"水光","elementSecond":"光","special":"特殊變換問題類型【AS倍率強化】","specialSecond":"特殊變換問題類型【AS倍率強化】","wikiNumber":"12132"}
-							,
-							{"id":"889","eventID":"161","event":"Birth Of New Order3","name":"從束縛中解放 西里士‧埃洛奇亞","gender":"男","element":"火光","elementSecond":"光","special":"多重魔術(單體)","specialSecond":"多重魔術(單體)","wikiNumber":"12139"}
-							,
-							{"id":"890","eventID":"161","event":"Birth Of New Order3","name":"保護妹妹們 梅爾泰‧尼瑟","gender":"女","element":"水闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12143"}
-							,
-							{"id":"891","eventID":"161","event":"Birth Of New Order3","name":"締結了誓約 拉夏‧路茨斯","gender":"女","element":"雷光","elementSecond":"光","special":"統一大魔術","specialSecond":"統一大魔術","wikiNumber":"12137"}
-							,
-							{"id":"892","eventID":"161","event":"Birth Of New Order3","name":"去除枷鎖 克羅什‧特勞","gender":"男","element":"雷闇","elementSecond":"闇","special":"強化反轉‧邪","specialSecond":"強化反轉‧邪","wikiNumber":"12141"}
-							,
-							{"id":"893","eventID":"162","event":"恭賀新禧2021","name":"恭賀新禧！ 艾瑞斯","gender":"女","element":"火雷","elementSecond":"雷","special":"賦予雙重AS(自身)","specialSecond":"賦予雙重AS(自身)","wikiNumber":"12059"}
-							,
-							{"id":"894","eventID":"162","event":"恭賀新禧2021","name":"HAPPY NEW YEAR 哈迪斯D962","gender":"女","element":"水雷","elementSecond":"雷","special":"多重魔術(全體)","specialSecond":"強化種族傷害","wikiNumber":"12061"}
-							,
-							{"id":"895","eventID":"162","event":"恭賀新禧2021","name":"初春我收下了！ 千優與好介","gender":"多人","element":"雷闇","elementSecond":"闇","special":"大魔術(全體)","specialSecond":"大魔術(全體)","wikiNumber":"12063"}
-							,
-							{"id":"896","eventID":"162","event":"恭賀新禧2021","name":"粗枝參拜 莉露姆＆洛亞","gender":"多人","element":"雷光","elementSecond":"光","special":"強化反轉‧聖","specialSecond":"強化反轉‧聖","wikiNumber":"12065"}
-							,
-							{"id":"897","eventID":"162","event":"恭賀新禧2021","name":"來吃年糕，啊～！ 斯諾‧白雪","gender":"男","element":"火雷","elementSecond":"雷","special":"特殊變換問題類型【連鎖數增加＆技能充填】","specialSecond":"特殊變換問題類型【連鎖數增加＆技能充填】","wikiNumber":"12067"}
-							,
-							{"id":"898","eventID":"162","event":"恭賀新禧2021","name":"邪神的供品 伊萊恩‧英尼斯","gender":"女","element":"水雷","elementSecond":"雷","special":"蓄積解放大魔術‧連(單體)","specialSecond":"蓄積解放大魔術‧連(單體)","wikiNumber":"12069"}
-							,
-							{"id":"899","eventID":"163","event":"Merry Christmas 2020","name":"帶回聖誕樹 安德魯古","gender":"男","element":"雷光","elementSecond":"光","special":"AS倍率強化","specialSecond":"AS倍率強化","wikiNumber":"802116"}
-							,
-							{"id":"900","eventID":"163","event":"Merry Christmas 2020","name":"聖誕老人見習生 美美","gender":"女","element":"火光","elementSecond":"光","special":"蓄積解放大魔術‧印(單體)","specialSecond":"蓄積解放大魔術‧印(單體)","wikiNumber":"802118"}
-							,
-							{"id":"901","eventID":"163","event":"Merry Christmas 2020","name":"要不要吃一口 愛蜜莉","gender":"女","element":"水光","elementSecond":"光","special":"賦予雙重AS","specialSecond":"賦予雙重AS","wikiNumber":"802120"}
-							,
-							{"id":"902","eventID":"163","event":"Merry Christmas 2020","name":"聖夜禮物小精靈 米婭","gender":"女","element":"火闇","elementSecond":"闇","special":"強化複屬性傷害","specialSecond":"強化複屬性傷害","wikiNumber":"802122"}
-							,
-							{"id":"903","eventID":"163","event":"Merry Christmas 2020","name":"夢幻雪地裡的天使 皮諾絲","gender":"女","element":"水闇","elementSecond":"闇","special":"解除反轉大魔術","specialSecond":"解除反轉大魔術","wikiNumber":"802124"}
-							,
-							{"id":"904","eventID":"163","event":"Merry Christmas 2020","name":"記性太好回憶太多 阿克斯土","gender":"男","element":"雷闇","elementSecond":"闇","special":"技能複製","specialSecond":"技能複製","wikiNumber":"802126"}
-							,
 							{"id":"905","eventID":"164","event":"Summer Collection 2020","name":"寶石時間 茜茜＆瑪琪亞","gender":"多人","element":"火火","elementSecond":"火","special":"弱化大魔術(全體)","specialSecond":"弱化大魔術(全體)","wikiNumber":"11638"}
 							,
 							{"id":"906","eventID":"164","event":"Summer Collection 2020","name":"傳說中的泳衣提督 蘿葳‧弗洛伊賽","gender":"女","element":"火火","elementSecond":"火","special":"蓄積解放大魔術‧破(單體)","specialSecond":"蓄積解放大魔術‧破(單體)","wikiNumber":"11642"}
@@ -2148,7 +1940,7 @@ var individualData = new Vue({
 							{"id":"916","eventID":"165","event":"終日無夢者","name":"出門前整理儀容 莉菲爾","gender":"女","element":"雷雷","elementSecond":"雷","special":"保留問題類型【連鎖數增加】","specialSecond":"保留問題類型【連鎖數增加】","wikiNumber":"11509"}
 
 						],
-				"baseurl":"index.html",//相對路徑
+				"baseurl":"20210114_0216.html",//相對路徑
 				"limitNumber":20,//限制儲存數量			
 			}
 })

@@ -121,7 +121,7 @@
 		</div>
 		<div class="col-md-12 col-lg-6">
 			<div class="row" id="selectOptionArea"><!--篩選選項區-->
-				<div class="col-12" id="innerSelectOptionArea">
+				<div class="col-12" id="innerSelectOptionArea" >
 					<ul class="nav nav-tabs">
 						<li>
 						  <a class="nav-link active" data-toggle="tab" href="#home">篩選</a>
@@ -130,7 +130,7 @@
 						  <a class="nav-link" data-toggle="tab" href="#menu1">公告</a>
 						</li>
 						<li>
-						  <a class="nav-link" data-toggle="tab" href="#menu2">設定</a>
+						  <a class="nav-link" data-toggle="tab" href="#menu2">本期推薦名單</a>
 						</li>
 					</ul>
 
@@ -140,7 +140,7 @@
 							<div class="row">
 								<div class="col-4">
 									<div class="row" id="nameSelect">
-										<input type="search"  placeholder="在此輸入精靈真名" v-model="nameSelect">
+										<input type="search"  placeholder="在此輸入精靈真名" v-model="fairySelection.nameSelect">
 									</div>
 									<div class="row" id="genderDiv">Gender</div>
 									<div class="row"  id="genderSelect">
@@ -180,8 +180,19 @@
 						  <!-- <h3>目前幸運輪盤未開放，詳細開放時間請參考官方網站</h3> -->
 						  <h3>施工中~</h3>
 						</div>
-						<div id="menu2" class="container tab-pane fade"><br>
-						  <h3>施工中~</h3>
+						<div id="menu2" class="container tab-pane fade" style="overflow:auto;height:60vh">
+							<div style="margin-bottom:10vh;" v-for="(v,k) in noviceRecommandList" @click="noviceRecShow(v.order1,v.order2)">
+								<h4  >{{v.name}}
+
+									<span  v-show="v.bst == 1" class="badge badge-danger">爆發</span>
+									<span  v-show="v.dmg == 1" class="badge badge-warning">輸出</span>
+									<span  v-show="v.dex == 1" class="badge badge-primary">靈活</span>
+									<span  v-show="v.sup == 1" class="badge badge-success">輔助</span>
+									<span  v-show="v.ctr == 1" class="badge badge-info">解場</span>
+								</h4>
+								<p style="color:blue">{{v.good}}</p>
+								<p style="color:red">{{v.note}}</p>
+							</div>
 						</div>
 					</div>
 				</div>	
@@ -189,7 +200,7 @@
 				
 			
 			</div>
-			<div class="row" id="selectButtonDiv" style="">
+			<div class="row" id="selectButtonDiv">
 				<div class="col-1"><button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button></div>
 				<div class="warningMessage ml-1 col-9" v-show="warningMsgShowRight" v-html="warningMessage"></div>
 			</div>

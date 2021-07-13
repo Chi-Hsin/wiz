@@ -18,15 +18,12 @@ var indexData = new Vue({
 							{"id":"","eventID":"","event":"","name":"","gender":"","element":"","wikiNumber":"empty"}
 						],
 				"lotteryFairy":[],
-				"nameSelect":"",
-				"genderSelect":"",
 				"genderStyle":[
 					{"style":{"opacity":1},"checked":true,"text":"不限","name":"","src":"img/decoration/all.png"},
 					{"style":{"opacity":0.5},"checked":false,"text":"男","name":"男","src":"img/decoration/male.png"},
 					{"style":{"opacity":0.5},"checked":false,"text":"多人","name":"多人","src":"img/decoration/couple.png"},
 					{"style":{"opacity":0.5},"checked":false,"text":"女","name":"女","src":"img/decoration/female.png"}
 				],
-				"elementSelect":"",
 				"elementStyle":{
 					"fire":[
 						{"name":"火火","type":"img/element/fire.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
@@ -68,6 +65,12 @@ var indexData = new Vue({
 					{name:"Gmail",url:"<a href='mailto:jack1234552000@gmail.com'>聯絡信箱.使用上的問題或建議歡迎寄信給我ヽ(ﾟ∀。)ノ<a>"},
 				],
 				"editor":{},
+				"selectFairy":{},
+				"fairySelection":{
+					elementSelect:"",
+					genderSelect:"",
+					nameSelect:""
+				},
 				
 				
                },
@@ -84,13 +87,18 @@ var indexData = new Vue({
 				limitNumber:function(){
 					return individualData.limitNumber;
 				},
+				noviceRecommandFairy:function(){
+					return individualData.noviceRecommandFairy;
+				},
+				noviceRecommandList:function(){
+					return individualData.noviceRecommandList;
+				},
 				eventPicUrl:function(){
 					//找事件對應圖片名稱
 					var number = Number(this.eventNumber);
 					var eventNumber = this.event[number].picName;
 					return "img/event/" + eventNumber + ".png";
 				},
-				
 				eventFairy:function(){//顯示特定活動編號的圖鑑精靈
 					var number = Number(this.eventNumber);
 					var eventNumber = this.event[number].eventID;
@@ -103,19 +111,6 @@ var indexData = new Vue({
 						newobj[i] = obj[i];
 					}
 					return newobj;
-				},
-				selectFairy:function(){//呈現篩選出的精靈結果
-					var name = this.nameSelect.trim();
-					var gender = this.genderSelect;
-					var element = this.elementSelect;
-					
-					if(name == "" && gender == "" && element ==""){return [];}
-					return this.fairy.filter(function(v){
-						var condition = gender != "" ?  v.gender ==  gender : true;//性別篩選
-						var condition2 = v.name.includes(name);//姓名篩選
-						var condition3 = element != "" ?  v.element ==  element : true;//元素篩選
-						return  condition && condition2 && condition3 ;
-					})
 				},
 				orderLotteryFairy:function(){//自動排序輪盤上的資料
 						if(this.lotteryFairy.length != 0){//如果初始加載(lotteryFairy是空集合) 就不儲存
@@ -344,7 +339,7 @@ var indexData = new Vue({
 					this.genderStyle[data].style.opacity = 1;
 					this.genderStyle[data].checked = true;
 					//變更性別篩選
-					this.genderSelect = this.genderStyle[data].name;
+					this.fairySelection.genderSelect = this.genderStyle[data].name;
 				},
 				genderSelectMouseOver:function(e){
 					var index = e.target.getAttribute("data-dataInfo");
@@ -383,7 +378,7 @@ var indexData = new Vue({
 					
 					//變更元素篩選
 					//如果按鈕被取消選取了   就把資料重置
-					 this.elementSelect = cancell == true ? "" : this.elementStyle[element][index].name;
+					 this.fairySelection.elementSelect = cancell == true ? "" : this.elementStyle[element][index].name;
 					
 				},
 				allInToLottery:function(){//將所有資料匯至左方lottery裡
@@ -506,6 +501,19 @@ var indexData = new Vue({
 					var data = e.target.getAttribute("data-dataInfo");
 					this.iconMessage = data;
 				},
+				noviceRecShow:function(order1,order2){
+					// alert("推薦")
+					var n  = this.noviceRecommandFairy.filter(function(v){
+						return v.order1 == order1 &&  v.order2 == order2;
+					});
+					// console.log(this.noviceRecommand);
+					
+					this.selectFairy = this.fairy.filter(function(v,i){
+						return n.some(function(v2,i2){
+							return v2.number == v.wikiNumber;
+						})
+					})
+				},
             },
 			watch:{
 				//偵測值是否有變動
@@ -523,15 +531,24 @@ var indexData = new Vue({
 					
 					
 				},
-				// lotteryFairy:function(val,oldVal){
-					// if(this.lotteryFairy !=[]){
-						// console.log("儲存過前,",this.lotteryFairy,"客戶端有",JSON.parse(localStorage.getItem("lotteryFairy")).length,"個");
-						// this.saveToLocal();
-						// console.log("儲存過後,",this.lotteryFairy,"客戶端有",JSON.parse(localStorage.getItem("lotteryFairy")).length,"個");
-						// console.log("自動儲存完畢")
-					// }
+				fairySelection:{
+					deep:true,
+					handler(){
+						// alert()
+						var name = this.fairySelection.nameSelect.trim();
+						var gender = this.fairySelection.genderSelect;
+						var element = this.fairySelection.elementSelect;
+						
+						if(name == "" && gender == "" && element ==""){return [];}
+						this.selectFairy = this.fairy.filter(function(v){
+							var condition = gender != "" ?  v.gender ==  gender : true;//性別篩選
+							var condition2 = v.name.includes(name);//姓名篩選
+							var condition3 = element != "" ?  v.element ==  element : true;//元素篩選
+							return  condition && condition2 && condition3 ;
+						})
+					}
 					
-				// },
+				},
 			},
             created() { //模板渲染前
                 this.screenWidth = window.innerWidth;

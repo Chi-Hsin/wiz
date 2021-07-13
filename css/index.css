@@ -227,7 +227,10 @@ img:hover{
 	height:50vh;
 	overflow:auto;
 }
-
+#menu2>div:hover{/*推薦名單*/
+	background: #ffd9a0;
+	cursor: pointer;
+}
 
 /*最底部 授權聲明與個人圖標*/
 #copyRightDiv{

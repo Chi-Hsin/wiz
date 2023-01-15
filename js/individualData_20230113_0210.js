@@ -3,385 +3,387 @@ var individualData = new Vue({
 			data: {
 				"event":[
 							{"name":"魔轟三鐵傑8 魔轟三鐵傑 對 時髦一〇八星","eventID":"203","picName":"E206"}
-							,
-							{"name":"Summer Collection 2022 Night festival","eventID":"205","picName":"E208"},
-							{"name":"超‧超魔導列傳 終終極女孩！","eventID":"216","picName":"E219"}
-							,
-							{"name":"黑貓維茲魔幻金夏趴2022序曲","eventID":"208","picName":"E211"}
-							,
-							{"name":"響命 X BANKER","eventID":"212","picName":"E215"}
-							,
-							{"name":"SatanicChord","eventID":"211","picName":"E214"},
-							{"name":"怪盜文繼 殭屍名冊","eventID":"209","picName":"E212"}
-							,
-							{"name":"Christmas stories 2021","eventID":"190","picName":"E193"},
-							{"name":"神聖天空之星4 希望之星的故事","eventID":"191","picName":"E194"}
-							,
-							{"name":"恭賀新禧2022","eventID":"193","picName":"E196"}
-							,
-							{"name":"FairyChord4 Finish Chord","eventID":"194","picName":"E197"},
-							{"name":"7th Anniversary","eventID":"195","picName":"E198"},
-							{"name":"St.Valentine 2022","eventID":"201","picName":"E204"},
-							{"name":"SOUL BANKER Out of Control","eventID":"202","picName":"E205"},
-							{"name":"Under Night Tale2 希望路標","eventID":"197","picName":"E200"}
-							,
-							{"name":"神都匹卡雷斯克 銀幕叛徒","eventID":"198","picName":"E201"}
-							,
-							{"name":"感謝祭2022","eventID":"200","picName":"E203"}
-							,
-							{"name":"SUGARLESS BAMBINAⅢ THE WORST BEAST","eventID":"173","picName":"E176"}
-							,
-							{"name":"神‧超魔導列傳 終極星球女孩！","eventID":"172","picName":"E175"}
-							,
-							{"name":"Summer Collection 2021","eventID":"175","picName":"E178"},
-							{"name":"FairyChord3 KnightSider","eventID":"176","picName":"E179"},
-							{"name":"響命CrossDerive ACT4","eventID":"178","picName":"E181"}
-							,
-							{"name":"霸眼戰線 終戰之凜煌眼 -後篇-","eventID":"179","picName":"E182"}
-							,
-							{"name":"黑貓維茲魔幻金夏趴2021 序曲","eventID":"180","picName":"E183"}
-							,
-							{"name":"黑貓維茲魔幻金夏趴2021 安可曲","eventID":"182","picName":"E185"}
-							,
-							{"name":"甚是七彩斑斕！艾尼格瑪之花","eventID":"181","picName":"E184"}
-							,
-							{"name":"偶像ω姊妹Trinity！！！","eventID":"183","picName":"E186"}
-							,
-							{"name":"SOUL BANKER","eventID":"184","picName":"E187"},
-							{"name":"喰牙RIZE4 Forbidden Avarice","eventID":"186","picName":"E189"}
-							,
-							{"name":"AbyssCode00 神諭魔導士","eventID":"187","picName":"E190"}
-							,
-							{"name":"ARES THE VANGUARD 正義嘉年華","eventID":"188","picName":"E191"}
-							,
-							{"name":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","eventID":"157","picName":"E160"}
-							,
-							{"name":"Birth Of New Order3","eventID":"159","picName":"E162"},
-							{"name":"恭賀新禧2021","eventID":"160","picName":"E163"}
-							,
-							{"name":"聖惡魔女子學院3 Darkness Memories","eventID":"164","picName":"E167"}
-							,
-							{"name":"6th Anniversary","eventID":"165","picName":"E168"},
-							{"name":"ARES THE VANGUARD 英雄大戰","eventID":"166","picName":"E169"}
-							,
-							{"name":"決戰的德爾基馬斯 宿命血族","eventID":"167","picName":"E170"}
-							,
-							{"name":"MARELESSⅣ 夢境黃昏","eventID":"168","picName":"E171"}
-							,
-							{"name":"感謝祭2021","eventID":"169","picName":"E172"}
-							,
-							{"name":"啵！神明大人 ～人神與精靈神～","eventID":"170","picName":"E173"}
-							,
-							{"name":"終日無夢者","eventID":"163","picName":"E166"}
-							,
-							{"name":"AbyssCode08 落入星雲的淚珠","eventID":"112","picName":"E115"}
-							,
-							{"name":"幻魔特區RELOADEDⅢ Final Assemble","eventID":"59","picName":"E60"}
-							,
-							{"name":"Summer Collection 2020","eventID":"162","picName":"E165"},
-							{"name":"魔幻金夏趴2020 序曲","eventID":"124","picName":"E127"}
-							,
-							{"name":"神都匹卡雷斯克 黑貓的魔術師","eventID":"121","picName":"E124"}
-							,
-							{"name":"Under Night Tale 童話戰爭","eventID":"125","picName":"E128"}
-							,
-							{"name":"ARES THE VANGUARD","eventID":"126","picName":"E129"},
-							{"name":"黑貓維茲魔幻金夏趴2020 安可曲","eventID":"148","picName":"E151"}
-							,
-							{"name":"MARELESSⅢ 夢境訣別","eventID":"149","picName":"E152"}
-							,
-							{"name":"女神的惡作劇之戰！ 光明與黑暗的亂七八糟萬聖節","eventID":"151","picName":"E154"}
-							,
-							{"name":"艾尼格瑪之花","eventID":"152","picName":"E155"}
-							,
-							{"name":"2020年感謝下載紀念","eventID":"153","picName":"E156"}
-							,
-							{"name":"FairyChord2 Chord Sharing","eventID":"154","picName":"E157"},
-							{"name":"Christmas stories 2020","eventID":"155","picName":"E158"},
-							{"name":"FairyChord Prelude","eventID":"24","picName":"E25"},
-							{"name":"SUGARLESS BAMBINA Ⅱ Slaughter Prison","eventID":"23","picName":"E24"}
-							,
-							{"name":"啵！神明大人_～北風精靈與炎之鳥～","eventID":"21","picName":"E22"}
-							,
-							{"name":"歡迎光臨天上岬山麓咖啡廳！","eventID":"14","picName":"E15"}
-							,
-							{"name":"職‧超魔導列傳","eventID":"9","picName":"E9"}
-							,
-							{"name":"恭賀新禧2020","eventID":"127","picName":"E130"}
-							,
-							{"name":"5th Anniversary","eventID":"128","picName":"E131"},
-							{"name":"FairyChord 妖精的和弦","eventID":"129","picName":"E132"}
-							,
-							{"name":"響命CrossDerive ACT3","eventID":"55","picName":"E56"}
-							,
-							{"name":"神明大人 ～土精靈與黑貓主人～","eventID":"120","picName":"E123"}
-							,
-							{"name":"霸眼戰線 終戰之凜煌眼 -前篇","eventID":"43","picName":"E44"}
-							,
-							{"name":"感謝祭2020","eventID":"130","picName":"E133"}
-							,
-							{"name":"Christmas2019","eventID":"131","picName":"E134"},
-							{"name":"暑假即將到來","eventID":"132","picName":"E135"}
-							,
-							{"name":"太陽與月亮之國 喀姆吉納","eventID":"133","picName":"E136"}
-							,
-							{"name":"喰牙RIZE3 -Fang-O’-Blazer","eventID":"27","picName":"E28"}
-							,
-							{"name":"八百八町妖怪捕物帳","eventID":"2","picName":"E2"}
-							,
-							{"name":"Birth Of New Order2 大罪","eventID":"36","picName":"E37"}
-							,
-							{"name":"黑貓維茲 仲夏感謝季2019","eventID":"38","picName":"E39"}
-							,
-							{"name":"MARELESSⅡ 夢境與現實的夾縫","eventID":"3","picName":"E3"}
-							,
-							{"name":"霸眼戰線4 覺醒之王","eventID":"44","picName":"E45"}
-							,
-							{"name":"神聖天空之星3","eventID":"50","picName":"E51"}
-							,
-							{"name":"惡作劇女神與兔子的故事","eventID":"53","picName":"E54"}
-							,
-							{"name":"幻魔特區RELOADEDⅡ -RE:unite","eventID":"60","picName":"E61"}
-							,
-							{"name":"空戰的修瓦爾茲","eventID":"65","picName":"E66"}
-							,
-							{"name":"感謝祭2019","eventID":"134","picName":"E137"}
-							,
-							{"name":"黃昏無夢者Ⅳ 黃昏mareless","eventID":"39","picName":"E40"}
-							,
-							{"name":"Birth Of New Order","eventID":"37","picName":"E38"},
-							{"name":"4th anniversary","eventID":"135","picName":"E138"},
-							{"name":"沉睡的遺跡 Outlander","eventID":"58","picName":"E59"}
-							,
-							{"name":"恭賀新禧2019","eventID":"136","picName":"E139"}
-							,
-							{"name":"給夏日綻放的你","eventID":"86","picName":"E88"}
-							,
-							{"name":"偶像ω喵！！","eventID":"72","picName":"E73"}
-							,
-							{"name":"淡薄的藍色光芒 最終章 終極聖祈","eventID":"74","picName":"E75"}
-							,
-							{"name":"神聖天空之星2","eventID":"51","picName":"E52"}
-							,
-							{"name":"SUGARLESS_BAMBINA","eventID":"22","picName":"E23"},
-							{"name":"秋末迎冬感謝祭","eventID":"137","picName":"E140"}
-							,
-							{"name":"再續‧超魔導列傳","eventID":"6","picName":"E6"}
-							,
-							{"name":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","eventID":"81","picName":"E83"}
-							,
-							{"name":"雙翼的失落伊甸Ⅲ","eventID":"15","picName":"E16"}
-							,
-							{"name":"AbyssCode07 寂寞的境界","eventID":"84","picName":"E86"}
-							,
-							{"name":"幻魔特區RELOADED -GardeniA dist.","eventID":"61","picName":"E62"}
-							,
-							{"name":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","eventID":"66","picName":"E67"}
-							,
-							{"name":"喰牙RIZE2_-Tearing_Eyes","eventID":"29","picName":"E30"}
-							,
-							{"name":"仲夏感謝季2018","eventID":"138","picName":"E141"}
-							,
-							{"name":"聖惡魔女子學院2","eventID":"90","picName":"E92"}
-							,
-							{"name":"響命CrossDerive ACT2","eventID":"56","picName":"E57"}
-							,
-							{"name":"歌頌永恆的克羅諾斯Ⅲ","eventID":"18","picName":"E19"}
-							,
-							{"name":"黃昏無夢者Ⅲ_絡園loreless","eventID":"40","picName":"E41"}
-							,
-							{"name":"八百萬諸神祕聞4_沉眠京城的悠久之歌","eventID":"31","picName":"E32"}
-							,
-							{"name":"偶像ω喵！前&後篇","eventID":"73","picName":"E74"}
-							,
-							{"name":"喰牙RIZE","eventID":"30","picName":"E31"}
-							,
-							{"name":"響命CrossDerive","eventID":"57","picName":"E58"}
-							,
-							{"name":"丁酉年末感謝季2018","eventID":"139","picName":"E142"}
-							,
-							{"name":"新說 桃娘傳 妖爺合戰誓助劍","eventID":"82","picName":"E84"}
-							,
-							{"name":"魔轟三鐵傑 對 地獄三十六歌仙","eventID":"93","picName":"E96"}
-							,
-							{"name":"霸眼戰線3 聖劍與霸眼","eventID":"45","picName":"E46"}
-							,
-							{"name":"霸眼戰線2 起始之眼","eventID":"46","picName":"E47"}
-							,
-							{"name":"霸眼戰線","eventID":"47","picName":"E48"}
-							,
-							{"name":"黃昏無夢者Ⅱ 殘響dearless","eventID":"41","picName":"E42"}
-							,
-							{"name":"黃昏無夢者","eventID":"42","picName":"E43"}
-							,
-							{"name":"雙翼的失落伊甸Ⅱ WWMF","eventID":"16","picName":"E17"}
-							,
-							{"name":"雙翼的失落伊甸","eventID":"17","picName":"E18"}
-							,
-							{"name":"YAOYORO_Z","eventID":"32","picName":"E33"},
-							{"name":"八百萬諸神祕聞2","eventID":"33","picName":"E34"}
-							,
-							{"name":"八百萬諸神祕聞","eventID":"34","picName":"E35"}
-							,
-							{"name":"續.超魔導列傳","eventID":"7","picName":"E7"}
-							,
-							{"name":"超魔導列傳","eventID":"8","picName":"E8"}
-							,
-							{"name":"空戰的德爾基馬斯Ⅱ 昏暗英雄","eventID":"67","picName":"E68"}
-							,
-							{"name":"空戰的德爾基馬斯","eventID":"68","picName":"E69"}
-							,
-							{"name":"神聖天空之星","eventID":"52","picName":"E53"}
-							,
-							{"name":"心龍天翔 Rising Dragon","eventID":"96","picName":"E99"}
-							,
-							{"name":"神龍降臨Ⅱ","eventID":"140","picName":"E143"}
-							,
-							{"name":"追憶的閃耀光輝","eventID":"98","picName":"E101"}
-							,
-							{"name":"聖惡魔女子學院","eventID":"91","picName":"E93"}
-							,
-							{"name":"庫洛姆‧麥格納 零","eventID":"106","picName":"E109"}
-							,
-							{"name":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","eventID":"107","picName":"E110"}
-							,
-							{"name":"庫洛姆‧麥格納Ⅳ單戀☆狂想曲","eventID":"108","picName":"E111"}
-							,
-							{"name":"庫洛姆‧麥格納Ⅲ臨海學校","eventID":"109","picName":"E112"}
-							,
-							{"name":"幻魔特區朱雀Ⅲ 幻夢之光","eventID":"62","picName":"E63"}
-							,
-							{"name":"幻魔特區朱雀Ⅱ 鋼鐵之槍","eventID":"63","picName":"E64"}
-							,
-							{"name":"幻魔特區朱雀","eventID":"64","picName":"E65"}
-							,
-							{"name":"歌頌永恆的克羅諾斯Ⅱ","eventID":"19","picName":"E20"}
-							,
-							{"name":"天上岬的調香師","eventID":"12","picName":"E13"}
-							,
-							{"name":"天上岬～永恆的公主～","eventID":"13","picName":"E14"}
-							,
-							{"name":"天界的雙子 訣別的年代記","eventID":"54","picName":"E55"}
-							,
-							{"name":"古代森林的千年櫻花","eventID":"141","picName":"E144"}
-							,
-							{"name":"AbyssCode06 劫末之獸","eventID":"100","picName":"E103"}
-							,
-							{"name":"AbyssCode05 冥世的天蓋","eventID":"113","picName":"E116"}
-							,
-							{"name":"AbyssCode04 燃燒殆盡的陽光","eventID":"114","picName":"E117"}
-							,
-							{"name":"AbyssCode03 生而墮於虛無","eventID":"115","picName":"E118"}
-							,
-							{"name":"AbyssCode02 盲目的調和","eventID":"116","picName":"E119"}
-							,
-							{"name":"AbyssCode01 黑殼之王","eventID":"117","picName":"E120"}
-							,
-							{"name":"Tempest Blader","eventID":"104","picName":"E107"},
-							{"name":"Heretic Blader","eventID":"103","picName":"E106"},
-							{"name":"Divine Blader","eventID":"105","picName":"E108"},
-							{"name":"Demons Blader","eventID":"102","picName":"E105"},
-							{"name":"鬼月限定2017","eventID":"142","picName":"E145"}
-							,
-							{"name":"情人紀念2017","eventID":"143","picName":"E146"}
-							,
-							{"name":"來自異界的天使","eventID":"97","picName":"E100"}
-							,
-							{"name":"黑夜中的甜點大盜","eventID":"94","picName":"E97"}
-							,
-							{"name":"跑錯地方的聖誕驚喜","eventID":"144","picName":"E147"}
-							,
-							{"name":"初夏的魔法使慶典","eventID":"145","picName":"E148"}
-							,
-							{"name":"被封印的舞台劇目","eventID":"99","picName":"E102"}
-							,
-							{"name":"神祕委託‧寒冰之巔的考驗","eventID":"71","picName":"E72"}
-							,
-							{"name":"武鬥之巔‧寒冰嶺上的召集令","eventID":"95","picName":"E98"}
-							,
-							{"name":"七夕夜‧煙花燦爛","eventID":"79","picName":"E81"}
-							,
-							{"name":"炎夏的海灘風情！","eventID":"78","picName":"E80"}
-							,
-							{"name":"雞茲限定  感謝祭2017","eventID":"146","picName":"E149"}
-							,
-							{"name":"Holloween night2017","eventID":"147","picName":"E150"},
-							{"name":"片翼天使的轉世約定","eventID":"77","picName":"E79"}
-							,
-							{"name":"《聖誕情侶決定戰》","eventID":"92","picName":"E95"}
-							,
-							{"name":"虛實難辨的假面宴會","eventID":"69","picName":"E70"}
-							,
-							{"name":"冰雪薔薇的黑影","eventID":"89","picName":"E91"}
-							,
-							{"name":"《沉眠之血2》幼龍的鳴嘶","eventID":"87","picName":"E89"}
-							,
-							{"name":"《沉眠之血》—焚焰的國度","eventID":"88","picName":"E90"}
-							,
-							{"name":"《沙灘上的冰果宴》","eventID":"70","picName":"E71"}
-							,
-							{"name":"《裝神弄鬼》","eventID":"85","picName":"E87"}
-							,
-							{"name":"《靈界魔女：危險紳士之章》","eventID":"80","picName":"E82"}
-							,
-							{"name":"寄語冬夜的祈願者","eventID":"25","picName":"E26"}
-							,
-							{"name":"阿爾克納與星之旅途","eventID":"5","picName":"E5"}
-							,
-							{"name":"The Luminescence of Soul 靈魂的微光","eventID":"11","picName":"E11"}
-							,
-							{"name":"The Iridescence of Soul 靈魂的虹彩","eventID":"10","picName":"E10"}
-							,
-							{"name":"庫耶斯式拍拖約會","eventID":"49","picName":"E50"}
-							,
-							{"name":"豔夏濱海大騷動","eventID":"35","picName":"E36"}
-							,
-							{"name":"寄語冬夜的祈願者Ⅱ_虛妄之地的追尋者","eventID":"26","picName":"E27"}
-							,
-							{"name":"阿爾克納與星之旅途Ⅱ 永戰之地","eventID":"1","picName":"E1"}
-							,
-							{"name":"年之運行","eventID":"122","picName":"E125"}
-							,
-							{"name":"金貓盃繁中人氣王 前半","eventID":"118","picName":"E121"}
-							,
-							{"name":"金貓盃繁中人氣王 後半","eventID":"119","picName":"E122"}
-							,
-							{"name":"風暴卡里昂──風暴中心的少女","eventID":"123","picName":"E126"}
-							,
-							{"name":"迷幻泛神祭","eventID":"150","picName":"E153"}
-							,
-							{"name":"神樹戀歌：風暴卡里昂II──風暴的起源","eventID":"156","picName":"E159"}
-							,
-							{"name":"阿爾克納與星之旅途III 失落秘儀","eventID":"158","picName":"E161"}
-							,
-							{"name":"Merry Christmas 2020","eventID":"161","picName":"E164"},
-							{"name":"金貓盃繁中人氣王2021 前半","eventID":"171","picName":"E174"}
-							,
-							{"name":"神樹戀歌：風暴卡里昂Ⅲ──以愛為名的風暴","eventID":"174","picName":"E177"}
-							,
-							{"name":"金貓盃繁中人氣王2021 後半","eventID":"177","picName":"E180"}
-							,
-							{"name":"鏡像虛實　倒轉的托爾里卡","eventID":"185","picName":"E188"}
-							,
-							{"name":"我，與你手中的藤花","eventID":"189","picName":"E192"}
-							,
-							{"name":"阿爾克納與原初之秘","eventID":"192","picName":"E195"}
-							,
-							{"name":"湖畔之初—無相新月","eventID":"196","picName":"E199"}
-							,
-							{"name":"湖畔碎月—無明盡","eventID":"199","picName":"E202"}
-							,
-							{"name":"金貓盃繁中人氣王2022 前半","eventID":"204","picName":"E207"}
-							,
-							{"name":"金貓盃繁中人氣王2022 後半","eventID":"206","picName":"E209"}
-							,
-							{"name":"藤花與迷霧壟罩的你","eventID":"210","picName":"E213"}
-							,
-							{"name":"藤花，墜落凋零之時","eventID":"213","picName":"E216"}
-							,
-							{"name":"寄語冬夜的祈願者Ⅲ 響應號召的行進者","eventID":"214","picName":"E217"}
-							,
-							{"name":"寄語冬夜的祈願者IV 甜美夢境的迷途者","eventID":"215","picName":"E218"}
+,
+{"name":"Summer Collection 2022 Night festival","eventID":"205","picName":"E208"},
+{"name":"超‧超魔導列傳 終終極女孩！","eventID":"216","picName":"E219"}
+,
+{"name":"ARES THE VANGUARD RAGNAROK -終焉-","eventID":"207","picName":"E210"}
+,
+{"name":"黑貓維茲魔幻金夏趴2022序曲","eventID":"208","picName":"E211"}
+,
+{"name":"響命 X BANKER","eventID":"212","picName":"E215"}
+,
+{"name":"SatanicChord","eventID":"211","picName":"E214"},
+{"name":"怪盜文繼 殭屍名冊","eventID":"209","picName":"E212"}
+,
+{"name":"Christmas stories 2021","eventID":"190","picName":"E193"},
+{"name":"神聖天空之星4 希望之星的故事","eventID":"191","picName":"E194"}
+,
+{"name":"恭賀新禧2022","eventID":"193","picName":"E196"}
+,
+{"name":"FairyChord4 Finish Chord","eventID":"194","picName":"E197"},
+{"name":"7th Anniversary","eventID":"195","picName":"E198"},
+{"name":"St.Valentine 2022","eventID":"201","picName":"E204"},
+{"name":"SOUL BANKER Out of Control","eventID":"202","picName":"E205"},
+{"name":"Under Night Tale2 希望路標","eventID":"197","picName":"E200"}
+,
+{"name":"神都匹卡雷斯克 銀幕叛徒","eventID":"198","picName":"E201"}
+,
+{"name":"感謝祭2022","eventID":"200","picName":"E203"}
+,
+{"name":"SUGARLESS BAMBINAⅢ THE WORST BEAST","eventID":"173","picName":"E176"}
+,
+{"name":"神‧超魔導列傳 終極星球女孩！","eventID":"172","picName":"E175"}
+,
+{"name":"Summer Collection 2021","eventID":"175","picName":"E178"},
+{"name":"FairyChord3 KnightSider","eventID":"176","picName":"E179"},
+{"name":"響命CrossDerive ACT4","eventID":"178","picName":"E181"}
+,
+{"name":"霸眼戰線 終戰之凜煌眼 -後篇-","eventID":"179","picName":"E182"}
+,
+{"name":"黑貓維茲魔幻金夏趴2021 序曲","eventID":"180","picName":"E183"}
+,
+{"name":"黑貓維茲魔幻金夏趴2021 安可曲","eventID":"182","picName":"E185"}
+,
+{"name":"甚是七彩斑斕！艾尼格瑪之花","eventID":"181","picName":"E184"}
+,
+{"name":"偶像ω姊妹Trinity！！！","eventID":"183","picName":"E186"}
+,
+{"name":"SOUL BANKER","eventID":"184","picName":"E187"},
+{"name":"喰牙RIZE4 Forbidden Avarice","eventID":"186","picName":"E189"}
+,
+{"name":"AbyssCode00 神諭魔導士","eventID":"187","picName":"E190"}
+,
+{"name":"ARES THE VANGUARD 正義嘉年華","eventID":"188","picName":"E191"}
+,
+{"name":"八百八町妖怪捕物帳2 新春！超豪華三部特別祭典","eventID":"157","picName":"E160"}
+,
+{"name":"Birth Of New Order3","eventID":"159","picName":"E162"},
+{"name":"恭賀新禧2021","eventID":"160","picName":"E163"}
+,
+{"name":"聖惡魔女子學院3 Darkness Memories","eventID":"164","picName":"E167"}
+,
+{"name":"6th Anniversary","eventID":"165","picName":"E168"},
+{"name":"ARES THE VANGUARD 英雄大戰","eventID":"166","picName":"E169"}
+,
+{"name":"決戰的德爾基馬斯 宿命血族","eventID":"167","picName":"E170"}
+,
+{"name":"MARELESSⅣ 夢境黃昏","eventID":"168","picName":"E171"}
+,
+{"name":"感謝祭2021","eventID":"169","picName":"E172"}
+,
+{"name":"啵！神明大人 ～人神與精靈神～","eventID":"170","picName":"E173"}
+,
+{"name":"終日無夢者","eventID":"163","picName":"E166"}
+,
+{"name":"AbyssCode08 落入星雲的淚珠","eventID":"112","picName":"E115"}
+,
+{"name":"幻魔特區RELOADEDⅢ Final Assemble","eventID":"59","picName":"E60"}
+,
+{"name":"Summer Collection 2020","eventID":"162","picName":"E165"},
+{"name":"魔幻金夏趴2020 序曲","eventID":"124","picName":"E127"}
+,
+{"name":"神都匹卡雷斯克 黑貓的魔術師","eventID":"121","picName":"E124"}
+,
+{"name":"Under Night Tale 童話戰爭","eventID":"125","picName":"E128"}
+,
+{"name":"ARES THE VANGUARD","eventID":"126","picName":"E129"},
+{"name":"黑貓維茲魔幻金夏趴2020 安可曲","eventID":"148","picName":"E151"}
+,
+{"name":"MARELESSⅢ 夢境訣別","eventID":"149","picName":"E152"}
+,
+{"name":"女神的惡作劇之戰！ 光明與黑暗的亂七八糟萬聖節","eventID":"151","picName":"E154"}
+,
+{"name":"艾尼格瑪之花","eventID":"152","picName":"E155"}
+,
+{"name":"2020年感謝下載紀念","eventID":"153","picName":"E156"}
+,
+{"name":"FairyChord2 Chord Sharing","eventID":"154","picName":"E157"},
+{"name":"Christmas stories 2020","eventID":"155","picName":"E158"},
+{"name":"FairyChord Prelude","eventID":"24","picName":"E25"},
+{"name":"SUGARLESS BAMBINA Ⅱ Slaughter Prison","eventID":"23","picName":"E24"}
+,
+{"name":"啵！神明大人_～北風精靈與炎之鳥～","eventID":"21","picName":"E22"}
+,
+{"name":"歡迎光臨天上岬山麓咖啡廳！","eventID":"14","picName":"E15"}
+,
+{"name":"職‧超魔導列傳","eventID":"9","picName":"E9"}
+,
+{"name":"恭賀新禧2020","eventID":"127","picName":"E130"}
+,
+{"name":"5th Anniversary","eventID":"128","picName":"E131"},
+{"name":"FairyChord 妖精的和弦","eventID":"129","picName":"E132"}
+,
+{"name":"響命CrossDerive ACT3","eventID":"55","picName":"E56"}
+,
+{"name":"神明大人 ～土精靈與黑貓主人～","eventID":"120","picName":"E123"}
+,
+{"name":"霸眼戰線 終戰之凜煌眼 -前篇","eventID":"43","picName":"E44"}
+,
+{"name":"感謝祭2020","eventID":"130","picName":"E133"}
+,
+{"name":"Christmas2019","eventID":"131","picName":"E134"},
+{"name":"暑假即將到來","eventID":"132","picName":"E135"}
+,
+{"name":"太陽與月亮之國 喀姆吉納","eventID":"133","picName":"E136"}
+,
+{"name":"喰牙RIZE3 -Fang-O’-Blazer","eventID":"27","picName":"E28"}
+,
+{"name":"八百八町妖怪捕物帳","eventID":"2","picName":"E2"}
+,
+{"name":"Birth Of New Order2 大罪","eventID":"36","picName":"E37"}
+,
+{"name":"黑貓維茲 仲夏感謝季2019","eventID":"38","picName":"E39"}
+,
+{"name":"MARELESSⅡ 夢境與現實的夾縫","eventID":"3","picName":"E3"}
+,
+{"name":"霸眼戰線4 覺醒之王","eventID":"44","picName":"E45"}
+,
+{"name":"神聖天空之星3","eventID":"50","picName":"E51"}
+,
+{"name":"惡作劇女神與兔子的故事","eventID":"53","picName":"E54"}
+,
+{"name":"幻魔特區RELOADEDⅡ -RE:unite","eventID":"60","picName":"E61"}
+,
+{"name":"空戰的修瓦爾茲","eventID":"65","picName":"E66"}
+,
+{"name":"感謝祭2019","eventID":"134","picName":"E137"}
+,
+{"name":"黃昏無夢者Ⅳ 黃昏mareless","eventID":"39","picName":"E40"}
+,
+{"name":"Birth Of New Order","eventID":"37","picName":"E38"},
+{"name":"4th anniversary","eventID":"135","picName":"E138"},
+{"name":"沉睡的遺跡 Outlander","eventID":"58","picName":"E59"}
+,
+{"name":"恭賀新禧2019","eventID":"136","picName":"E139"}
+,
+{"name":"給夏日綻放的你","eventID":"86","picName":"E88"}
+,
+{"name":"偶像ω喵！！","eventID":"72","picName":"E73"}
+,
+{"name":"淡薄的藍色光芒 最終章 終極聖祈","eventID":"74","picName":"E75"}
+,
+{"name":"神聖天空之星2","eventID":"51","picName":"E52"}
+,
+{"name":"SUGARLESS_BAMBINA","eventID":"22","picName":"E23"},
+{"name":"秋末迎冬感謝祭","eventID":"137","picName":"E140"}
+,
+{"name":"再續‧超魔導列傳","eventID":"6","picName":"E6"}
+,
+{"name":"新說 桃娘傳Ⅱ 機關桃源虹繪卷","eventID":"81","picName":"E83"}
+,
+{"name":"雙翼的失落伊甸Ⅲ","eventID":"15","picName":"E16"}
+,
+{"name":"AbyssCode07 寂寞的境界","eventID":"84","picName":"E86"}
+,
+{"name":"幻魔特區RELOADED -GardeniA dist.","eventID":"61","picName":"E62"}
+,
+{"name":"空戰的德爾基馬斯Ⅲ 飄揚的軍旗","eventID":"66","picName":"E67"}
+,
+{"name":"喰牙RIZE2_-Tearing_Eyes","eventID":"29","picName":"E30"}
+,
+{"name":"仲夏感謝季2018","eventID":"138","picName":"E141"}
+,
+{"name":"聖惡魔女子學院2","eventID":"90","picName":"E92"}
+,
+{"name":"響命CrossDerive ACT2","eventID":"56","picName":"E57"}
+,
+{"name":"歌頌永恆的克羅諾斯Ⅲ","eventID":"18","picName":"E19"}
+,
+{"name":"黃昏無夢者Ⅲ_絡園loreless","eventID":"40","picName":"E41"}
+,
+{"name":"八百萬諸神祕聞4_沉眠京城的悠久之歌","eventID":"31","picName":"E32"}
+,
+{"name":"偶像ω喵！前&後篇","eventID":"73","picName":"E74"}
+,
+{"name":"喰牙RIZE","eventID":"30","picName":"E31"}
+,
+{"name":"響命CrossDerive","eventID":"57","picName":"E58"}
+,
+{"name":"丁酉年末感謝季2018","eventID":"139","picName":"E142"}
+,
+{"name":"新說 桃娘傳 妖爺合戰誓助劍","eventID":"82","picName":"E84"}
+,
+{"name":"魔轟三鐵傑 對 地獄三十六歌仙","eventID":"93","picName":"E96"}
+,
+{"name":"霸眼戰線3 聖劍與霸眼","eventID":"45","picName":"E46"}
+,
+{"name":"霸眼戰線2 起始之眼","eventID":"46","picName":"E47"}
+,
+{"name":"霸眼戰線","eventID":"47","picName":"E48"}
+,
+{"name":"黃昏無夢者Ⅱ 殘響dearless","eventID":"41","picName":"E42"}
+,
+{"name":"黃昏無夢者","eventID":"42","picName":"E43"}
+,
+{"name":"雙翼的失落伊甸Ⅱ WWMF","eventID":"16","picName":"E17"}
+,
+{"name":"雙翼的失落伊甸","eventID":"17","picName":"E18"}
+,
+{"name":"YAOYORO_Z","eventID":"32","picName":"E33"},
+{"name":"八百萬諸神祕聞2","eventID":"33","picName":"E34"}
+,
+{"name":"八百萬諸神祕聞","eventID":"34","picName":"E35"}
+,
+{"name":"續.超魔導列傳","eventID":"7","picName":"E7"}
+,
+{"name":"超魔導列傳","eventID":"8","picName":"E8"}
+,
+{"name":"空戰的德爾基馬斯Ⅱ 昏暗英雄","eventID":"67","picName":"E68"}
+,
+{"name":"空戰的德爾基馬斯","eventID":"68","picName":"E69"}
+,
+{"name":"神聖天空之星","eventID":"52","picName":"E53"}
+,
+{"name":"心龍天翔 Rising Dragon","eventID":"96","picName":"E99"}
+,
+{"name":"神龍降臨Ⅱ","eventID":"140","picName":"E143"}
+,
+{"name":"追憶的閃耀光輝","eventID":"98","picName":"E101"}
+,
+{"name":"聖惡魔女子學院","eventID":"91","picName":"E93"}
+,
+{"name":"庫洛姆‧麥格納 零","eventID":"106","picName":"E109"}
+,
+{"name":"庫洛姆‧麥格納Ⅴ 鋼鐵的最終戰鬥","eventID":"107","picName":"E110"}
+,
+{"name":"庫洛姆‧麥格納Ⅳ單戀☆狂想曲","eventID":"108","picName":"E111"}
+,
+{"name":"庫洛姆‧麥格納Ⅲ臨海學校","eventID":"109","picName":"E112"}
+,
+{"name":"幻魔特區朱雀Ⅲ 幻夢之光","eventID":"62","picName":"E63"}
+,
+{"name":"幻魔特區朱雀Ⅱ 鋼鐵之槍","eventID":"63","picName":"E64"}
+,
+{"name":"幻魔特區朱雀","eventID":"64","picName":"E65"}
+,
+{"name":"歌頌永恆的克羅諾斯Ⅱ","eventID":"19","picName":"E20"}
+,
+{"name":"天上岬的調香師","eventID":"12","picName":"E13"}
+,
+{"name":"天上岬～永恆的公主～","eventID":"13","picName":"E14"}
+,
+{"name":"天界的雙子 訣別的年代記","eventID":"54","picName":"E55"}
+,
+{"name":"古代森林的千年櫻花","eventID":"141","picName":"E144"}
+,
+{"name":"AbyssCode06 劫末之獸","eventID":"100","picName":"E103"}
+,
+{"name":"AbyssCode05 冥世的天蓋","eventID":"113","picName":"E116"}
+,
+{"name":"AbyssCode04 燃燒殆盡的陽光","eventID":"114","picName":"E117"}
+,
+{"name":"AbyssCode03 生而墮於虛無","eventID":"115","picName":"E118"}
+,
+{"name":"AbyssCode02 盲目的調和","eventID":"116","picName":"E119"}
+,
+{"name":"AbyssCode01 黑殼之王","eventID":"117","picName":"E120"}
+,
+{"name":"Tempest Blader","eventID":"104","picName":"E107"},
+{"name":"Heretic Blader","eventID":"103","picName":"E106"},
+{"name":"Divine Blader","eventID":"105","picName":"E108"},
+{"name":"Demons Blader","eventID":"102","picName":"E105"},
+{"name":"鬼月限定2017","eventID":"142","picName":"E145"}
+,
+{"name":"情人紀念2017","eventID":"143","picName":"E146"}
+,
+{"name":"來自異界的天使","eventID":"97","picName":"E100"}
+,
+{"name":"黑夜中的甜點大盜","eventID":"94","picName":"E97"}
+,
+{"name":"跑錯地方的聖誕驚喜","eventID":"144","picName":"E147"}
+,
+{"name":"初夏的魔法使慶典","eventID":"145","picName":"E148"}
+,
+{"name":"被封印的舞台劇目","eventID":"99","picName":"E102"}
+,
+{"name":"神祕委託‧寒冰之巔的考驗","eventID":"71","picName":"E72"}
+,
+{"name":"武鬥之巔‧寒冰嶺上的召集令","eventID":"95","picName":"E98"}
+,
+{"name":"七夕夜‧煙花燦爛","eventID":"79","picName":"E81"}
+,
+{"name":"炎夏的海灘風情！","eventID":"78","picName":"E80"}
+,
+{"name":"雞茲限定  感謝祭2017","eventID":"146","picName":"E149"}
+,
+{"name":"Holloween night2017","eventID":"147","picName":"E150"},
+{"name":"片翼天使的轉世約定","eventID":"77","picName":"E79"}
+,
+{"name":"《聖誕情侶決定戰》","eventID":"92","picName":"E95"}
+,
+{"name":"虛實難辨的假面宴會","eventID":"69","picName":"E70"}
+,
+{"name":"冰雪薔薇的黑影","eventID":"89","picName":"E91"}
+,
+{"name":"《沉眠之血2》幼龍的鳴嘶","eventID":"87","picName":"E89"}
+,
+{"name":"《沉眠之血》—焚焰的國度","eventID":"88","picName":"E90"}
+,
+{"name":"《沙灘上的冰果宴》","eventID":"70","picName":"E71"}
+,
+{"name":"《裝神弄鬼》","eventID":"85","picName":"E87"}
+,
+{"name":"《靈界魔女：危險紳士之章》","eventID":"80","picName":"E82"}
+,
+{"name":"寄語冬夜的祈願者","eventID":"25","picName":"E26"}
+,
+{"name":"阿爾克納與星之旅途","eventID":"5","picName":"E5"}
+,
+{"name":"The Luminescence of Soul 靈魂的微光","eventID":"11","picName":"E11"}
+,
+{"name":"The Iridescence of Soul 靈魂的虹彩","eventID":"10","picName":"E10"}
+,
+{"name":"庫耶斯式拍拖約會","eventID":"49","picName":"E50"}
+,
+{"name":"豔夏濱海大騷動","eventID":"35","picName":"E36"}
+,
+{"name":"寄語冬夜的祈願者Ⅱ_虛妄之地的追尋者","eventID":"26","picName":"E27"}
+,
+{"name":"阿爾克納與星之旅途Ⅱ 永戰之地","eventID":"1","picName":"E1"}
+,
+{"name":"年之運行","eventID":"122","picName":"E125"}
+,
+{"name":"金貓盃繁中人氣王 前半","eventID":"118","picName":"E121"}
+,
+{"name":"金貓盃繁中人氣王 後半","eventID":"119","picName":"E122"}
+,
+{"name":"風暴卡里昂──風暴中心的少女","eventID":"123","picName":"E126"}
+,
+{"name":"迷幻泛神祭","eventID":"150","picName":"E153"}
+,
+{"name":"神樹戀歌：風暴卡里昂II──風暴的起源","eventID":"156","picName":"E159"}
+,
+{"name":"阿爾克納與星之旅途III 失落秘儀","eventID":"158","picName":"E161"}
+,
+{"name":"Merry Christmas 2020","eventID":"161","picName":"E164"},
+{"name":"金貓盃繁中人氣王2021 前半","eventID":"171","picName":"E174"}
+,
+{"name":"神樹戀歌：風暴卡里昂Ⅲ──以愛為名的風暴","eventID":"174","picName":"E177"}
+,
+{"name":"金貓盃繁中人氣王2021 後半","eventID":"177","picName":"E180"}
+,
+{"name":"鏡像虛實　倒轉的托爾里卡","eventID":"185","picName":"E188"}
+,
+{"name":"我，與你手中的藤花","eventID":"189","picName":"E192"}
+,
+{"name":"阿爾克納與原初之秘","eventID":"192","picName":"E195"}
+,
+{"name":"湖畔之初—無相新月","eventID":"196","picName":"E199"}
+,
+{"name":"湖畔碎月—無明盡","eventID":"199","picName":"E202"}
+,
+{"name":"金貓盃繁中人氣王2022 前半","eventID":"204","picName":"E207"}
+,
+{"name":"金貓盃繁中人氣王2022 後半","eventID":"206","picName":"E209"}
+,
+{"name":"藤花與迷霧壟罩的你","eventID":"210","picName":"E213"}
+,
+{"name":"藤花，墜落凋零之時","eventID":"213","picName":"E216"}
+,
+{"name":"寄語冬夜的祈願者Ⅲ 響應號召的行進者","eventID":"214","picName":"E217"}
+,
+{"name":"寄語冬夜的祈願者IV 甜美夢境的迷途者","eventID":"215","picName":"E218"}
 						],
 				"fairy":[
 							{"id":"1","eventID":"1","event":"阿爾克納與星之旅途Ⅱ 永戰之地","name":"守護與循環的世界 夜風嵐","gender":"男","elementFirst":"雷","elementSecond":"光","element":"雷光","wikiNumber":"801802"}
@@ -2600,6 +2602,18 @@ var individualData = new Vue({
 ,
 {"id":"1143","eventID":"206","event":"金貓盃繁中人氣王2022 後半","name":"向有你的未來邁進 瞬&陽","gender":"多人","elementFirst":"水","elementSecond":"火","element":"水火","wikiNumber":"802539"}
 ,
+{"id":"1144","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"英雄 阿爾堤梅特‧艾瑞斯","gender":"女","elementFirst":"火","elementSecond":"火","element":"火火","wikiNumber":"13424"}
+,
+{"id":"1145","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"超越冥府神的人 哈迪斯Ⅳ","gender":"女","elementFirst":"水","elementSecond":"水","element":"水水","wikiNumber":"13426"}
+,
+{"id":"1146","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"最強 迪歐尼索斯Ⅻ＆艾瑞斯零","gender":"多人","elementFirst":"雷","elementSecond":"火","element":"雷火","wikiNumber":"13428"}
+,
+{"id":"1147","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"狂暴的大海神 波賽頓Ⅱ","gender":"女","elementFirst":"水","elementSecond":"火","element":"水火","wikiNumber":"13430"}
+,
+{"id":"1148","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"正義的光明神 阿波羅Ⅵ","gender":"男","elementFirst":"雷","elementSecond":"火","element":"雷火","wikiNumber":"13432"}
+,
+{"id":"1149","eventID":"207","event":"ARES THE VANGUARD RAGNAROK -終焉-","name":"高傲的美鬥神 雅芙洛黛蒂Ⅸ","gender":"女","elementFirst":"火","elementSecond":"光","element":"火光","wikiNumber":"13434"}
+,
 {"id":"1150","eventID":"208","event":"黑貓維茲魔幻金夏趴2022序曲","name":"返鄉 拉米斯費蕾絲","gender":"女","elementFirst":"雷","elementSecond":"火","element":"雷火","wikiNumber":"13489"}
 ,
 {"id":"1151","eventID":"208","event":"黑貓維茲魔幻金夏趴2022序曲","name":"祝福哇哩咧！ 艾瑞斯","gender":"女","elementFirst":"火","elementSecond":"火","element":"火火","wikiNumber":"13487"}
@@ -2689,6 +2703,7 @@ var individualData = new Vue({
 {"id":"1193","eventID":"216","event":"超‧超魔導列傳 終終極女孩！","name":"遠征之人 伊妮亞‧史托拉瑪","gender":"女","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"13369"}
 ,
 {"id":"1194","eventID":"216","event":"超‧超魔導列傳 終終極女孩！","name":"羅剎封縛 艾莉絲＝瑪基爾‧夏璐姆","gender":"女","elementFirst":"水","elementSecond":"闇","element":"水闇","wikiNumber":"13361"}
+
 				],
 				"baseurl":"20230113_0210.html",//相對路徑
 				"limitNumber":20,//限制儲存數量			

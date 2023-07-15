@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>【仲夏感謝季2023】精靈贈禮</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/decoration/favi.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet"  href="css/index.css?number=20230115">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<body>
+
+
+<div class="container-fluid" id="outerDiv" v-cloak>
+	
+    <div class="modal" id="myModal"><!-- 活動一覽選單-->
+	  <div class="modal-dialog">
+		  <div class="modal-content">
+		  
+			<!-- Modal Header -->
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">×</button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body">
+				<table class="table">
+					<thead>
+					  <tr>
+						<th>活動</th>
+						<th>名稱</th>
+					  </tr>
+					</thead>
+					<tbody>
+					<tr v-for="(v,k) in event" :data-dataInfo="JSON.stringify(v)" @click="goToPicEventTable">
+					   <td><img :src="eventPicUrlList(v.picName)"></td>
+					   <td>{{v.name}}</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<!-- Modal footer -->
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+			
+		  </div>
+	  </div>
+    </div>
+	
+
+
+	<div class="row">
+
+		<div class="col-md-12 col-lg-5">
+			<div class="row"><!-- 活動標題&箭頭 -->
+				<div class="col-2 order-1 col-lg-2 order-lg-1 " id="eventArrowLeft" @click="turnLastEvent"></div><!-- 左箭頭 -->
+				<div class="col-1 order-5 col-lg-2 order-lg-2 " id="eventNumber" data-target="#myModal" data-toggle="modal">{{eventNumber+1}}</div><!-- 數字(第幾個活動) -->
+				<div class="col-6 order-2 col-lg-6 order-lg-3 " id="eventTitle" data-target="#myModal" data-toggle="modal">{{event[eventNumber].name}}</div>
+				<div class="col-8 order-6 col-lg-12 order-lg-6" id="eventPic">
+					<div id="eventPicInnerDiv">
+						<img :src="eventPicUrl" data-target="#myModal" data-toggle="modal">
+					</div>
+				  
+				</div>
+				<div class="col-2 order-3 col-lg-2 order-lg-4" id="eventArrowRight" @click="turnNextEvent"></div><!-- 右箭頭 -->
+				<div class="col-2 order-4  d-lg-none" id="menuButton"></div>
+				<div class="col-3 order-7 d-lg-none"></div><!-- 調整中間圖片位置用  不顯示 -->
+			</div>
+			<div class="row bg-dark" id="eventFairy"><!--精靈圖區(活動)-->
+				<div class="col">
+					<div class="row  mt-2 mb-2 eventFairyRowStyle">
+						<div class="col-4" v-for="(v,k) in eventFairy">
+							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'"  @mouseover="picMouseOverLeft"
+							@mousedown="picMouseDown" @dragover="picDragOver" 
+							:data-dataInfo="JSON.stringify(v)" @dragstart="picDragStart" @click="openFairyWiki" 
+							data-toggle="tooltip" data-placement="right" :title="v.name">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="leftButtonDiv">
+				<div class="warningMessage mr-1" v-show="warningMsgShowLeft" v-html="warningMessage"></div>
+				<button type="button" class="btn btn-dark btn-sm mr-1">
+					最多可選{{limitNumber}}個.已選擇：{{lotteryFairy.length}}
+				</button>
+				
+				<!-- <button type="button" class="btn btn-primary btn-sm mr-1" :class="buttonStyle" @click="">鎖定</button> -->
+				
+			</div>
+			<div class="row bg-dark" id="lotteryFairy" @drop="picDrop" @dragover="picDragOver"><!-- 精靈圖區(抽獎) -->
+				<div class="col">
+					<div class="row  mt-2 mb-2 eventFairyRowStyle">
+						<div class="col-4" v-for="(v,k) in orderLotteryFairy" >
+							<img class="mb-2" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
+							@click="goToPicEvent" @contextmenu="picCancell" @mouseover="picMouseOverBottom"
+							data-toggle="tooltip" data-placement="right" :title="v.name">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 col-lg-1"><!--中間置放按鈕區-->
+			<div class="row" id="middleButtonDiv_top"></div>
+			<div class="row" id="middleButtonDiv_btn">
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="randomSelect" v-show=" urlId == ''">電腦幫你選</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="deleteLocal" v-show=" urlId == ''">清空</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="saveData" v-show=" urlId == ''">儲存雲端</button>
+				<button type="button" class="btn btn-primary btn-sm mr-1" @click="goHome" v-show=" urlId != ''">回首頁</button>
+			</div>
+		
+		</div>
+		<div class="col-md-12 col-lg-6">
+			<div class="row" id="selectOptionArea"><!--篩選選項區-->
+				<div class="col-12" id="innerSelectOptionArea">
+					<ul class="nav nav-tabs">
+						<li>
+						  <a class="nav-link active" data-toggle="tab" href="#home">篩選</a>
+						</li>
+						<li>
+						  <a class="nav-link" data-toggle="tab" href="#menu1">公告</a>
+						</li>
+						<li>
+						  <a class="nav-link" data-toggle="tab" href="#menu2">設定</a>
+						</li>
+					</ul>
+
+					
+					<div class="tab-content"><!-- Tab panes -->
+						<div id="home" class="container tab-pane active"><br>
+							<div class="row">
+								<div class="col-4">
+									<div class="row" id="nameSelect">
+										<input type="search"  placeholder="在此輸入精靈真名" v-model="fairySelection.nameSelect">
+									</div>
+									<div class="row" id="genderDiv">Gender</div>
+									<div class="row"  id="genderSelect">
+									
+										<div class="col-6" v-for="(v,k) in genderStyle" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut">
+											<label :for="v.text" >
+												<img :src="v.src" :style="v.style" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut" :data-dataInfo="k"
+												>
+											</label><p>
+											<input type="radio" :id="v.text" name="gender" :checked="v.checked"
+												value="male" @click="genderSelectEvent" :data-dataInfo="k">
+											<label :for="v.text" @mouseover="genderSelectMouseOver" @mouseout="genderSelectMouseOut" :data-dataInfo="k">{{v.text}}</label>
+										</div>
+
+									</div>
+									
+								</div>
+								<div class="col-1"></div>
+								<div class="col-7">
+									<div class="row" id="elementDiv">Element</div>
+									<!-- 元素篩選選項 -->
+									<div class="row" id="elementSelect">
+										<div v-for="(v,k) in elementStyle" class="col-12 pr-0 pl-0">
+											<img v-for="(v2,k2) in v" :src="v2.type" :class="v2.style" 
+													:data-dataElement="k" :data-dataIndex="k2" @click="elementSelectEvent">
+										</div>
+									</div>
+								</div>
+							
+							
+							</div>
+							
+								
+								
+						 </div>
+						<div id="menu1" class="container tab-pane  fade"><br>
+						  <!-- <h3>目前幸運輪盤未開放，詳細開放時間請參考官方網站</h3> -->
+						  <h3>施工中~</h3>
+						</div>
+						<div id="menu2" class="container tab-pane fade"><br>
+						  <h3>施工中~</h3>
+						</div>
+					</div>
+				</div>	
+				
+				
+			
+			</div>
+			<div class="row" id="selectButtonDiv" style="">
+				<div class="col-1"><button type="button" class="btn btn-primary btn-sm mr-1" @click="allInToLottery" v-show="urlId == ''"><<</button></div>
+				<div class="warningMessage ml-1 col-9" v-show="warningMsgShowRight" v-html="warningMessage"></div>
+			</div>
+			
+			
+			<div class="row" id="selectFairy" @drop="" @dragover=""><!-- 精靈圖區(篩選) -->
+				<div class="col-12 bg-dark" >
+					<div class="row  eventFairyRowStyle mt-2">
+						<div class="col-3" v-for="(v,k) in selectFairy" >
+							<img class="mb-2 ml-3" :src="'img/'+ v.wikiNumber +'.png'" :data-dataInfo="JSON.stringify(v)" 
+							@click="goToPicEvent" @mouseover="picMouseOverRight" 
+							@mousedown="picMouseDown" @dragover="picDragOver"  @dragstart="picDragStart"
+							data-toggle="tooltip" data-placement="right" :title="v.name">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		 
+		
+	</div>
+	<!-- 底下的創用CC授權標示 -->
+	<div class="row mt-5" id="copyRightDiv">
+			<div class="col-md-5 col-lg-5">
+				<div class="row">
+					<div class="col-2 iconDiv">
+						<a rel="license" target="_new" class="iconDivCenter" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">
+						<img alt="創用 CC 授權條款" 
+						style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/tw/88x31.png" /></a>
+					</div>
+					<div class="col-10 iconDiv">
+						<span class="iconDivCenter">
+						<a  rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/">本著作採用
+						創用CC姓名標示-相同方式分享3.0台灣授權條款</a>
+						</span>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="col-md-7 col-lg-7 iconDiv" id="dataFooter">
+				<span class="iconDivCenter" v-html="iconMessage">{{iconMessage}}</span>
+				<span v-for="(v,k) in footerIcon" @click="showIconMessage" class="iconDivCenter">
+					<img :src="'img/decoration/'+v.name+'.png'" :data-dataInfo="v.url">
+				</span>
+				
+			</div>
+			
+	</div>
+</div>
+<div id="dataEventFairy"></div>
+
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="js/individualData_20230712_0809.js"></script>
+<!-- 上面這一行跟下面這一行 順序不能弄反  因為有這一行的資料  下面這一行才能正確載入資源 -->
+<script src="js/index.js?number=20230716"></script>
+

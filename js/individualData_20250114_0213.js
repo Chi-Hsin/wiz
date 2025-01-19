@@ -3470,7 +3470,7 @@ var individualData = new Vue({
 {"id":"1523","eventID":"283","event":"狗與她的聖誕節","name":"寒冷冬夜中的暖心驚喜 雪兒","gender":"女","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"802982"}
 ]
 ,
-				"baseurl":"20240115_0214.html",//相對路徑
+				"baseurl":"20250114_0213.html",//相對路徑
 				"limitNumber":20,//限制儲存數量			
 			}
 })

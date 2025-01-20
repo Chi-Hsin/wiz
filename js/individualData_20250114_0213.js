@@ -123,7 +123,7 @@ var individualData = new Vue({
 ,
 {"name":"MARELESSⅢ 夢境訣別","eventID":"149","picName":"E152"}
 ,
-{"name":"黃昏無夢者Ⅳ 黃昏mareless","eventID":"39","picName":"E40"}
+{"name":"MARELESSⅣ 夢境黃昏","eventID":"168","picName":"E171"}
 ,
 {"name":"Birth Of New Order","eventID":"37","picName":"E38"},
 {"name":"Birth Of New Order2 大罪","eventID":"36","picName":"E37"}
@@ -333,6 +333,8 @@ var individualData = new Vue({
 ,
 {"name":"太陽與月亮之國 喀姆吉納","eventID":"133","picName":"E136"}
 ,
+{"name":"機械與少女Ⅱ","eventID":"284","picName":"E287"}
+,
 {"name":"恭賀新禧2019","eventID":"136","picName":"E139"}
 ,
 {"name":"恭賀新禧2020","eventID":"127","picName":"E130"}
@@ -506,6 +508,7 @@ var individualData = new Vue({
 {"name":"Bon Appétit！～地城裡的秘密餐廳～","eventID":"255","picName":"E258"}
 
 ]
+
 
 ,
 				"fairy":[
@@ -2295,6 +2298,18 @@ var individualData = new Vue({
 ,
 {"id":"916","eventID":"167","event":"決戰的德爾基馬斯 宿命血族","name":"反叛先鋒 菲利庫斯‧榭法","gender":"男","elementFirst":"水","elementSecond":"水","element":"水水","wikiNumber":"12363"}
 ,
+{"id":"917","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"曾經見過的幸福 MARELESS","gender":"多人","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"12328"}
+,
+{"id":"918","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"食夢者的力量 阿浮利德","gender":"男","elementFirst":"火","elementSecond":"闇","element":"火闇","wikiNumber":"12326"}
+,
+{"id":"919","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"於無夢想此刻奮戰 蘿莎莉亞‧哈特","gender":"女","elementFirst":"火","elementSecond":"火","element":"火火","wikiNumber":"12318"}
+,
+{"id":"920","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"徬徨的盡頭 諾庫斯‧瓦尼塔斯","gender":"男","elementFirst":"雷","elementSecond":"闇","element":"雷闇","wikiNumber":"12320"}
+,
+{"id":"921","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"其手握有未來 愛琳‧葉茨","gender":"女","elementFirst":"水","elementSecond":"火","element":"水火","wikiNumber":"12322"}
+,
+{"id":"922","eventID":"168","event":"MARELESSⅣ 夢境黃昏","name":"不屈的主從 拉提歐＆露西尼雅","gender":"多人","elementFirst":"雷","elementSecond":"水","element":"雷水","wikiNumber":"12324"}
+,
 {"id":"923","eventID":"169","event":"感謝祭2021","name":"終戰之蒼星 嘉德麗雅‧萊因哈特","gender":"女","elementFirst":"水","elementSecond":"水","element":"水水","wikiNumber":"12394"}
 ,
 {"id":"924","eventID":"169","event":"感謝祭2021","name":"約定之地 艾盧多貝里克＆露席菈","gender":"多人","elementFirst":"火","elementSecond":"光","element":"火光","wikiNumber":"12390"}
@@ -3351,6 +3366,10 @@ var individualData = new Vue({
 ,
 {"id":"1450","eventID":"272","event":"The Darkness Halloween","name":"殺戮獄卒 媞莉瑠珈‧瓦納奇","gender":"女","elementFirst":"火","elementSecond":"闇","element":"火闇","wikiNumber":"14573"}
 ,
+{"id":"1451","eventID":"272","event":"The Darkness Halloween","name":"月月月夜的幸運造訪 薩伯爾","gender":"男","elementFirst":"雷","elementSecond":"水","element":"雷水","wikiNumber":"803054"}
+,
+{"id":"1452","eventID":"272","event":"The Darkness Halloween","name":"您的破案小惡魔上線囉 莎朵莉","gender":"女","elementFirst":"水","elementSecond":"闇","element":"水闇","wikiNumber":"803055"}
+,
 {"id":"1465","eventID":"276","event":"珍妮佛的冒險","name":"沉重少女超兵器 嘉蒂雅‧賽芬","gender":"女","elementFirst":"雷","elementSecond":"雷","element":"雷雷","wikiNumber":"11928"}
 ,
 {"id":"1466","eventID":"276","event":"珍妮佛的冒險","name":"永久不壞的鐵鎧 阿索斯‧諾華","gender":"女","elementFirst":"雷","elementSecond":"雷","element":"雷雷","wikiNumber":"11927"}
@@ -3468,7 +3487,15 @@ var individualData = new Vue({
 {"id":"1522","eventID":"283","event":"狗與她的聖誕節","name":"假日加班的厭世狗 趙作","gender":"男","elementFirst":"雷","elementSecond":"光","element":"雷光","wikiNumber":"802983"}
 ,
 {"id":"1523","eventID":"283","event":"狗與她的聖誕節","name":"寒冷冬夜中的暖心驚喜 雪兒","gender":"女","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"802982"}
+,
+{"id":"1524","eventID":"284","event":"機械與少女Ⅱ","name":"白貌之獸 埃雅露姆‧阿多拉","gender":"女","elementFirst":"火","elementSecond":"雷","element":"火雷","wikiNumber":"10645"}
+,
+{"id":"1525","eventID":"284","event":"機械與少女Ⅱ","name":"悲哀的機巧兵 菲歐爾‧德雷曼","gender":"女","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"10648"}
+,
+{"id":"1526","eventID":"284","event":"機械與少女Ⅱ","name":"戰場的夢想家 歐魯特斯‧邦特","gender":"男","elementFirst":"雷","elementSecond":"火","element":"雷火","wikiNumber":"10642"}
+
 ]
+
 ,
 				"baseurl":"20250114_0213.html",//相對路徑
 				"limitNumber":20,//限制儲存數量			

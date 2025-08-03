@@ -209,6 +209,7 @@ display: none;
 #elementSelect img:hover{border-color:#007BFF !important;cursor:pointer;}
 
 .borderAdded{border-width:3px !important;}
+.elementDisplayNone{display:none;}
 /* 右區域  底下按鈕外面一層的預設高度 */
 #selectButtonDiv{
 	/* background:red; */

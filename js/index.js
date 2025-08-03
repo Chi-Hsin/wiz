@@ -48,7 +48,11 @@ var indexData = new Vue({
 					],
 					"lightAndDark":[
 						{"name":"光光","type":"img/element/lightLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"闇闇","type":"img/element/darkDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true,"elementDisplayNone":true}},
+						{"name":"闇闇","type":"img/element/darkDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true,"elementDisplayNone":true}},
+						{"name":"闇闇","type":"img/element/darkDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true,"elementDisplayNone":true}},
 						{"name":"闇闇","type":"img/element/darkDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
+					
 					]
 					 
 				},

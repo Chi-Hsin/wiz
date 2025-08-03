@@ -45,6 +45,10 @@ var indexData = new Vue({
 						{"name":"雷火","type":"img/element/thunderFire.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
 						{"name":"雷光","type":"img/element/thunderLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
 						{"name":"雷闇","type":"img/element/thunderDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
+					],
+					"lightAndDark":[
+						{"name":"光光","type":"img/element/lightLight.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}},
+						{"name":"闇闇","type":"img/element/darkDark.jpg","style":{"border":true,"border-primary":false,"borderAdded":true}}
 					]
 					 
 				},

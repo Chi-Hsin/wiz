@@ -53,6 +53,8 @@ var individualData = new Vue({
 ,
 {"name":"THE PROFESSIONALS","eventID":"260","picName":"E263"},
 {"name":"White Knight Tale","eventID":"251","picName":"E254"},
+{"name":"Holy Night Tale -White Knight Tale 第2章-","eventID":"275","picName":"E278"}
+,
 {"name":"STELLA☆DASH！","eventID":"242","picName":"E245"}
 ,
 {"name":"Diablo Emblem","eventID":"230","picName":"E233"},
@@ -3397,6 +3399,14 @@ var individualData = new Vue({
 {"id":"1459","eventID":"274","event":"SOUL BANKER Frozen Inferno","name":"初生之犢 魯坦＆雅夏拉札","gender":"多人","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"14639"}
 ,
 {"id":"1460","eventID":"274","event":"SOUL BANKER Frozen Inferno","name":"黑風白雨 莉妮妲‧瓦納奇","gender":"女","elementFirst":"火","elementSecond":"闇","element":"火闇","wikiNumber":"14641"}
+,
+{"id":"1461","eventID":"275","event":"Holy Night Tale -White Knight Tale 第2章-","name":"盡全力去做 斯諾‧白雪","gender":"男","elementFirst":"火","elementSecond":"雷","element":"火雷","wikiNumber":"14651"}
+,
+{"id":"1462","eventID":"275","event":"Holy Night Tale -White Knight Tale 第2章-","name":"華麗的指揮家 艾迪爾薇斯‧亞洛傑","gender":"女","elementFirst":"水","elementSecond":"光","element":"水光","wikiNumber":"14653"}
+,
+{"id":"1463","eventID":"275","event":"Holy Night Tale -White Knight Tale 第2章-","name":"溫柔的音色 普林姆薇爾‧傑爾梅","gender":"女","elementFirst":"雷","elementSecond":"光","element":"雷光","wikiNumber":"14655"}
+,
+{"id":"1464","eventID":"275","event":"Holy Night Tale -White Knight Tale 第2章-","name":"響徹天際的歌聲 波茵賽特‧穆吉克","gender":"女","elementFirst":"雷","elementSecond":"光","element":"雷光","wikiNumber":"14657"}
 ,
 {"id":"1465","eventID":"276","event":"珍妮佛的冒險","name":"沉重少女超兵器 嘉蒂雅‧賽芬","gender":"女","elementFirst":"雷","elementSecond":"雷","element":"雷雷","wikiNumber":"11928"}
 ,

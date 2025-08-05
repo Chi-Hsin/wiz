@@ -57,6 +57,8 @@ var individualData = new Vue({
 ,
 {"name":"STELLA☆DASH！","eventID":"242","picName":"E245"}
 ,
+{"name":"STELLA☆DASH！2nd RACE","eventID":"273","picName":"E276"}
+,
 {"name":"Diablo Emblem","eventID":"230","picName":"E233"},
 {"name":"Diablo Clinic","eventID":"231","picName":"E234"},
 {"name":"Diablo Emblem2 Jail of Jewel","eventID":"250","picName":"E253"},
@@ -3388,9 +3390,17 @@ var individualData = new Vue({
 ,
 {"id":"1450","eventID":"272","event":"The Darkness Halloween","name":"殺戮獄卒 媞莉瑠珈‧瓦納奇","gender":"女","elementFirst":"火","elementSecond":"闇","element":"火闇","wikiNumber":"14573"}
 ,
-{"id":"1451","eventID":"272","event":"The Darkness Halloween","name":"月月月夜的幸運造訪 薩伯爾","gender":"男","elementFirst":"雷","elementSecond":"水","element":"雷水","wikiNumber":"803054"}
+{"id":"1451","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"螢坂的復甦傳說 伊藤特絲菈","gender":"女","elementFirst":"火","elementSecond":"光","element":"火光","wikiNumber":"14618"}
 ,
-{"id":"1452","eventID":"272","event":"The Darkness Halloween","name":"您的破案小惡魔上線囉 莎朵莉","gender":"女","elementFirst":"水","elementSecond":"闇","element":"水闇","wikiNumber":"803055"}
+{"id":"1452","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"螢坂的精神支柱 渡邊宇宙","gender":"女","elementFirst":"雷","elementSecond":"闇","element":"雷闇","wikiNumber":"14620"}
+,
+{"id":"1453","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"螢坂的守護神 田中電波","gender":"女","elementFirst":"水","elementSecond":"闇","element":"水闇","wikiNumber":"14622"}
+,
+{"id":"1454","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"螢坂備受期待的新人 山本萊卡","gender":"女","elementFirst":"火","elementSecond":"光","element":"火光","wikiNumber":"14624"}
+,
+{"id":"1455","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"月月月夜的幸運造訪 薩伯爾","gender":"男","elementFirst":"雷","elementSecond":"水","element":"雷水","wikiNumber":"803054"}
+,
+{"id":"1456","eventID":"273","event":"STELLA☆DASH！2nd RACE","name":"您的破案小惡魔上線囉 莎朵莉","gender":"女","elementFirst":"水","elementSecond":"闇","element":"水闇","wikiNumber":"803055"}
 ,
 {"id":"1457","eventID":"274","event":"SOUL BANKER Frozen Inferno","name":"殺意的扳機 畢雷斯‧紐南","gender":"男","elementFirst":"水","elementSecond":"火","element":"水火","wikiNumber":"14635"}
 ,
